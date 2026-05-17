@@ -44,7 +44,7 @@ Outputs `data/seda_subgroup_delta.csv` and prints the master ranking table to st
 python3 build_deck.py
 ```
 
-Writes `Troy_K5_ELA_Executive_Summary_v4.pptx` (the deck) using the data files and matplotlib charts. The script embeds chart PNGs from `charts/` and renders all 24 slides.
+Writes `Troy_K5_ELA_Executive_Summary.pptx` (the deck) using the data files and matplotlib charts. The script embeds chart PNGs from `charts/` and renders all 28 slides.
 
 ## Optional: regenerate matplotlib charts
 
@@ -60,16 +60,16 @@ Slide PNGs (24 images at 144 DPI in `slides/`) are rendered from the PowerPoint 
 # Convert PPTX to PDF via PowerPoint AppleScript
 osascript -e '
   tell application "Microsoft PowerPoint"
-    open POSIX file "'"$(pwd)"'/deck/Troy_K5_ELA_Executive_Summary_v4.pptx"
+    open POSIX file "'"$(pwd)"'/deck/Troy_K5_ELA_Executive_Summary.pptx"
     delay 4
     save active presentation in (POSIX file "/tmp/deck.pdf") as save as PDF
     close active presentation saving no
   end tell'
 
 # Render each page to PNG
-pdftoppm -png -r 144 /tmp/deck.pdf /tmp/v4
+pdftoppm -png -r 144 /tmp/deck.pdf /tmp/deck
 for i in $(seq -f "%02g" 1 24); do
-  cp /tmp/v4-${i}.png slides/${i}.png
+  cp /tmp/deck-${i}.png slides/${i}.png
 done
 ```
 
