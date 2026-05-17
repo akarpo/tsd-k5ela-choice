@@ -94,6 +94,7 @@ legend_elements = [
     Patch(facecolor=ACCENT_GREEN, label="SoR / structured literacy"),
     Patch(facecolor=ACCENT_ORANGE, label="Mixed / transitioning"),
     Patch(facecolor="#CC4444", label="Balanced literacy (stayed)"),
+    Patch(facecolor=GRAY_MID, label="Not classified"),
     Patch(facecolor=ACCENT_RED, label="Troy SD"),
 ]
 ax.legend(handles=legend_elements, loc="lower right", fontsize=7, framealpha=0.9)

@@ -66,11 +66,11 @@ def title_bar(slide, title, subtitle=None):
                  subtitle, size=11, color=RGBColor(0xCC, 0xDD, 0xEE))
 
 def footer(slide, page_num, total=28):
-    add_text(slide, Inches(0.4), Inches(7.15), Inches(8), Inches(0.3),
+    add_text(slide, Inches(0.4), Inches(7.22), Inches(8), Inches(0.25),
              "Troy SD K-5 ELA — Executive Summary  •  github.com/akarpo/tsd-k5ela-choice",
-             size=8.5, color=GRAY_MID)
-    add_text(slide, Inches(11.5), Inches(7.15), Inches(1.5), Inches(0.3),
-             f"{page_num} / {total}", size=8.5, color=GRAY_MID, align=PP_ALIGN.RIGHT)
+             size=8, color=GRAY_MID)
+    add_text(slide, Inches(11.5), Inches(7.22), Inches(1.5), Inches(0.25),
+             f"{page_num} / {total}", size=8, color=GRAY_MID, align=PP_ALIGN.RIGHT)
 
 def add_pic(slide, path, left, top, width=None, height=None):
     return slide.shapes.add_picture(path, left, top, width=width, height=height)
@@ -607,7 +607,7 @@ add_pic(s, f'{CHART_DIR}/chart_swd_deck.png',
         Inches(0.3), Inches(1.0), width=Inches(8.5))
 
 # Right column: rect-table for Δ numbers (no more monospace drift)
-add_rect(s, Inches(8.95), Inches(1.0), Inches(4.1), Inches(2.95), LIGHT_RED)
+add_rect(s, Inches(8.95), Inches(1.0), Inches(4.1), Inches(3.15), LIGHT_RED)
 add_text(s, Inches(9.1), Inches(1.08), Inches(3.85), Inches(0.32),
          "Pre→Post-COVID Δ  on M-STEP %Adv+Prof", size=11, bold=True, color=ACCENT_RED)
 # 4-column table: Grade | SWD | non-SWD | State
@@ -638,10 +638,10 @@ add_text(s, Inches(9.1), Inches(3.10), Inches(3.85), Inches(0.75),
          size=10, italic=True, color=ACCENT_RED)
 
 # Why this matters — same vertical extent as left chart
-add_rect(s, Inches(8.95), Inches(4.05), Inches(4.1), Inches(2.65), GRAY_LIGHT)
-add_text(s, Inches(9.1), Inches(4.12), Inches(3.85), Inches(0.32),
+add_rect(s, Inches(8.95), Inches(4.25), Inches(4.1), Inches(2.45), GRAY_LIGHT)
+add_text(s, Inches(9.1), Inches(4.32), Inches(3.85), Inches(0.32),
          "Why this matters", size=11, bold=True, color=TROY_BLUE)
-add_text(s, Inches(9.1), Inches(4.5), Inches(3.85), Inches(2.15),
+add_text(s, Inches(9.1), Inches(4.65), Inches(3.85), Inches(2.0),
          ("•  Troy SWD G3: 37.1% pre-COVID → 25.4% today.\n\n"
           "•  Pre-COVID, Troy SWD G3 sat 7.6pp BELOW state All.\n   Today it sits 14.4pp BELOW state All — gap nearly doubled.\n\n"
           "•  SoR is engineered for struggling readers (explicit phonics, decodable text, knowledge-building).\n   The students who benefit MOST from SoR are falling FASTEST at Troy.\n\n"
@@ -665,15 +665,15 @@ defenses = [
     ("1", "\"It's the ESL/ELL composition.\"",
      "If true: Hispanic and EL subgroups should be hit hardest.\n\n"
      "Data: Troy Hispanic Δ = −0.031. Rank 12 of 39 — best of Troy's subgroups¹.\n\n"
-     "REFUTED. The Hispanic subgroup is the most resilient at Troy.", "#999933"),
+     "REFUTED. The Hispanic subgroup is the most resilient at Troy.", "#1F3A5F"),
     ("2", "\"It's the disadvantaged students.\"",
      "If true: EconDis subgroup should be hit harder than Not-ECD.\n\n"
      "Data: Troy EconDis Δ = −0.147 (rank 32/47). Troy Not-ECD Δ = −0.252 (rank 42/46)¹.\n\n"
-     "REFUTED. Not-ECD declined MORE than EconDis.", "#996633"),
+     "REFUTED. Not-ECD declined MORE than EconDis.", "#CC6A11"),
     ("3", "\"It's a demographic / COVID story.\"",
      "If true: Affluent students with home-literacy environments should be PROTECTED.\n\n"
      "Data: Troy Asian Δ = −0.347 (34/35), White Δ = −0.231 (44/46) — the affluent subgroups dropped MOST¹.\n\n"
-     "REFUTED. Affluence provides no protection at Troy. This points at instruction.", "#993322"),
+     "REFUTED. Affluence provides no protection at Troy. This points at instruction.", "#B02121"),
 ]
 for i, (n, head, body, color) in enumerate(defenses):
     y = Inches(1.1) + i*Inches(2.0)
@@ -693,30 +693,30 @@ s = prs.slides.add_slide(BLANK)
 title_bar(s, "Asian subgroup: Troy ranks 34 of 35 districts on post-COVID Δ",
           "Of 35 districts with Asian-subgroup data in SEDA 2025.1, only Bethlehem Area SD lost more ground.")
 add_pic(s, f'{CHART_DIR}/chart17_asian_subgroup_rank.png',
-        Inches(0.4), Inches(1.0), width=Inches(7.8))
-# Right panel
-add_rect(s, Inches(8.4), Inches(1.0), Inches(4.7), Inches(6.0), GRAY_LIGHT)
-add_text(s, Inches(8.55), Inches(1.15), Inches(4.4), Inches(0.4),
+        Inches(0.4), Inches(1.0), height=Inches(5.85))
+# Right panel — shifted left to close gap with height-constrained chart
+add_rect(s, Inches(7.0), Inches(1.0), Inches(6.0), Inches(5.85), GRAY_LIGHT)
+add_text(s, Inches(7.15), Inches(1.15), Inches(5.7), Inches(0.4),
          "Asian subgroup top 5 (gainers)", size=12, bold=True, color=ACCENT_GREEN)
-add_text(s, Inches(8.55), Inches(1.55), Inches(4.4), Inches(1.6),
+add_text(s, Inches(7.15), Inches(1.55), Inches(5.7), Inches(1.6),
          ("Spring Branch ISD    +0.717  (TX STR³⁶)\n"
           "Atlanta APS          +0.390  (SoR PD)\n"
           "Milpitas USD         +0.281\n"
           "Johnson City TN      +0.277\n"
           "Palo Alto USD        +0.269  (ESRI³⁵)"),
          size=11.5, color=GRAY_DARK, font="Consolas")
-add_text(s, Inches(8.55), Inches(3.25), Inches(4.4), Inches(0.4),
+add_text(s, Inches(7.15), Inches(3.25), Inches(5.7), Inches(0.4),
          "Asian subgroup bottom 5", size=12, bold=True, color=ACCENT_RED)
-add_text(s, Inches(8.55), Inches(3.65), Inches(4.4), Inches(1.6),
+add_text(s, Inches(7.15), Inches(3.65), Inches(5.7), Inches(1.6),
          ("Bethlehem Area SD    −0.426\n"
           "Troy SD              −0.347  ◄\n"
           "Northville PS        −0.285\n"
           "Wayne County PS      −0.264\n"
           "Modesto City Elem    −0.257"),
          size=11.5, color=GRAY_DARK, font="Consolas")
-add_text(s, Inches(8.55), Inches(5.4), Inches(4.4), Inches(0.4),
+add_text(s, Inches(7.15), Inches(5.4), Inches(5.7), Inches(0.4),
          "Direct affluent-peer signal", size=12, bold=True, color=TROY_BLUE)
-add_text(s, Inches(8.55), Inches(5.8), Inches(4.4), Inches(1.4),
+add_text(s, Inches(7.15), Inches(5.8), Inches(5.7), Inches(1.0),
          ("Palo Alto (Troy's closest demographic match by Asian %) exited Calkins UoS in 2021 via ESRI³⁵.\n\n"
           "Result: +0.269 grade-level gain on Asian subgroup. Direct evidence the shift works."),
          size=11.5, color=GRAY_DARK)

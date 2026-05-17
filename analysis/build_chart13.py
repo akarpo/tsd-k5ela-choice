@@ -26,7 +26,7 @@ DISTRICTS = [
 ]
 YEARS = list(range(2009, 2026))
 
-fig, ax = plt.subplots(figsize=(11.5, 4.5))
+fig, ax = plt.subplots(figsize=(11.5, 7.5))
 
 for dkey, dlabel, color, lw, ls in DISTRICTS:
     xs, ys = [], []

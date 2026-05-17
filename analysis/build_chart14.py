@@ -41,7 +41,7 @@ SUBGROUPS = [
     ("hsp", "Hispanic"), ("ecd", "ECD"), ("nec", "Not-ECD"),
 ]
 
-fig, ax = plt.subplots(figsize=(11.5, 4.5))
+fig, ax = plt.subplots(figsize=(11.5, 7.5))
 n_sg = len(SUBGROUPS)
 n_d = len(DISTRICTS)
 bar_w = 0.15
