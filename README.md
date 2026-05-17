@@ -37,7 +37,7 @@ Full appendix with 43 cited references and a project-file map for verification.
 | Jump to slide 1-9 | press the number |
 | Deep-link to slide N | URL hash `#slide=N` (e.g. `?#slide=12`) |
 
-All 24 slides preload on page open for instant navigation.
+All 27 slides preload on page open for instant navigation.
 
 ---
 
@@ -49,23 +49,26 @@ All 24 slides preload on page open for instant navigation.
 | 2 | The question — and the one-line answer (three convergent evidence points) |
 | 3 | The honest pre-COVID picture — Troy gained on aggregate, but subgroups were uneven |
 | 4 | The post-COVID collapse is the real signal |
-| 5 | Of 50 demographically-comparable + outperformer districts, Troy ranks 47 of 49 |
-| 6 | Of 8 Michigan affluent peers, Troy fell the furthest |
-| 7 | Troy's worst subgroup declines are the affluent ones |
-| 8 | The subgroup data refutes the three common defenses |
-| 9 | Asian subgroup: Troy ranks 34 of 35 districts on post-COVID Δ |
-| 10 | Not-Econ-Disadvantaged subgroup: Troy ranks 42 of 46 |
-| 11 | CKLA-adopting districts on the MDE-approved list are leapfrogging their states |
-| 12 | How they did it — Marion County KY and Fond du Lac WI playbooks |
-| 13 | Recovery is possible — and it tracks with curriculum choice |
-| 14 | Long Beach USD — the natural experiment is now empirically visible |
-| 15 | Why balanced literacy fails when school and home reading routines both break down |
-| 16 | Curriculum verdict — Troy's options on the MI Section 35m list |
-| 17 | Recommendation — three paths ranked |
-| 18 | Curriculum is necessary but not sufficient — and what to track |
-| 19 | Appendix — Methodology |
-| 20-23 | References (4 lists) — Primary datasets, Curriculum evidence, SoR research, District case studies |
-| 24 | Project artifacts + how to verify |
+| 5 | Troy ranks 47 of 49 nationally on pre/post-COVID Δ |
+| 6 | Comprehensive view — 49 districts, every Δ tier, both curriculum types |
+| 7 | Education Scorecard 2026 DOTR — second independent benchmark |
+| 8 | Of 8 Michigan affluent peers, Troy fell the furthest |
+| 9 | Troy's worst subgroup declines are the affluent ones |
+| 10 | The subgroup data refutes the three common defenses |
+| 11 | Asian subgroup: Troy ranks 34 of 35 districts on post-COVID Δ |
+| 12 | Not-Econ-Disadvantaged subgroup: Troy ranks 42 of 46 |
+| 13 | CKLA-adopting districts on the MDE-approved list are leapfrogging their states |
+| 14 | How they did it — Marion County KY and Fond du Lac WI playbooks |
+| 15 | Recovery is possible — and it tracks with curriculum choice |
+| 16 | Long Beach USD — the natural experiment is now empirically visible |
+| 17 | Why balanced literacy fails when school and home reading routines both break down |
+| 18 | Tested hypothesis — does SoR help only early grades? |
+| 19 | Curriculum verdict — Troy's options on the MI Section 35m list |
+| 20 | Recommendation — three paths ranked |
+| 21 | Curriculum is necessary but not sufficient — and what to track |
+| 22 | Appendix — Methodology |
+| 23-26 | References (1-4 of 5) — Primary datasets, Curriculum evidence, SoR research, District case studies |
+| 27 | References (5 of 5) — Project artifacts + how to verify |
 
 ---
 
@@ -73,7 +76,7 @@ All 24 slides preload on page open for instant navigation.
 
 The primary metric is the SEDA cohort-standardized (cs) score — NAEP-anchored grade-level units. `0.0` = at national grade-level norm; `+1.0` = one grade above. Pre-COVID baseline = 2017-2019 mean; post-COVID = 2022-2025 mean. Grades pooled G3-G5 (ELA only). 2020 and 2021 omitted by SEDA (testing canceled). District universe = 50 districts: Troy + 7 MI affluent peers + 7 workbook peer districts across CA/TX/NJ/WA + 3 SoR-shift Pacific NW peers + 17 Education Scorecard 2026 "Districts on the Rise" outperformers + 8 sustained outperformers (Steubenville, Aldine, Brownsville, Sanger, Garden Grove, Long Beach, Seaford, Valley Stream 30).
 
-See slide 19 of the deck for full methodology, and slides 20-24 for all 43 cited references.
+See slide 22 of the deck for full methodology, and slides 23-27 for all 43 cited references + project artifact map.
 
 ---
 
@@ -83,7 +86,7 @@ See slide 19 of the deck for full methodology, and slides 20-24 for all 43 cited
 .
 ├── README.md                        this file
 ├── index.html                       vanilla-JS slide viewer (~8 KB, no dependencies)
-├── slides/                          24 PNG renders at 144 DPI (~6 MB) — served by index.html
+├── slides/                          27 PNG renders at 144 DPI (~7 MB) — served by index.html
 ├── deck/
 │   └── Troy_K5_ELA_Executive_Summary_v4.pptx   the source PowerPoint deck
 ├── analysis/                        Python scripts to reproduce the analysis
@@ -142,7 +145,7 @@ See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for full instructions inc
 
 This is one district's analysis prepared by a parent + community member, not a Troy School District official document. The analysis is **forward-looking** about curriculum recovery, not a retrospective critique of past district decisions. Slide 3 explicitly acknowledges that pre-COVID Troy was gaining on the aggregate national-norm scale; the case for change is centered on the post-COVID trajectory and the comparative recovery patterns at peer districts.
 
-Every quantitative claim is anchored to a numbered reference in slides 20-24. The underlying project (analysis files, raw data extracts, charts, master CSV) lives at `/Users/Alex/Downloads/tsd-k5ela/` on the author's machine — the deck's appendix shows a full file map. The 50-district master dataset (2,544 rows: district × year × grade × subgroup × % proficient) is available on request.
+Every quantitative claim is anchored to a numbered reference in slides 23-27. The underlying project (analysis files, raw data extracts, charts, master CSV) lives at `/Users/Alex/Downloads/tsd-k5ela/` on the author's machine — the deck's appendix shows a full file map. The 50-district master dataset (2,544 rows: district × year × grade × subgroup × % proficient) is available on request.
 
 ---
 
@@ -161,7 +164,7 @@ osascript -e '
     close active presentation saving no
   end tell'
 pdftoppm -png -r 144 /tmp/deck.pdf /tmp/v4
-for i in $(seq -f "%02g" 1 24); do
+for i in $(seq -f "%02g" 1 27); do
   cp /tmp/v4-${i}.png /path/to/tsd-k5ela-choice/slides/${i}.png
 done
 git add slides/ && git commit -m "Regenerate slides" && git push
