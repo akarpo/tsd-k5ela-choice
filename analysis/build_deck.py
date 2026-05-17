@@ -232,29 +232,31 @@ title_bar(s, "The post-COVID collapse is the real signal",
           "Troy's 2019 peak was +0.747. By 2025: +0.387. Lost 16 years of slow gains in 3 years.")
 add_pic(s, f'{CHART_DIR}/chart10_troy_2009_2025.png',
         Inches(0.4), Inches(1.0), width=Inches(8.5))
-# Right callouts
-add_rect(s, Inches(9.1), Inches(1.05), Inches(3.9), Inches(2.5), LIGHT_RED)
-add_text(s, Inches(9.25), Inches(1.2), Inches(3.6), Inches(0.4),
+# Right callouts — red box sized to actually contain ALL its text
+add_rect(s, Inches(9.1), Inches(1.05), Inches(3.9), Inches(2.95), LIGHT_RED)
+add_text(s, Inches(9.25), Inches(1.15), Inches(3.6), Inches(0.32),
          "From 2019 peak to 2025¹", size=12, bold=True, color=ACCENT_RED)
-add_text(s, Inches(9.25), Inches(1.6), Inches(3.6), Inches(1.8),
+add_text(s, Inches(9.25), Inches(1.5), Inches(3.6), Inches(1.45),
          ("All Students    −0.36\n"
           "Asian           −0.46\n"
           "White           −0.29\n"
           "Not-ECD         −0.37\n"
           "EconDis         −0.25\n"
           "Black           −0.15\n"
-          "Hispanic        +0.08 †\n\n"
-          "(grade-level units)\n"
-          "† small-N subgroup (~3-4% of Troy)"),
-         size=13, color=GRAY_DARK, font="Consolas")
-add_rect(s, Inches(9.1), Inches(3.75), Inches(3.9), Inches(3.0), GRAY_LIGHT)
-add_text(s, Inches(9.25), Inches(3.9), Inches(3.6), Inches(0.4),
+          "Hispanic        +0.08 †"),
+         size=12, color=GRAY_DARK, font="Consolas")
+add_text(s, Inches(9.25), Inches(3.0), Inches(3.6), Inches(0.85),
+         "(grade-level units)\n† small-N subgroup (~3-4% of Troy)",
+         size=9.5, color=GRAY_MID, italic=True)
+
+add_rect(s, Inches(9.1), Inches(4.1), Inches(3.9), Inches(2.65), GRAY_LIGHT)
+add_text(s, Inches(9.25), Inches(4.2), Inches(3.6), Inches(0.35),
          "Four straight years of decline", size=12, bold=True, color=TROY_BLUE)
-add_text(s, Inches(9.25), Inches(4.3), Inches(3.6), Inches(2.4),
+add_text(s, Inches(9.25), Inches(4.55), Inches(3.6), Inches(2.05),
          ("2022:  +0.605\n2023:  +0.526\n2024:  +0.390\n2025:  +0.387\n\n"
           "The 2025 Troy score (+0.387) is BELOW Troy's 2009 score (+0.486).\n\n"
           "Sixteen years of slow gains erased in three years — and recovery has not started."),
-         size=12.5, color=GRAY_DARK)
+         size=11.5, color=GRAY_DARK)
 footer(s, 4)
 
 # =================================================================
@@ -315,56 +317,72 @@ col_h = Inches(4.55)
 col_w = Inches(4.05)
 col_x = [Inches(0.4), Inches(4.65), Inches(8.9)]
 
+# Helper for slide-6 columns: header bar, big count, district rect-table, takeaway
+def render_tier_column(cx, header_color, light_color, label, count_label,
+                       districts, takeaway):
+    add_rect(s, cx, col_y, col_w, col_h, light_color)
+    add_rect(s, cx, col_y, col_w, Inches(0.45), header_color)
+    add_text(s, cx+Inches(0.2), col_y+Inches(0.08), col_w-Inches(0.4), Inches(0.32),
+             label, size=12, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text(s, cx+Inches(0.2), col_y+Inches(0.55), col_w-Inches(0.4), Inches(0.35),
+             count_label, size=14, bold=True, color=header_color, align=PP_ALIGN.CENTER)
+    # district rect-table: 3 cols (name / Δ / tag)
+    name_x = cx + Inches(0.2);  name_w = Inches(1.85)
+    val_x  = cx + Inches(2.10); val_w  = Inches(0.85)
+    tag_x  = cx + Inches(2.95); tag_w  = Inches(1.0)
+    row_y = col_y + Inches(1.05)
+    for name, val, tag in districts:
+        add_text(s, name_x, row_y, name_w, Inches(0.24), name,
+                 size=9.5, color=GRAY_DARK)
+        add_text(s, val_x, row_y, val_w, Inches(0.24), val,
+                 size=9.5, color=GRAY_DARK, font="Consolas")
+        add_text(s, tag_x, row_y, tag_w, Inches(0.24), tag,
+                 size=9, color=header_color, bold=True)
+        row_y += Inches(0.26)
+    # takeaway box at bottom of column
+    take_top = col_y + col_h - Inches(1.15)
+    add_text(s, cx+Inches(0.2), take_top, col_w-Inches(0.4), Inches(1.1),
+             takeaway, size=9.5, color=GRAY_DARK)
+
 # Big gain (≥+0.10)
-add_rect(s, col_x[0], col_y, col_w, col_h, LIGHT_GREEN)
-add_rect(s, col_x[0], col_y, col_w, Inches(0.5), ACCENT_GREEN)
-add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
-         "Big gain  (Δ ≥ +0.10)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
-         "4 districts — ALL SoR", size=15, bold=True, color=ACCENT_GREEN, align=PP_ALIGN.CENTER)
-add_text(s, col_x[0]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
-         ("Spring Branch     +0.284   TX STR³⁶\n"
-          "Palo Alto USD     +0.132   ESRI³⁵\n"
-          "West Baton Rouge  +0.132   W&W³⁷\n"
-          "Johnson City TN   +0.121   TN HQIM³⁹\n\n"
-          "100% of districts in this tier run structured-literacy programs.\n\n"
-          "Next-strongest gainer outside this tier: Frisco ISD (TX, BL) at +0.097."),
-         size=10, color=GRAY_DARK, font="Consolas")
+render_tier_column(
+    col_x[0], ACCENT_GREEN, LIGHT_GREEN,
+    "Big gain   (Δ ≥ +0.10)",
+    "4 districts — ALL SoR",
+    [("Spring Branch ISD",  "+0.284", "TX STR³⁶"),
+     ("Palo Alto USD",      "+0.132", "ESRI³⁵"),
+     ("West Baton Rouge",   "+0.132", "W&W³⁷"),
+     ("Johnson City TN",    "+0.121", "TN HQIM³⁹")],
+    "100% of districts in this tier run structured-literacy programs.\n\n"
+    "Next-strongest gainer outside this tier: Frisco ISD (TX, BL) at +0.097.")
 
 # Moderate (+0.05 to +0.10)
-add_rect(s, col_x[1], col_y, col_w, col_h, RGBColor(0xFF, 0xF4, 0xE0))
-add_rect(s, col_x[1], col_y, col_w, Inches(0.5), ACCENT_ORANGE)
-add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
-         "Moderate gain  (+0.05 to +0.10)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
-         "6 districts — mixed", size=15, bold=True, color=ACCENT_ORANGE, align=PP_ALIGN.CENTER)
-add_text(s, col_x[1]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
-         ("Frisco ISD        +0.097   BL\n"
-          "Milpitas USD      +0.090   Benchmark\n"
-          "Issaquah SD       +0.087   Benchmark '24\n"
-          "Dublin USD        +0.084   Benchmark+Heggerty\n"
-          "Coppell ISD       +0.068   BL\n"
-          "Princeton PS      +0.060   NJ peer (BL?)\n\n"
-          "Mix of BL, Benchmark, and recently-adopted SoR."),
-         size=10, color=GRAY_DARK, font="Consolas")
+render_tier_column(
+    col_x[1], ACCENT_ORANGE, RGBColor(0xFF, 0xF4, 0xE0),
+    "Moderate gain   (+0.05 to +0.10)",
+    "6 districts — mixed",
+    [("Frisco ISD",     "+0.097", "BL"),
+     ("Milpitas USD",   "+0.090", "Benchmark"),
+     ("Issaquah SD",    "+0.087", "Benchmark '24"),
+     ("Dublin USD",     "+0.084", "Bench+Heggerty"),
+     ("Coppell ISD",    "+0.068", "BL"),
+     ("Princeton PS",   "+0.060", "BL (NJ peer)")],
+    "Mix of BL, Benchmark-Advance, and recently-adopted structured literacy.")
 
-# Decliners + recovery is not automatic
-add_rect(s, col_x[2], col_y, col_w, col_h, LIGHT_RED)
-add_rect(s, col_x[2], col_y, col_w, Inches(0.5), ACCENT_RED)
-add_text(s, col_x[2]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
-         "Flat or declined  (Δ < +0.05)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-add_text(s, col_x[2]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
-         "39 districts — both types", size=15, bold=True, color=ACCENT_RED, align=PP_ALIGN.CENTER)
-add_text(s, col_x[2]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
-         ("36 of 49 districts had Δ < 0; 3 more held flat\n"
-          "(Bloomfield Hills, Starkville, Dover).\n\n"
-          "SoR districts that DECLINED include:\n"
-          "Detroit DPSCD, Aldine, Brownsville, Baltimore,\n"
-          "Bethlehem, Roanoke County, Seaford, Steubenville,\n"
-          "Fond du Lac, Brandywine, Sikeston, East Chicago…\n\n"
-          "Adopting SoR alone is necessary but not sufficient.\n"
-          "Recovery requires curriculum + sustained PD + screeners + 2-3 year cohort lag (see slide 19)."),
-         size=10, color=GRAY_DARK)
+# Flat or declined  (Δ < +0.05)
+render_tier_column(
+    col_x[2], ACCENT_RED, LIGHT_RED,
+    "Flat or declined   (Δ < +0.05)",
+    "39 districts — both types",
+    [("Detroit DPSCD",   "−0.259", "EL Ed (SoR)"),
+     ("Aldine ISD",      "−0.034", "CKLA (SoR)"),
+     ("Baltimore PS",    "−0.213", "W&W (SoR)"),
+     ("Fond du Lac",     "−0.014", "CKLA (SoR)"),
+     ("Seaford SD",      "−0.180", "Bookworms (SoR)"),
+     ("Troy SD",         "−0.253", "Calkins UoS (BL)")],
+    "36 of 49 had Δ < 0; 3 held flat (Bloomfield Hills, Starkville, Dover). "
+    "SoR alone is necessary but not sufficient — recovery also needs sustained PD, "
+    "universal screeners, and a 2-3-year cohort lag (slide 19).")
 
 # Bottom callout
 add_text(s, Inches(0.4), Inches(6.85), Inches(12.5), Inches(0.4),
@@ -536,17 +554,39 @@ add_pic(s, f'{CHART_DIR}/chart15_troy_subgroup_rank.png',
 add_rect(s, Inches(8.6), Inches(1.0), Inches(4.5), Inches(6.0), GRAY_LIGHT)
 add_text(s, Inches(8.75), Inches(1.15), Inches(4.2), Inches(0.4),
          "Troy SEDA Δ rank per subgroup¹", size=12, bold=True, color=TROY_BLUE)
-add_text(s, Inches(8.75), Inches(1.6), Inches(4.2), Inches(4.0),
-         ("Subgroup        Rank      Δ\n"
-          "──────────────────────────\n"
-          "Asian            34/35   −0.347  ◄\n"
-          "White            44/46   −0.231  ◄\n"
-          "Not-ECD         42/46   −0.252  ◄\n"
-          "All                  47/49   −0.253  ◄\n"
-          "Black            27/33   −0.274\n"
-          "EconDis         32/47   −0.147\n"
-          "Hispanic     12/39   −0.031\n"),
-         size=12.5, color=GRAY_DARK, font="Consolas")
+# Rect-table for guaranteed column alignment (was monospace, kept drifting)
+_sg_rows = [
+    ("Asian",    "34/35", "−0.347", True),
+    ("White",    "44/46", "−0.231", True),
+    ("Not-ECD",  "42/46", "−0.252", True),
+    ("All",      "47/49", "−0.253", True),
+    ("Black",    "27/33", "−0.274", False),
+    ("EconDis",  "32/47", "−0.147", False),
+    ("Hispanic", "12/39", "−0.031", False),
+]
+# header row
+_hx_n = Inches(8.95); _hx_r = Inches(10.50); _hx_d = Inches(11.50); _hx_m = Inches(12.45)
+_w_n = Inches(1.55); _w_r = Inches(1.00); _w_d = Inches(0.95); _w_m = Inches(0.50)
+add_text(s, _hx_n, Inches(1.6), _w_n, Inches(0.28),
+         "Subgroup", size=11, bold=True, color=TROY_BLUE)
+add_text(s, _hx_r, Inches(1.6), _w_r, Inches(0.28),
+         "Rank", size=11, bold=True, color=TROY_BLUE)
+add_text(s, _hx_d, Inches(1.6), _w_d, Inches(0.28),
+         "Δ", size=11, bold=True, color=TROY_BLUE)
+add_rect(s, _hx_n, Inches(1.93), Inches(4.0), Inches(0.02), GRAY_MID)
+_ry = Inches(2.00)
+for name, rank, delta_v, flag in _sg_rows:
+    color = ACCENT_RED if flag else GRAY_DARK
+    add_text(s, _hx_n, _ry, _w_n, Inches(0.30), name,
+             size=11, color=color, bold=flag)
+    add_text(s, _hx_r, _ry, _w_r, Inches(0.30), rank,
+             size=11, color=color, font="Consolas", bold=flag)
+    add_text(s, _hx_d, _ry, _w_d, Inches(0.30), delta_v,
+             size=11, color=color, font="Consolas", bold=flag)
+    if flag:
+        add_text(s, _hx_m, _ry, _w_m, Inches(0.30), "◄",
+                 size=11, color=ACCENT_RED, bold=True)
+    _ry += Inches(0.36)
 add_text(s, Inches(8.75), Inches(5.5), Inches(4.2), Inches(0.4),
          "The pattern", size=12, bold=True, color=ACCENT_RED)
 add_text(s, Inches(8.75), Inches(5.9), Inches(4.2), Inches(1.3),
@@ -562,38 +602,57 @@ s = prs.slides.add_slide(BLANK)
 title_bar(s, "The Students-with-Disabilities subgroup tells the same story — only louder",
           "MI School Data M-STEP %Adv+Prof¹⁰ (different metric from SEDA cs scale — direct MDE source for Troy SWD)")
 
-# Chart left
+# Chart left — bigger, fills the vertical space
 add_pic(s, f'{CHART_DIR}/chart_swd_deck.png',
         Inches(0.3), Inches(1.0), width=Inches(8.5))
 
-# Right column: headline numbers + interpretation
-add_rect(s, Inches(8.95), Inches(1.0), Inches(4.1), Inches(2.85), LIGHT_RED)
-add_text(s, Inches(9.1), Inches(1.1), Inches(3.85), Inches(0.4),
-         "Pre→Post-COVID Δ on M-STEP %Adv+Prof", size=11.5, bold=True, color=ACCENT_RED)
-add_text(s, Inches(9.1), Inches(1.5), Inches(3.85), Inches(2.3),
-         ("                SWD     non-SWD   State\n"
-          "─────────────────────────────────────────\n"
-          "Grade 3      −11.6pp   −6.7pp   −5.0pp ◄\n"
-          "Grade 4       −1.6pp   −6.7pp   −2.1pp\n"
-          "Grade 5       −4.6pp   −7.2pp   −2.2pp\n\n"
-          "G3 SWD fell 1.7× faster than non-SWD\n"
-          "— and at the foundational reading grade."),
-         size=10, color=GRAY_DARK, font="Consolas")
+# Right column: rect-table for Δ numbers (no more monospace drift)
+add_rect(s, Inches(8.95), Inches(1.0), Inches(4.1), Inches(2.95), LIGHT_RED)
+add_text(s, Inches(9.1), Inches(1.08), Inches(3.85), Inches(0.32),
+         "Pre→Post-COVID Δ  on M-STEP %Adv+Prof", size=11, bold=True, color=ACCENT_RED)
+# 4-column table: Grade | SWD | non-SWD | State
+_swd_rows = [
+    ("Grade 3", "−11.6", "−6.7", "−5.0", True),
+    ("Grade 4",  "−1.6", "−6.7", "−2.1", False),
+    ("Grade 5",  "−4.6", "−7.2", "−2.2", False),
+]
+_cx_g = Inches(9.15); _cx_swd = Inches(10.20); _cx_non = Inches(11.20); _cx_st = Inches(12.20)
+_cw = Inches(0.95)
+# Headers
+add_text(s, _cx_g,   Inches(1.5), _cw, Inches(0.28), "Grade",  size=10, bold=True, color=GRAY_MID)
+add_text(s, _cx_swd, Inches(1.5), _cw, Inches(0.28), "SWD",     size=10, bold=True, color=ACCENT_RED, align=PP_ALIGN.RIGHT)
+add_text(s, _cx_non, Inches(1.5), _cw, Inches(0.28), "non-SWD", size=10, bold=True, color=GRAY_MID,   align=PP_ALIGN.RIGHT)
+add_text(s, _cx_st,  Inches(1.5), _cw, Inches(0.28), "State",   size=10, bold=True, color=GRAY_MID,   align=PP_ALIGN.RIGHT)
+add_rect(s, _cx_g, Inches(1.82), Inches(3.85), Inches(0.02), GRAY_MID)
+_ry = Inches(1.95)
+for gr, swd, non_, st, hi in _swd_rows:
+    color = ACCENT_RED if hi else GRAY_DARK
+    add_text(s, _cx_g,   _ry, _cw, Inches(0.30), gr,       size=11, color=color, bold=hi)
+    add_text(s, _cx_swd, _ry, _cw, Inches(0.30), swd+" pp", size=11, color=color, bold=hi, font="Consolas", align=PP_ALIGN.RIGHT)
+    add_text(s, _cx_non, _ry, _cw, Inches(0.30), non_+" pp",size=11, color=GRAY_DARK, font="Consolas", align=PP_ALIGN.RIGHT)
+    add_text(s, _cx_st,  _ry, _cw, Inches(0.30), st+" pp", size=11, color=GRAY_DARK, font="Consolas", align=PP_ALIGN.RIGHT)
+    _ry += Inches(0.36)
+# Sub-headline below the table
+add_text(s, Inches(9.1), Inches(3.10), Inches(3.85), Inches(0.75),
+         "G3 SWD fell 1.7× faster than non-SWD — at the foundational reading grade.",
+         size=10, italic=True, color=ACCENT_RED)
 
-add_rect(s, Inches(8.95), Inches(3.95), Inches(4.1), Inches(3.0), GRAY_LIGHT)
-add_text(s, Inches(9.1), Inches(4.05), Inches(3.85), Inches(0.4),
-         "Why this matters", size=11.5, bold=True, color=TROY_BLUE)
-add_text(s, Inches(9.1), Inches(4.45), Inches(3.85), Inches(2.4),
-         ("•  Troy SWD G3 was 37.1% Adv+Prof pre-COVID; it is now 25.4%.\n\n"
-          "•  Pre-COVID Troy SWD G3 was 7.6pp BELOW state All. Today it is 14.4pp BELOW state All — the gap nearly doubled.\n\n"
-          "•  SoR is specifically engineered for struggling readers: explicit phonics, decodable text, knowledge-building. The students who benefit MOST from SoR are the ones falling fastest at Troy.\n\n"
-          "•  Refutes the \"regression-to-the-mean for high-achievers\" defense — SWD students aren't high-achievers."),
+# Why this matters — same vertical extent as left chart
+add_rect(s, Inches(8.95), Inches(4.05), Inches(4.1), Inches(2.65), GRAY_LIGHT)
+add_text(s, Inches(9.1), Inches(4.12), Inches(3.85), Inches(0.32),
+         "Why this matters", size=11, bold=True, color=TROY_BLUE)
+add_text(s, Inches(9.1), Inches(4.5), Inches(3.85), Inches(2.15),
+         ("•  Troy SWD G3: 37.1% pre-COVID → 25.4% today.\n\n"
+          "•  Pre-COVID, Troy SWD G3 sat 7.6pp BELOW state All.\n   Today it sits 14.4pp BELOW state All — gap nearly doubled.\n\n"
+          "•  SoR is engineered for struggling readers (explicit phonics, decodable text, knowledge-building).\n   The students who benefit MOST from SoR are falling FASTEST at Troy.\n\n"
+          "•  Refutes the \"regression-to-mean for high-achievers\" defense\n   — SWD students aren't high-achievers."),
          size=9.5, color=GRAY_DARK)
 
-# Bottom callout
-add_text(s, Inches(0.4), Inches(7.0), Inches(12.5), Inches(0.4),
-         "Two independent sources (SEDA cs scale on 49 districts; MDE M-STEP on Troy subgroups) converge on the same conclusion: the subgroups that should benefit most from SoR are the ones declining fastest under the current curriculum.",
-         size=10.5, bold=True, color=TROY_BLUE, align=PP_ALIGN.CENTER)
+# Bottom callout — full-width, styled like other slide callouts (not a thin band)
+add_rect(s, Inches(0.4), Inches(6.78), Inches(12.5), Inches(0.30), TROY_BLUE)
+add_text(s, Inches(0.4), Inches(6.83), Inches(12.5), Inches(0.25),
+         "Two independent sources converge: SEDA cs scale (49 districts) and MDE M-STEP %prof (Troy subgroups) both say the SoR-relevant subgroups are falling fastest.",
+         size=10, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
 footer(s, 10)
 
 # =================================================================
