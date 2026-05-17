@@ -18,7 +18,7 @@ with open(DATA) as f:
 
 DISTRICTS = [
     ("Troy SD",           "Troy SD",           "#DC3545", 2.5, "-"),
-    ("Long Beach USD",    "Long Beach USD",    "#6C757D",  2.5, "--"),
+    ("Long Beach Unified","Long Beach USD",    "#6C757D",  2.5, "--"),
     ("Spring Branch ISD", "Spring Branch ISD",  "#28A745", 1.5, "-"),
     ("Palo Alto USD",     "Palo Alto USD",      "#4A90D9", 1.5, "-"),
     ("West Baton Rouge",  "West Baton Rouge",   "#F0A030", 1.5, "-"),
