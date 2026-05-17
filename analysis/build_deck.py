@@ -236,14 +236,15 @@ add_rect(s, Inches(9.1), Inches(1.05), Inches(3.9), Inches(2.5), LIGHT_RED)
 add_text(s, Inches(9.25), Inches(1.2), Inches(3.6), Inches(0.4),
          "From 2019 peak to 2025¹", size=12, bold=True, color=ACCENT_RED)
 add_text(s, Inches(9.25), Inches(1.6), Inches(3.6), Inches(1.8),
-         ("All Students:  −0.36 grade levels\n"
-          "Asian:                −0.46\n"
-          "White:                 −0.29\n"
-          "Not-ECD:           −0.37\n"
-          "EconDis:            −0.25\n"
-          "Hispanic:           −0.10\n"
-          "Black:                  −0.15"),
-         size=14, color=GRAY_DARK, font="Consolas")
+         ("All Students    −0.36\n"
+          "Asian           −0.46\n"
+          "White           −0.29\n"
+          "Not-ECD         −0.37\n"
+          "EconDis         −0.25\n"
+          "Hispanic        −0.10\n"
+          "Black           −0.15\n\n"
+          "(grade-level units)"),
+         size=13, color=GRAY_DARK, font="Consolas")
 add_rect(s, Inches(9.1), Inches(3.75), Inches(3.9), Inches(3.0), GRAY_LIGHT)
 add_text(s, Inches(9.25), Inches(3.9), Inches(3.6), Inches(0.4),
          "Four straight years of decline", size=12, bold=True, color=TROY_BLUE)
@@ -267,21 +268,21 @@ add_rect(s, Inches(8.8), Inches(1.0), Inches(4.3), Inches(6.0), GRAY_LIGHT)
 add_text(s, Inches(8.95), Inches(1.15), Inches(4.0), Inches(0.4),
          "Bottom 5 districts (Δ pre→post)", size=12, bold=True, color=ACCENT_RED)
 add_text(s, Inches(8.95), Inches(1.55), Inches(4.0), Inches(1.4),
-         ("48. Sikeston R-6 (MO):  −0.275\n"
-          "47. Detroit DPSCD:  −0.259\n"
-          "46. Troy SD:                  −0.253 ◄\n"
-          "45. Bethlehem Area SD: −0.246\n"
-          "44. West Bloomfield:    −0.243"),
-         size=11, color=GRAY_DARK, font="Consolas")
+         ("48  Sikeston R-6         −0.275\n"
+          "47  Detroit DPSCD        −0.259\n"
+          "46  Troy SD              −0.253  ◄\n"
+          "45  Bethlehem Area SD    −0.246\n"
+          "44  West Bloomfield      −0.243"),
+         size=10.5, color=GRAY_DARK, font="Consolas")
 add_text(s, Inches(8.95), Inches(3.05), Inches(4.0), Inches(0.4),
          "Top 5 districts (Δ pre→post)", size=12, bold=True, color=ACCENT_GREEN)
 add_text(s, Inches(8.95), Inches(3.45), Inches(4.0), Inches(1.4),
-         ("1.  Spring Branch ISD:  +0.284¹  (TX STR³⁶)\n"
-          "2.  Palo Alto USD:           +0.132¹  (ESRI³⁵)\n"
-          "3.  West Baton Rouge:  +0.132¹  (W&W³⁷)\n"
-          "4.  Johnson City TN:     +0.121¹  (TN HQIM³⁹)\n"
-          "5.  Frisco ISD:                  +0.097¹  (BL; TX state lifted⁶)"),
-         size=11, color=GRAY_DARK, font="Consolas")
+         ("1  Spring Branch ISD    +0.284  (TX STR³⁶)\n"
+          "2  Palo Alto USD        +0.132  (ESRI³⁵)\n"
+          "3  West Baton Rouge     +0.132  (W&W³⁷)\n"
+          "4  Johnson City TN      +0.121  (TN HQIM³⁹)\n"
+          "5  Frisco ISD           +0.097  (BL)"),
+         size=10.5, color=GRAY_DARK, font="Consolas")
 add_text(s, Inches(8.95), Inches(5.0), Inches(4.0), Inches(0.4),
          "Pattern", size=12, bold=True, color=TROY_BLUE)
 add_text(s, Inches(8.95), Inches(5.4), Inches(4.0), Inches(1.8),
@@ -320,10 +321,10 @@ add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0
 add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
          "4 districts — ALL SoR", size=15, bold=True, color=ACCENT_GREEN, align=PP_ALIGN.CENTER)
 add_text(s, col_x[0]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
-         ("Spring Branch ISD     +0.284  (TX STR³⁶)\n"
-          "Palo Alto USD              +0.132  (ESRI³⁵, post-Calkins)\n"
-          "West Baton Rouge   +0.132  (W&W + Fundations³⁷)\n"
-          "Johnson City TN          +0.121  (TN HQIM³⁹)\n\n"
+         ("Spring Branch     +0.284   TX STR³⁶\n"
+          "Palo Alto USD     +0.132   ESRI³⁵\n"
+          "West Baton Rouge  +0.132   W&W³⁷\n"
+          "Johnson City TN   +0.121   TN HQIM³⁹\n\n"
           "100% of districts in this tier run structured-literacy programs.\n\n"
           "Next-strongest gainer outside this tier: Frisco ISD (TX, BL) at +0.097."),
          size=10, color=GRAY_DARK, font="Consolas")
@@ -336,13 +337,13 @@ add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0
 add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
          "6 districts — mixed", size=15, bold=True, color=ACCENT_ORANGE, align=PP_ALIGN.CENTER)
 add_text(s, col_x[1]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
-         ("Frisco ISD                       +0.097  (BL)\n"
-          "Milpitas USD                   +0.090  (Benchmark)\n"
-          "Issaquah SD                    +0.087  (Benchmark '24)\n"
-          "Dublin USD                       +0.084  (Benchmark+Heggerty)\n"
-          "Coppell ISD                     +0.068  (BL)\n"
-          "Princeton PS                   +0.060  (NJ affluent, BL?)\n\n"
-          "Mix of BL, Benchmark-Advance, and recently-adopted SoR."),
+         ("Frisco ISD        +0.097   BL\n"
+          "Milpitas USD      +0.090   Benchmark\n"
+          "Issaquah SD       +0.087   Benchmark '24\n"
+          "Dublin USD        +0.084   Benchmark+Heggerty\n"
+          "Coppell ISD       +0.068   BL\n"
+          "Princeton PS      +0.060   NJ peer (BL?)\n\n"
+          "Mix of BL, Benchmark, and recently-adopted SoR."),
          size=10, color=GRAY_DARK, font="Consolas")
 
 # Decliners + recovery is not automatic
@@ -380,24 +381,24 @@ add_rect(s, Inches(9.1), Inches(1.0), Inches(3.9), Inches(6.0), GRAY_LIGHT)
 add_text(s, Inches(9.25), Inches(1.15), Inches(3.6), Inches(0.4),
          "Pre/Post-COVID Δ (MI affluent peers)", size=11, bold=True, color=TROY_BLUE)
 add_text(s, Inches(9.25), Inches(1.55), Inches(3.6), Inches(2.6),
-         ("Bloomfield Hills:  +0.026 ← best\n"
-          "Birmingham PS:    −0.017\n"
-          "Walled Lake:           −0.089\n"
-          "Northville PS:         −0.087\n"
-          "Novi CSD:                  −0.103  (49% Asian)\n"
-          "Rochester CSD:        −0.215\n"
-          "West Bloomfield:    −0.243\n"
-          "Troy SD:                    −0.253 ◄ worst"),
-         size=11.5, color=GRAY_DARK, font="Consolas")
+         ("Bloomfield Hills    +0.026   ← best\n"
+          "Birmingham PS       −0.017\n"
+          "Walled Lake         −0.089\n"
+          "Northville PS       −0.087\n"
+          "Novi CSD            −0.103\n"
+          "Rochester CSD       −0.215\n"
+          "West Bloomfield     −0.243\n"
+          "Troy SD             −0.253   ◄ worst"),
+         size=11, color=GRAY_DARK, font="Consolas")
 add_text(s, Inches(9.25), Inches(4.25), Inches(3.6), Inches(0.4),
          "2025 G4 ELA M-STEP¹⁰,¹³", size=11, bold=True, color=TROY_BLUE)
 add_text(s, Inches(9.25), Inches(4.65), Inches(3.6), Inches(2.0),
-         ("Birmingham (4% Asian):       75.4%\n"
-          "Bloomfield Hills (9%):           70.6%\n"
-          "Novi (49% Asian):                  68.5%\n"
-          "Rochester (17%):                    67.9%\n"
-          "Troy SD (37% Asian):           66.3% ◄"),
-         size=12.5, color=GRAY_DARK, font="Consolas")
+         ("Birmingham           75.4%   (4% Asian)\n"
+          "Bloomfield Hills     70.6%   (9% Asian)\n"
+          "Novi                 68.5%   (49% Asian)\n"
+          "Rochester            67.9%   (17% Asian)\n"
+          "Troy SD              66.3%   (37% Asian)  ◄"),
+         size=11.5, color=GRAY_DARK, font="Consolas")
 add_text(s, Inches(9.25), Inches(6.4), Inches(3.6), Inches(0.6),
          "Troy at G4 sits BELOW four MI peers with smaller Asian populations.",
          size=12, color=ACCENT_RED, bold=True)
