@@ -31,6 +31,23 @@ they must use distinct hues (red/green/blue/orange/purple — *not* two greens
 or two blues). If you can't tell two series apart in a screenshot at 200%
 zoom, fix the chart, don't fix the legend.
 
+### Chart series colors (brighter variants for bars and lines)
+
+The text/background palette above is too dark for thin chart bars. Use these
+brighter versions on multi-series charts:
+
+| Role | Hex | Hue matches |
+|---|---|---|
+| `CHART_RED` (Troy / protagonist) | `#DC3545` | `ACCENT_RED` brighter |
+| `CHART_GREEN` (Spring Branch / biggest gainer) | `#28A745` | `ACCENT_GREEN` brighter |
+| `CHART_BLUE` (Palo Alto / Calkins-exit peer) | `#4A90D9` | `TROY_BLUE` brighter |
+| `CHART_AMBER` (West Baton Rouge / W&W) | `#F0A030` | `ACCENT_ORANGE` brighter |
+| `CHART_PURPLE` (Johnson City / 5th series) | `#9B59B6` | `ACCENT_PURPLE` brighter |
+| `CHART_GRAY` (BL peers / neutral comparisons) | `#6C757D` | `GRAY_MID` |
+
+Same hue assignments as the text palette, just at higher lightness so they
+read at bar widths of 8-12 px.
+
 ## Typography
 
 - All deck text uses the system default font, EXCEPT numeric/tabular data which

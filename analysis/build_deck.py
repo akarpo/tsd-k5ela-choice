@@ -977,10 +977,10 @@ add_text(s, Inches(0.6), Inches(1.32), Inches(12.2), Inches(0.35),
          size=10.5, color=GRAY_DARK, italic=True)
 
 # Left: mean Δ by grade and curriculum type
-add_rect(s, Inches(0.4), Inches(1.85), Inches(6.2), Inches(5.0), LIGHT_GREEN)
+add_rect(s, Inches(0.4), Inches(1.85), Inches(6.2), Inches(4.6), LIGHT_GREEN)
 add_text(s, Inches(0.55), Inches(1.95), Inches(6), Inches(0.4),
          "Mean SEDA Δ by grade × curriculum type", size=12.5, bold=True, color=ACCENT_GREEN)
-add_text(s, Inches(0.55), Inches(2.4), Inches(6), Inches(4.4),
+add_text(s, Inches(0.55), Inches(2.4), Inches(6), Inches(4.0),
          ("Type              G3 Δ      G4 Δ      G5 Δ      n\n"
           "─────────────────────────────────────────────────\n"
           "SoR-clear         −0.088   −0.117   −0.065    21\n"
@@ -997,10 +997,10 @@ add_text(s, Inches(0.55), Inches(2.4), Inches(6), Inches(4.4),
          size=10, color=GRAY_DARK, font="Consolas")
 
 # Right: Top 5 G5 gainers
-add_rect(s, Inches(6.75), Inches(1.85), Inches(6.15), Inches(5.0), LIGHT_GREEN)
+add_rect(s, Inches(6.75), Inches(1.85), Inches(6.15), Inches(4.6), LIGHT_GREEN)
 add_text(s, Inches(6.9), Inches(1.95), Inches(6), Inches(0.4),
          "Top 5 G5 gainers — 100% SoR-aligned", size=12.5, bold=True, color=ACCENT_GREEN)
-add_text(s, Inches(6.9), Inches(2.4), Inches(6), Inches(4.4),
+add_text(s, Inches(6.9), Inches(2.4), Inches(6), Inches(4.0),
          ("1  Spring Branch ISD    +0.284   TX STR\n"
           "2  Johnson City TN      +0.221   TN HQIM\n"
           "3  West Baton Rouge     +0.207   W&W + Fundations\n"
@@ -1017,10 +1017,10 @@ add_text(s, Inches(6.9), Inches(2.4), Inches(6), Inches(4.4),
          size=10, color=GRAY_DARK, font="Consolas")
 
 # Bottom: caveats
-add_rect(s, Inches(0.4), Inches(6.95), Inches(12.5), Inches(0.45), LIGHT_RED)
-add_text(s, Inches(0.55), Inches(7.0), Inches(2.8), Inches(0.3),
+add_rect(s, Inches(0.4), Inches(6.55), Inches(12.5), Inches(0.42), LIGHT_RED)
+add_text(s, Inches(0.55), Inches(6.60), Inches(2.8), Inches(0.3),
          "Confounders this data can't resolve:", size=10, bold=True, color=ACCENT_RED)
-add_text(s, Inches(3.4), Inches(7.0), Inches(9.5), Inches(0.35),
+add_text(s, Inches(3.4), Inches(6.60), Inches(9.5), Inches(0.35),
          "Cohort effects (G5 had K 5 yrs ago); cross-grade scale differences; COVID hit early grades hardest (K-1 missed foundational year); small SoR-recent/Mixed n.",
          size=9, color=GRAY_DARK)
 footer(s, 19)

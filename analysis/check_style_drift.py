@@ -39,6 +39,14 @@ PALETTE = {
     "#996633",  # defenses background (kept for now)
     "#993322",  # defenses background (kept for now)
     "#003366",  # defenses background (kept for now)
+    "#DC3545",  # CHART_RED (Troy / protagonist)
+    "#28A745",  # CHART_GREEN (Spring Branch / biggest gainer)
+    "#4A90D9",  # CHART_BLUE (Palo Alto / Calkins-exit)
+    "#F0A030",  # CHART_AMBER (West Baton Rouge / W&W)
+    "#9B59B6",  # CHART_PURPLE (Johnson City / 5th series)
+    "#6C757D",  # CHART_GRAY (BL peers / neutral)
+    "#ADB5BD",  # CHART_GRAY_LIGHT (secondary neutral)
+    "#CC4444",  # BL-stayed bars on chart11
 }
 
 
