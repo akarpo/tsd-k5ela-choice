@@ -1059,15 +1059,20 @@ add_text(s, Inches(0.5), Inches(5.9), Inches(6), Inches(1.0),
 
 # Right column - District universe
 add_text(s, Inches(7), Inches(1.05), Inches(6), Inches(0.4),
-         "District universe (N = 50)", size=14, bold=True, color=TROY_BLUE)
-add_text(s, Inches(7), Inches(1.45), Inches(6), Inches(5.6),
-         ("•  Troy SD (subject district) + 7 MI affluent peers\n   (Bloomfield Hills, Birmingham, Northville, Novi, Rochester, Walled Lake, West Bloomfield)\n\n"
-          "•  4 CA workbook peers + 4 CA outperformers\n   (Palo Alto, Milpitas, Walnut Valley, Dublin + Modesto, Sanger, Garden Grove, Long Beach)\n\n"
-          "•  6 TX districts\n   (Aldine, Brownsville, Coppell, Plano, Frisco, Spring Branch)\n\n"
-          "•  3 NJ peers + 3 WA SoR-shift peers\n   (WW-Plainsboro, Millburn, Princeton + Bellevue, Issaquah, Lake Washington)\n\n"
-          "•  Steubenville (OH gold standard)  + Detroit (MI in-state outperformer)\n\n"
+         "District universe — 50 targeted, 49 with valid SEDA Δ", size=13, bold=True, color=TROY_BLUE)
+add_text(s, Inches(7), Inches(1.45), Inches(6), Inches(5.0),
+         ("•  Troy SD + 7 MI affluent peers\n   (Bloomfield Hills, Birmingham, Northville, Novi, Rochester, Walled Lake, West Bloomfield)\n"
+          "•  4 CA workbook peers + 4 CA outperformers\n   (Palo Alto, Milpitas, Walnut Valley, Dublin + Modesto, Sanger, Garden Grove, Long Beach)\n"
+          "•  6 TX districts\n   (Aldine, Brownsville, Coppell, Plano, Frisco, Spring Branch)\n"
+          "•  3 NJ peers + 3 WA SoR-shift peers\n   (WW-Plainsboro, Millburn, Princeton + Bellevue, Issaquah, Lake Washington)\n"
+          "•  Steubenville (OH gold standard) + Detroit (MI in-state outperformer)\n"
           "•  17 Education Scorecard 2026 DOTR outperformers across KY, LA, MS, TN, GA, MD, WI, DE, VA, CT, NY, PA, IN, MO, NC, NH, IA, ID, SD"),
-         size=11, color=GRAY_DARK)
+         size=10.5, color=GRAY_DARK)
+add_text(s, Inches(7), Inches(6.4), Inches(6), Inches(0.5),
+         "Counts referenced elsewhere in the deck:", size=10.5, bold=True, color=TROY_BLUE)
+add_text(s, Inches(7), Inches(6.65), Inches(6), Inches(0.5),
+         "20 = ELA-relevant DOTR districts (17 Math+Reading + 3 Reading-only).  28 = predecessor state-test analysis (raw % proficient on M-STEP/CAASPP/STAAR/etc., before SEDA expansion) — see reports/quantitative_analysis.md.",
+         size=9.5, color=GRAY_DARK, italic=True)
 
 footer(s, 22)
 
@@ -1215,7 +1220,7 @@ left_groups = [
         ("Troy_K5_ELA_Executive_Summary_v4.pptx", "This deck"),
     ]),
     ("Quantitative analysis", [
-        ("research/quantitative_analysis.md", "28-district analysis + 6 charts"),
+        ("research/quantitative_analysis.md", "Predecessor state-test analysis (28 districts on M-STEP/CAASPP/STAAR raw %)"),
         ("research/seda_2025_analysis.md", "SEDA 2025.1 pre/post-COVID + subgroup"),
         ("research/master_dataset.csv", "2,544 rows: dist × year × grade × subgroup"),
         ("research/seda_2025_pooled.json", "SEDA cs G3-G5 pooled by year × subgroup"),

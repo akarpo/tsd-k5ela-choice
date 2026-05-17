@@ -1,3 +1,9 @@
+> **Note: this is the predecessor analysis.** It covers 28 districts on raw state-test
+> proficiency rates (M-STEP, CAASPP, STAAR, etc.) and was the working analysis before
+> the SEDA 2025.1 expansion to 50 districts on the NAEP-anchored cohort-standardized
+> scale. The SEDA analysis (`seda_2025_analysis.md`) is the authoritative current
+> analysis; this file is preserved for reproducibility.
+
 # Quantitative Analysis: Troy SD vs Peer + Outperformer Districts
 
 **Universe:** 28 districts + 7 state averages, G3-G5 ELA, 2019-2025. Master dataset: `master_dataset.csv` (2,544 rows).
