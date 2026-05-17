@@ -607,7 +607,7 @@ add_pic(s, f'{CHART_DIR}/chart_swd_deck.png',
         Inches(0.3), Inches(1.0), width=Inches(8.5))
 
 # Right column: rect-table for Δ numbers (no more monospace drift)
-add_rect(s, Inches(8.95), Inches(1.0), Inches(4.1), Inches(3.15), LIGHT_RED)
+add_rect(s, Inches(8.95), Inches(1.0), Inches(4.3), Inches(3.15), LIGHT_RED)
 add_text(s, Inches(9.1), Inches(1.08), Inches(3.85), Inches(0.32),
          "Pre→Post-COVID Δ  on M-STEP %Adv+Prof", size=11, bold=True, color=ACCENT_RED)
 # 4-column table: Grade | SWD | non-SWD | State
@@ -638,7 +638,7 @@ add_text(s, Inches(9.1), Inches(3.10), Inches(3.85), Inches(0.75),
          size=10, italic=True, color=ACCENT_RED)
 
 # Why this matters — same vertical extent as left chart
-add_rect(s, Inches(8.95), Inches(4.25), Inches(4.1), Inches(2.45), GRAY_LIGHT)
+add_rect(s, Inches(8.95), Inches(4.25), Inches(4.3), Inches(2.45), GRAY_LIGHT)
 add_text(s, Inches(9.1), Inches(4.32), Inches(3.85), Inches(0.32),
          "Why this matters", size=11, bold=True, color=TROY_BLUE)
 add_text(s, Inches(9.1), Inches(4.65), Inches(3.85), Inches(2.0),
