@@ -1,0 +1,2545 @@
+district,state,year,test,grade,subgroup,n_tested,pct_met,source_tag
+Dublin USD,CA,2019,CAASPP,3,All,1007,79.2,workbook
+Dublin USD,CA,2019,CAASPP,3,Female,494,72.1,workbook
+Dublin USD,CA,2019,CAASPP,3,Male,513,86.0,workbook
+Dublin USD,CA,2019,CAASPP,3,EconDis,61,45.9,workbook
+Dublin USD,CA,2019,CAASPP,3,Black,20,55.0,workbook
+Dublin USD,CA,2019,CAASPP,3,Asian,589,87.6,workbook
+Dublin USD,CA,2019,CAASPP,3,Filipino,35,74.3,workbook
+Dublin USD,CA,2019,CAASPP,3,Hispanic,110,58.2,workbook
+Dublin USD,CA,2019,CAASPP,3,White,151,72.2,workbook
+Dublin USD,CA,2019,CAASPP,3,Non-SWD,953,81.6,workbook
+Dublin USD,CA,2019,CAASPP,3,Not-EconDis,946,81.3,workbook
+Dublin USD,CA,2019,CAASPP,3,SWD,54,35.2,workbook
+Dublin USD,CA,2019,CAASPP,3,Two or More Races,92,71.7,workbook
+Dublin USD,CA,2019,CAASPP,3,EL,65,30.8,workbook
+Dublin USD,CA,2019,CAASPP,3,English Only,617,77.5,workbook
+Dublin USD,CA,2019,CAASPP,4,All,949,78.1,workbook
+Dublin USD,CA,2019,CAASPP,4,Female,510,74.9,workbook
+Dublin USD,CA,2019,CAASPP,4,Male,439,81.8,workbook
+Dublin USD,CA,2019,CAASPP,4,EconDis,52,28.9,workbook
+Dublin USD,CA,2019,CAASPP,4,Black,25,52.0,workbook
+Dublin USD,CA,2019,CAASPP,4,Asian,537,86.8,workbook
+Dublin USD,CA,2019,CAASPP,4,Filipino,27,85.2,workbook
+Dublin USD,CA,2019,CAASPP,4,Hispanic,92,51.1,workbook
+Dublin USD,CA,2019,CAASPP,4,White,167,73.0,workbook
+Dublin USD,CA,2019,CAASPP,4,Non-SWD,872,81.7,workbook
+Dublin USD,CA,2019,CAASPP,4,Not-EconDis,897,80.9,workbook
+Dublin USD,CA,2019,CAASPP,4,SWD,77,37.7,workbook
+Dublin USD,CA,2019,CAASPP,4,Two or More Races,89,69.7,workbook
+Dublin USD,CA,2019,CAASPP,4,EL,59,28.8,workbook
+Dublin USD,CA,2019,CAASPP,4,English Only,557,75.2,workbook
+Dublin USD,CA,2019,CAASPP,5,All,1003,80.9,workbook
+Dublin USD,CA,2019,CAASPP,5,Female,519,75.3,workbook
+Dublin USD,CA,2019,CAASPP,5,Male,484,86.8,workbook
+Dublin USD,CA,2019,CAASPP,5,EconDis,60,31.7,workbook
+Dublin USD,CA,2019,CAASPP,5,Black,35,51.4,workbook
+Dublin USD,CA,2019,CAASPP,5,Asian,542,89.5,workbook
+Dublin USD,CA,2019,CAASPP,5,Filipino,38,89.5,workbook
+Dublin USD,CA,2019,CAASPP,5,Hispanic,117,60.7,workbook
+Dublin USD,CA,2019,CAASPP,5,White,187,73.8,workbook
+Dublin USD,CA,2019,CAASPP,5,Non-SWD,910,84.5,workbook
+Dublin USD,CA,2019,CAASPP,5,Not-EconDis,943,84.0,workbook
+Dublin USD,CA,2019,CAASPP,5,SWD,93,45.2,workbook
+Dublin USD,CA,2019,CAASPP,5,Two or More Races,77,77.9,workbook
+Dublin USD,CA,2019,CAASPP,5,EL,46,23.9,workbook
+Dublin USD,CA,2019,CAASPP,5,English Only,618,78.8,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,All,851,75.9,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Female,423,73.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Male,428,78.7,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,EconDis,185,63.2,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Asian,501,82.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Filipino,46,87.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Hispanic,195,59.5,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,White,43,65.1,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Non-SWD,780,79.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Not-EconDis,666,79.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,SWD,71,38.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,Two or More Races,53,77.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,EL,123,49.6,workbook
+Walnut Valley USD,CA,2019,CAASPP,3,English Only,475,74.5,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,All,868,75.1,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Female,443,73.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Male,425,76.9,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,EconDis,203,63.5,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Black,11,36.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Asian,519,82.5,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Filipino,48,81.2,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Hispanic,192,59.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,White,46,69.6,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Non-SWD,795,78.6,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Not-EconDis,665,78.7,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,SWD,73,37.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,Two or More Races,47,70.2,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,EL,111,46.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,4,English Only,451,72.5,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,All,969,78.7,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Female,505,78.2,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Male,464,79.3,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,EconDis,260,70.8,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Black,14,50.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Asian,558,86.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Filipino,40,80.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Hispanic,235,63.4,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,White,63,73.0,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Non-SWD,891,82.9,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Not-EconDis,709,81.7,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,SWD,78,30.8,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,Two or More Races,51,82.3,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,EL,123,46.3,workbook
+Walnut Valley USD,CA,2019,CAASPP,5,English Only,504,76.6,workbook
+Palo Alto USD,CA,2019,CAASPP,3,All,788,74.1,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Female,402,70.4,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Male,386,77.9,workbook
+Palo Alto USD,CA,2019,CAASPP,3,EconDis,114,29.2,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Black,18,22.2,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Asian,272,87.1,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Hispanic,122,39.7,workbook
+Palo Alto USD,CA,2019,CAASPP,3,White,253,79.8,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Non-SWD,687,78.4,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Not-EconDis,674,81.6,workbook
+Palo Alto USD,CA,2019,CAASPP,3,SWD,101,44.5,workbook
+Palo Alto USD,CA,2019,CAASPP,3,Two or More Races,116,77.6,workbook
+Palo Alto USD,CA,2019,CAASPP,3,EL,113,40.2,workbook
+Palo Alto USD,CA,2019,CAASPP,3,English Only,498,76.9,workbook
+Palo Alto USD,CA,2019,CAASPP,4,All,839,80.0,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Female,455,75.6,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Male,384,85.2,workbook
+Palo Alto USD,CA,2019,CAASPP,4,EconDis,100,49.0,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Black,16,25.0,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Asian,280,90.0,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Hispanic,120,58.3,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Pacific Islander,11,36.4,workbook
+Palo Alto USD,CA,2019,CAASPP,4,White,311,80.1,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Non-SWD,753,84.6,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Not-EconDis,739,84.2,workbook
+Palo Alto USD,CA,2019,CAASPP,4,SWD,86,39.5,workbook
+Palo Alto USD,CA,2019,CAASPP,4,Two or More Races,93,91.4,workbook
+Palo Alto USD,CA,2019,CAASPP,4,EL,103,39.8,workbook
+Palo Alto USD,CA,2019,CAASPP,4,English Only,505,83.0,workbook
+Palo Alto USD,CA,2019,CAASPP,5,All,860,83.4,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Female,440,81.1,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Male,420,85.7,workbook
+Palo Alto USD,CA,2019,CAASPP,5,EconDis,107,44.9,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Asian,333,93.7,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Hispanic,121,52.1,workbook
+Palo Alto USD,CA,2019,CAASPP,5,White,293,88.7,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Non-SWD,762,87.8,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Not-EconDis,753,88.8,workbook
+Palo Alto USD,CA,2019,CAASPP,5,SWD,98,49.0,workbook
+Palo Alto USD,CA,2019,CAASPP,5,Two or More Races,90,81.1,workbook
+Palo Alto USD,CA,2019,CAASPP,5,EL,68,36.8,workbook
+Palo Alto USD,CA,2019,CAASPP,5,English Only,519,85.5,workbook
+Milpitas USD,CA,2019,CAASPP,3,All,723,66.0,workbook
+Milpitas USD,CA,2019,CAASPP,3,Female,373,61.4,workbook
+Milpitas USD,CA,2019,CAASPP,3,Male,350,70.9,workbook
+Milpitas USD,CA,2019,CAASPP,3,EconDis,233,47.2,workbook
+Milpitas USD,CA,2019,CAASPP,3,Black,16,43.8,workbook
+Milpitas USD,CA,2019,CAASPP,3,Asian,384,76.8,workbook
+Milpitas USD,CA,2019,CAASPP,3,Filipino,112,67.9,workbook
+Milpitas USD,CA,2019,CAASPP,3,Hispanic,115,33.9,workbook
+Milpitas USD,CA,2019,CAASPP,3,White,34,58.8,workbook
+Milpitas USD,CA,2019,CAASPP,3,Non-SWD,667,69.9,workbook
+Milpitas USD,CA,2019,CAASPP,3,Not-EconDis,490,74.9,workbook
+Milpitas USD,CA,2019,CAASPP,3,SWD,56,19.6,workbook
+Milpitas USD,CA,2019,CAASPP,3,Two or More Races,54,64.8,workbook
+Milpitas USD,CA,2019,CAASPP,3,EL,174,30.5,workbook
+Milpitas USD,CA,2019,CAASPP,3,English Only,329,67.8,workbook
+Milpitas USD,CA,2019,CAASPP,4,All,704,68.9,workbook
+Milpitas USD,CA,2019,CAASPP,4,Female,346,63.9,workbook
+Milpitas USD,CA,2019,CAASPP,4,Male,358,73.7,workbook
+Milpitas USD,CA,2019,CAASPP,4,EconDis,246,44.3,workbook
+Milpitas USD,CA,2019,CAASPP,4,Black,12,50.0,workbook
+Milpitas USD,CA,2019,CAASPP,4,Asian,354,81.6,workbook
+Milpitas USD,CA,2019,CAASPP,4,Filipino,98,70.4,workbook
+Milpitas USD,CA,2019,CAASPP,4,Hispanic,143,35.0,workbook
+Milpitas USD,CA,2019,CAASPP,4,White,38,73.7,workbook
+Milpitas USD,CA,2019,CAASPP,4,Non-SWD,653,71.8,workbook
+Milpitas USD,CA,2019,CAASPP,4,Not-EconDis,458,82.1,workbook
+Milpitas USD,CA,2019,CAASPP,4,SWD,51,31.4,workbook
+Milpitas USD,CA,2019,CAASPP,4,Two or More Races,53,73.6,workbook
+Milpitas USD,CA,2019,CAASPP,4,EL,183,37.7,workbook
+Milpitas USD,CA,2019,CAASPP,4,English Only,295,68.1,workbook
+Milpitas USD,CA,2019,CAASPP,5,All,709,70.7,workbook
+Milpitas USD,CA,2019,CAASPP,5,Female,370,66.0,workbook
+Milpitas USD,CA,2019,CAASPP,5,Male,339,75.8,workbook
+Milpitas USD,CA,2019,CAASPP,5,EconDis,236,50.9,workbook
+Milpitas USD,CA,2019,CAASPP,5,Asian,352,84.1,workbook
+Milpitas USD,CA,2019,CAASPP,5,Filipino,124,66.9,workbook
+Milpitas USD,CA,2019,CAASPP,5,Hispanic,148,45.3,workbook
+Milpitas USD,CA,2019,CAASPP,5,White,27,66.7,workbook
+Milpitas USD,CA,2019,CAASPP,5,Non-SWD,653,75.0,workbook
+Milpitas USD,CA,2019,CAASPP,5,Not-EconDis,473,80.5,workbook
+Milpitas USD,CA,2019,CAASPP,5,SWD,56,19.6,workbook
+Milpitas USD,CA,2019,CAASPP,5,Two or More Races,39,66.7,workbook
+Milpitas USD,CA,2019,CAASPP,5,EL,174,37.9,workbook
+Milpitas USD,CA,2019,CAASPP,5,English Only,288,70.8,workbook
+Dublin USD,CA,2022,CAASPP,3,All,1017,79.9,workbook
+Dublin USD,CA,2022,CAASPP,3,Female,524,75.6,workbook
+Dublin USD,CA,2022,CAASPP,3,Male,493,84.6,workbook
+Dublin USD,CA,2022,CAASPP,3,EconDis,36,52.8,workbook
+Dublin USD,CA,2022,CAASPP,3,Black,36,52.8,workbook
+Dublin USD,CA,2022,CAASPP,3,Asian,642,87.1,workbook
+Dublin USD,CA,2022,CAASPP,3,Filipino,46,87.0,workbook
+Dublin USD,CA,2022,CAASPP,3,Hispanic,77,50.6,workbook
+Dublin USD,CA,2022,CAASPP,3,White,128,67.2,workbook
+Dublin USD,CA,2022,CAASPP,3,Non-SWD,944,83.2,workbook
+Dublin USD,CA,2022,CAASPP,3,Not-EconDis,981,80.9,workbook
+Dublin USD,CA,2022,CAASPP,3,SWD,73,38.4,workbook
+Dublin USD,CA,2022,CAASPP,3,Two or More Races,84,81.0,workbook
+Dublin USD,CA,2022,CAASPP,3,EL,59,49.1,workbook
+Dublin USD,CA,2022,CAASPP,3,English Only,618,76.9,workbook
+Dublin USD,CA,2022,CAASPP,4,All,1009,81.6,workbook
+Dublin USD,CA,2022,CAASPP,4,Female,483,80.3,workbook
+Dublin USD,CA,2022,CAASPP,4,Male,526,82.7,workbook
+Dublin USD,CA,2022,CAASPP,4,EconDis,52,48.1,workbook
+Dublin USD,CA,2022,CAASPP,4,Black,26,34.6,workbook
+Dublin USD,CA,2022,CAASPP,4,Asian,669,88.5,workbook
+Dublin USD,CA,2022,CAASPP,4,Filipino,38,79.0,workbook
+Dublin USD,CA,2022,CAASPP,4,Hispanic,84,70.2,workbook
+Dublin USD,CA,2022,CAASPP,4,White,124,66.1,workbook
+Dublin USD,CA,2022,CAASPP,4,Non-SWD,939,84.8,workbook
+Dublin USD,CA,2022,CAASPP,4,Not-EconDis,957,83.4,workbook
+Dublin USD,CA,2022,CAASPP,4,SWD,70,38.6,workbook
+Dublin USD,CA,2022,CAASPP,4,Two or More Races,64,75.0,workbook
+Dublin USD,CA,2022,CAASPP,4,EL,68,36.8,workbook
+Dublin USD,CA,2022,CAASPP,4,English Only,569,79.8,workbook
+Dublin USD,CA,2022,CAASPP,5,All,1041,85.7,workbook
+Dublin USD,CA,2022,CAASPP,5,Female,522,81.8,workbook
+Dublin USD,CA,2022,CAASPP,5,Male,519,89.6,workbook
+Dublin USD,CA,2022,CAASPP,5,EconDis,43,51.2,workbook
+Dublin USD,CA,2022,CAASPP,5,Black,17,58.8,workbook
+Dublin USD,CA,2022,CAASPP,5,Asian,671,92.5,workbook
+Dublin USD,CA,2022,CAASPP,5,Filipino,56,82.1,workbook
+Dublin USD,CA,2022,CAASPP,5,Hispanic,71,56.3,workbook
+Dublin USD,CA,2022,CAASPP,5,White,147,72.8,workbook
+Dublin USD,CA,2022,CAASPP,5,Non-SWD,979,89.4,workbook
+Dublin USD,CA,2022,CAASPP,5,Not-EconDis,998,87.2,workbook
+Dublin USD,CA,2022,CAASPP,5,SWD,62,27.4,workbook
+Dublin USD,CA,2022,CAASPP,5,Two or More Races,74,86.5,workbook
+Dublin USD,CA,2022,CAASPP,5,EL,42,50.0,workbook
+Dublin USD,CA,2022,CAASPP,5,English Only,621,84.1,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,All,972,74.4,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Female,514,72.4,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Male,458,76.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,EconDis,290,66.2,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Asian,664,80.7,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Filipino,49,83.7,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Hispanic,170,51.8,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,White,37,62.2,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Non-SWD,907,77.3,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Not-EconDis,682,77.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,SWD,65,33.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,Two or More Races,42,73.8,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,EL,137,41.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,3,English Only,443,70.0,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,All,945,72.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Female,461,72.2,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Male,484,72.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,EconDis,245,62.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Asian,606,78.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Filipino,56,78.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Hispanic,193,56.5,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,White,47,48.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Non-SWD,853,76.5,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Not-EconDis,700,76.0,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,SWD,92,35.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,Two or More Races,39,74.4,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,EL,127,36.2,workbook
+Walnut Valley USD,CA,2022,CAASPP,4,English Only,477,69.0,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,All,905,76.3,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Female,460,73.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Male,445,78.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,EconDis,240,67.9,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Asian,544,83.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Filipino,53,86.8,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Hispanic,208,60.6,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,White,49,63.3,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Non-SWD,822,80.4,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Not-EconDis,665,79.4,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,SWD,83,36.1,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,Two or More Races,40,62.5,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,EL,91,30.8,workbook
+Walnut Valley USD,CA,2022,CAASPP,5,English Only,478,73.4,workbook
+Palo Alto USD,CA,2022,CAASPP,3,All,677,76.7,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Female,357,74.8,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Male,320,78.8,workbook
+Palo Alto USD,CA,2022,CAASPP,3,EconDis,99,41.4,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Black,11,54.5,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Asian,270,90.0,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Hispanic,107,41.1,workbook
+Palo Alto USD,CA,2022,CAASPP,3,White,194,78.3,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Non-SWD,614,80.3,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Not-EconDis,578,82.7,workbook
+Palo Alto USD,CA,2022,CAASPP,3,SWD,63,41.3,workbook
+Palo Alto USD,CA,2022,CAASPP,3,Two or More Races,83,80.7,workbook
+Palo Alto USD,CA,2022,CAASPP,3,EL,83,38.5,workbook
+Palo Alto USD,CA,2022,CAASPP,3,English Only,399,80.2,workbook
+Palo Alto USD,CA,2022,CAASPP,4,All,719,83.6,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Female,356,80.3,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Male,363,86.8,workbook
+Palo Alto USD,CA,2022,CAASPP,4,EconDis,91,45.0,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Asian,281,95.0,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Hispanic,120,55.0,workbook
+Palo Alto USD,CA,2022,CAASPP,4,White,203,86.7,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Non-SWD,645,86.7,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Not-EconDis,628,89.2,workbook
+Palo Alto USD,CA,2022,CAASPP,4,SWD,74,56.8,workbook
+Palo Alto USD,CA,2022,CAASPP,4,Two or More Races,85,84.7,workbook
+Palo Alto USD,CA,2022,CAASPP,4,EL,79,50.6,workbook
+Palo Alto USD,CA,2022,CAASPP,4,English Only,417,85.6,workbook
+Palo Alto USD,CA,2022,CAASPP,5,All,694,83.4,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Female,348,79.6,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Male,346,87.3,workbook
+Palo Alto USD,CA,2022,CAASPP,5,EconDis,75,41.3,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Black,13,46.1,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Asian,252,92.9,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Hispanic,114,58.8,workbook
+Palo Alto USD,CA,2022,CAASPP,5,White,216,87.5,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Non-SWD,627,87.2,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Not-EconDis,619,88.5,workbook
+Palo Alto USD,CA,2022,CAASPP,5,SWD,67,47.8,workbook
+Palo Alto USD,CA,2022,CAASPP,5,Two or More Races,90,85.6,workbook
+Palo Alto USD,CA,2022,CAASPP,5,EL,53,45.3,workbook
+Palo Alto USD,CA,2022,CAASPP,5,English Only,406,86.2,workbook
+Milpitas USD,CA,2022,CAASPP,3,All,754,67.1,workbook
+Milpitas USD,CA,2022,CAASPP,3,Female,401,64.3,workbook
+Milpitas USD,CA,2022,CAASPP,3,Male,353,70.2,workbook
+Milpitas USD,CA,2022,CAASPP,3,EconDis,202,45.0,workbook
+Milpitas USD,CA,2022,CAASPP,3,Asian,435,79.3,workbook
+Milpitas USD,CA,2022,CAASPP,3,Filipino,95,65.3,workbook
+Milpitas USD,CA,2022,CAASPP,3,Hispanic,138,34.8,workbook
+Milpitas USD,CA,2022,CAASPP,3,White,25,56.0,workbook
+Milpitas USD,CA,2022,CAASPP,3,Non-SWD,698,69.9,workbook
+Milpitas USD,CA,2022,CAASPP,3,Not-EconDis,552,75.2,workbook
+Milpitas USD,CA,2022,CAASPP,3,SWD,56,32.1,workbook
+Milpitas USD,CA,2022,CAASPP,3,Two or More Races,49,63.3,workbook
+Milpitas USD,CA,2022,CAASPP,3,EL,181,39.2,workbook
+Milpitas USD,CA,2022,CAASPP,3,English Only,357,67.8,workbook
+Milpitas USD,CA,2022,CAASPP,4,All,744,68.0,workbook
+Milpitas USD,CA,2022,CAASPP,4,Female,383,61.4,workbook
+Milpitas USD,CA,2022,CAASPP,4,Male,361,75.1,workbook
+Milpitas USD,CA,2022,CAASPP,4,EconDis,209,43.5,workbook
+Milpitas USD,CA,2022,CAASPP,4,Black,11,27.3,workbook
+Milpitas USD,CA,2022,CAASPP,4,Asian,405,84.2,workbook
+Milpitas USD,CA,2022,CAASPP,4,Filipino,98,62.2,workbook
+Milpitas USD,CA,2022,CAASPP,4,Hispanic,143,32.2,workbook
+Milpitas USD,CA,2022,CAASPP,4,White,33,63.6,workbook
+Milpitas USD,CA,2022,CAASPP,4,Non-SWD,683,72.2,workbook
+Milpitas USD,CA,2022,CAASPP,4,Not-EconDis,535,77.6,workbook
+Milpitas USD,CA,2022,CAASPP,4,SWD,61,21.3,workbook
+Milpitas USD,CA,2022,CAASPP,4,Two or More Races,48,64.6,workbook
+Milpitas USD,CA,2022,CAASPP,4,EL,165,38.2,workbook
+Milpitas USD,CA,2022,CAASPP,4,English Only,313,64.2,workbook
+Milpitas USD,CA,2022,CAASPP,5,All,655,70.1,workbook
+Milpitas USD,CA,2022,CAASPP,5,Female,334,66.2,workbook
+Milpitas USD,CA,2022,CAASPP,5,Male,320,74.4,workbook
+Milpitas USD,CA,2022,CAASPP,5,EconDis,190,45.8,workbook
+Milpitas USD,CA,2022,CAASPP,5,Black,16,25.0,workbook
+Milpitas USD,CA,2022,CAASPP,5,Asian,347,85.9,workbook
+Milpitas USD,CA,2022,CAASPP,5,Filipino,76,72.4,workbook
+Milpitas USD,CA,2022,CAASPP,5,Hispanic,133,32.3,workbook
+Milpitas USD,CA,2022,CAASPP,5,White,30,70.0,workbook
+Milpitas USD,CA,2022,CAASPP,5,Non-SWD,603,73.6,workbook
+Milpitas USD,CA,2022,CAASPP,5,Not-EconDis,465,80.0,workbook
+Milpitas USD,CA,2022,CAASPP,5,SWD,52,28.9,workbook
+Milpitas USD,CA,2022,CAASPP,5,Two or More Races,48,75.0,workbook
+Milpitas USD,CA,2022,CAASPP,5,EL,113,25.7,workbook
+Milpitas USD,CA,2022,CAASPP,5,English Only,296,68.9,workbook
+Dublin USD,CA,2023,CAASPP,3,All,983,78.5,workbook
+Dublin USD,CA,2023,CAASPP,3,Female,508,75.2,workbook
+Dublin USD,CA,2023,CAASPP,3,Male,475,82.1,workbook
+Dublin USD,CA,2023,CAASPP,3,EconDis,79,48.1,workbook
+Dublin USD,CA,2023,CAASPP,3,Black,17,64.7,workbook
+Dublin USD,CA,2023,CAASPP,3,Asian,616,84.6,workbook
+Dublin USD,CA,2023,CAASPP,3,Filipino,32,81.2,workbook
+Dublin USD,CA,2023,CAASPP,3,Hispanic,88,54.5,workbook
+Dublin USD,CA,2023,CAASPP,3,White,153,72.5,workbook
+Dublin USD,CA,2023,CAASPP,3,Non-SWD,909,82.5,workbook
+Dublin USD,CA,2023,CAASPP,3,Not-EconDis,904,81.2,workbook
+Dublin USD,CA,2023,CAASPP,3,SWD,74,29.7,workbook
+Dublin USD,CA,2023,CAASPP,3,Two or More Races,74,73.0,workbook
+Dublin USD,CA,2023,CAASPP,3,EL,92,53.3,workbook
+Dublin USD,CA,2023,CAASPP,3,English Only,594,76.8,workbook
+Dublin USD,CA,2023,CAASPP,4,All,1022,81.1,workbook
+Dublin USD,CA,2023,CAASPP,4,Female,516,78.7,workbook
+Dublin USD,CA,2023,CAASPP,4,Male,506,83.6,workbook
+Dublin USD,CA,2023,CAASPP,4,EconDis,66,51.5,workbook
+Dublin USD,CA,2023,CAASPP,4,Black,37,51.4,workbook
+Dublin USD,CA,2023,CAASPP,4,Asian,667,87.3,workbook
+Dublin USD,CA,2023,CAASPP,4,Filipino,42,78.6,workbook
+Dublin USD,CA,2023,CAASPP,4,Hispanic,74,54.0,workbook
+Dublin USD,CA,2023,CAASPP,4,White,122,77.0,workbook
+Dublin USD,CA,2023,CAASPP,4,Non-SWD,948,84.9,workbook
+Dublin USD,CA,2023,CAASPP,4,Not-EconDis,956,83.2,workbook
+Dublin USD,CA,2023,CAASPP,4,SWD,74,32.4,workbook
+Dublin USD,CA,2023,CAASPP,4,Two or More Races,77,76.6,workbook
+Dublin USD,CA,2023,CAASPP,4,EL,53,37.7,workbook
+Dublin USD,CA,2023,CAASPP,4,English Only,611,79.7,workbook
+Dublin USD,CA,2023,CAASPP,5,All,1015,80.8,workbook
+Dublin USD,CA,2023,CAASPP,5,Female,488,78.1,workbook
+Dublin USD,CA,2023,CAASPP,5,Male,527,83.3,workbook
+Dublin USD,CA,2023,CAASPP,5,EconDis,98,60.2,workbook
+Dublin USD,CA,2023,CAASPP,5,Black,27,44.4,workbook
+Dublin USD,CA,2023,CAASPP,5,Asian,674,87.1,workbook
+Dublin USD,CA,2023,CAASPP,5,Filipino,34,91.2,workbook
+Dublin USD,CA,2023,CAASPP,5,Hispanic,91,56.0,workbook
+Dublin USD,CA,2023,CAASPP,5,White,123,70.7,workbook
+Dublin USD,CA,2023,CAASPP,5,Non-SWD,940,84.2,workbook
+Dublin USD,CA,2023,CAASPP,5,Not-EconDis,917,83.0,workbook
+Dublin USD,CA,2023,CAASPP,5,SWD,75,38.7,workbook
+Dublin USD,CA,2023,CAASPP,5,Two or More Races,62,82.3,workbook
+Dublin USD,CA,2023,CAASPP,5,EL,55,38.2,workbook
+Dublin USD,CA,2023,CAASPP,5,English Only,580,79.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,All,919,72.7,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Female,460,71.3,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Male,458,74.0,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,EconDis,295,64.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Asian,606,80.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Filipino,48,85.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Hispanic,186,47.9,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,White,32,56.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Non-SWD,858,75.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Not-EconDis,624,76.6,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,SWD,61,34.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,Two or More Races,36,80.6,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,EL,165,45.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,3,English Only,431,68.0,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,All,1015,74.1,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Female,533,71.1,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Male,482,77.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,EconDis,297,66.7,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Asian,701,79.7,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Filipino,53,86.8,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Hispanic,173,52.0,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,White,33,60.6,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Non-SWD,955,76.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Not-EconDis,718,77.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,SWD,60,35.0,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,Two or More Races,44,72.7,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,EL,121,32.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,4,English Only,445,71.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,All,978,76.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Female,480,76.0,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Male,498,76.7,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,EconDis,258,67.4,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Asian,640,83.1,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Filipino,57,77.2,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Hispanic,192,57.8,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,White,44,65.9,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Non-SWD,895,80.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Not-EconDis,720,79.6,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,SWD,83,32.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,Two or More Races,40,72.5,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,EL,109,32.1,workbook
+Walnut Valley USD,CA,2023,CAASPP,5,English Only,473,74.6,workbook
+Palo Alto USD,CA,2023,CAASPP,3,All,659,83.2,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Female,321,81.3,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Male,338,84.9,workbook
+Palo Alto USD,CA,2023,CAASPP,3,EconDis,70,52.9,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Asian,284,92.6,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Hispanic,100,59.0,workbook
+Palo Alto USD,CA,2023,CAASPP,3,White,190,84.7,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Non-SWD,601,87.0,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Not-EconDis,589,86.8,workbook
+Palo Alto USD,CA,2023,CAASPP,3,SWD,58,43.1,workbook
+Palo Alto USD,CA,2023,CAASPP,3,Two or More Races,61,80.3,workbook
+Palo Alto USD,CA,2023,CAASPP,3,EL,61,49.2,workbook
+Palo Alto USD,CA,2023,CAASPP,3,English Only,391,82.6,workbook
+Palo Alto USD,CA,2023,CAASPP,4,All,684,78.8,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Female,364,78.0,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Male,320,79.7,workbook
+Palo Alto USD,CA,2023,CAASPP,4,EconDis,102,46.1,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Black,13,69.2,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Asian,279,92.1,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Hispanic,107,40.2,workbook
+Palo Alto USD,CA,2023,CAASPP,4,White,185,77.8,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Non-SWD,609,83.7,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Not-EconDis,582,84.5,workbook
+Palo Alto USD,CA,2023,CAASPP,4,SWD,75,38.7,workbook
+Palo Alto USD,CA,2023,CAASPP,4,Two or More Races,90,90.0,workbook
+Palo Alto USD,CA,2023,CAASPP,4,EL,78,30.8,workbook
+Palo Alto USD,CA,2023,CAASPP,4,English Only,389,84.6,workbook
+Palo Alto USD,CA,2023,CAASPP,5,All,744,84.5,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Female,368,81.8,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Male,376,87.2,workbook
+Palo Alto USD,CA,2023,CAASPP,5,EconDis,83,51.8,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Black,11,63.6,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Asian,308,92.5,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Hispanic,123,57.7,workbook
+Palo Alto USD,CA,2023,CAASPP,5,White,202,89.1,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Non-SWD,670,88.4,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Not-EconDis,661,88.7,workbook
+Palo Alto USD,CA,2023,CAASPP,5,SWD,74,50.0,workbook
+Palo Alto USD,CA,2023,CAASPP,5,Two or More Races,82,89.0,workbook
+Palo Alto USD,CA,2023,CAASPP,5,EL,55,30.9,workbook
+Palo Alto USD,CA,2023,CAASPP,5,English Only,422,89.1,workbook
+Milpitas USD,CA,2023,CAASPP,3,All,776,64.8,workbook
+Milpitas USD,CA,2023,CAASPP,3,Female,403,60.8,workbook
+Milpitas USD,CA,2023,CAASPP,3,Male,373,69.2,workbook
+Milpitas USD,CA,2023,CAASPP,3,EconDis,266,43.2,workbook
+Milpitas USD,CA,2023,CAASPP,3,Black,16,37.5,workbook
+Milpitas USD,CA,2023,CAASPP,3,Asian,440,80.5,workbook
+Milpitas USD,CA,2023,CAASPP,3,Filipino,85,61.2,workbook
+Milpitas USD,CA,2023,CAASPP,3,Hispanic,149,24.8,workbook
+Milpitas USD,CA,2023,CAASPP,3,White,29,72.4,workbook
+Milpitas USD,CA,2023,CAASPP,3,Non-SWD,695,69.8,workbook
+Milpitas USD,CA,2023,CAASPP,3,Not-EconDis,510,76.1,workbook
+Milpitas USD,CA,2023,CAASPP,3,SWD,81,22.2,workbook
+Milpitas USD,CA,2023,CAASPP,3,Two or More Races,48,60.4,workbook
+Milpitas USD,CA,2023,CAASPP,3,EL,193,35.2,workbook
+Milpitas USD,CA,2023,CAASPP,3,English Only,346,63.0,workbook
+Milpitas USD,CA,2023,CAASPP,4,All,754,65.4,workbook
+Milpitas USD,CA,2023,CAASPP,4,Female,403,63.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,Male,351,67.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,EconDis,253,45.1,workbook
+Milpitas USD,CA,2023,CAASPP,4,Asian,428,81.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,Filipino,94,58.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,Hispanic,151,29.1,workbook
+Milpitas USD,CA,2023,CAASPP,4,White,26,61.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,Non-SWD,688,69.8,workbook
+Milpitas USD,CA,2023,CAASPP,4,Not-EconDis,501,75.7,workbook
+Milpitas USD,CA,2023,CAASPP,4,SWD,66,19.7,workbook
+Milpitas USD,CA,2023,CAASPP,4,Two or More Races,44,54.5,workbook
+Milpitas USD,CA,2023,CAASPP,4,EL,156,28.9,workbook
+Milpitas USD,CA,2023,CAASPP,4,English Only,345,65.5,workbook
+Milpitas USD,CA,2023,CAASPP,5,All,759,68.0,workbook
+Milpitas USD,CA,2023,CAASPP,5,Female,390,61.0,workbook
+Milpitas USD,CA,2023,CAASPP,5,Male,369,75.3,workbook
+Milpitas USD,CA,2023,CAASPP,5,EconDis,249,45.4,workbook
+Milpitas USD,CA,2023,CAASPP,5,Black,12,50.0,workbook
+Milpitas USD,CA,2023,CAASPP,5,Asian,415,86.5,workbook
+Milpitas USD,CA,2023,CAASPP,5,Filipino,97,62.9,workbook
+Milpitas USD,CA,2023,CAASPP,5,Hispanic,150,26.7,workbook
+Milpitas USD,CA,2023,CAASPP,5,White,30,66.7,workbook
+Milpitas USD,CA,2023,CAASPP,5,Non-SWD,692,72.2,workbook
+Milpitas USD,CA,2023,CAASPP,5,Not-EconDis,510,79.0,workbook
+Milpitas USD,CA,2023,CAASPP,5,SWD,67,23.9,workbook
+Milpitas USD,CA,2023,CAASPP,5,Two or More Races,49,55.1,workbook
+Milpitas USD,CA,2023,CAASPP,5,EL,123,20.3,workbook
+Milpitas USD,CA,2023,CAASPP,5,English Only,314,61.8,workbook
+Dublin USD,CA,2024,CAASPP,3,All,978,78.8,workbook
+Dublin USD,CA,2024,CAASPP,3,Female,486,76.8,workbook
+Dublin USD,CA,2024,CAASPP,3,Male,492,80.9,workbook
+Dublin USD,CA,2024,CAASPP,3,EconDis,114,65.8,workbook
+Dublin USD,CA,2024,CAASPP,3,Black,19,47.4,workbook
+Dublin USD,CA,2024,CAASPP,3,Asian,664,84.2,workbook
+Dublin USD,CA,2024,CAASPP,3,Filipino,40,85.0,workbook
+Dublin USD,CA,2024,CAASPP,3,Hispanic,82,56.1,workbook
+Dublin USD,CA,2024,CAASPP,3,White,111,65.8,workbook
+Dublin USD,CA,2024,CAASPP,3,Non-SWD,899,81.9,workbook
+Dublin USD,CA,2024,CAASPP,3,Not-EconDis,864,80.6,workbook
+Dublin USD,CA,2024,CAASPP,3,SWD,79,44.3,workbook
+Dublin USD,CA,2024,CAASPP,3,Two or More Races,56,80.4,workbook
+Dublin USD,CA,2024,CAASPP,3,EL,70,38.6,workbook
+Dublin USD,CA,2024,CAASPP,3,English Only,600,77.7,workbook
+Dublin USD,CA,2024,CAASPP,4,All,1001,78.8,workbook
+Dublin USD,CA,2024,CAASPP,4,Female,515,76.1,workbook
+Dublin USD,CA,2024,CAASPP,4,Male,485,81.7,workbook
+Dublin USD,CA,2024,CAASPP,4,EconDis,180,70.0,workbook
+Dublin USD,CA,2024,CAASPP,4,Black,15,46.7,workbook
+Dublin USD,CA,2024,CAASPP,4,Asian,628,85.2,workbook
+Dublin USD,CA,2024,CAASPP,4,Filipino,33,87.9,workbook
+Dublin USD,CA,2024,CAASPP,4,Hispanic,95,49.5,workbook
+Dublin USD,CA,2024,CAASPP,4,White,149,75.8,workbook
+Dublin USD,CA,2024,CAASPP,4,Non-SWD,911,83.9,workbook
+Dublin USD,CA,2024,CAASPP,4,Not-EconDis,821,80.8,workbook
+Dublin USD,CA,2024,CAASPP,4,SWD,90,27.8,workbook
+Dublin USD,CA,2024,CAASPP,4,Two or More Races,78,71.8,workbook
+Dublin USD,CA,2024,CAASPP,4,EL,71,43.7,workbook
+Dublin USD,CA,2024,CAASPP,4,English Only,601,78.7,workbook
+Dublin USD,CA,2024,CAASPP,5,All,1040,84.7,workbook
+Dublin USD,CA,2024,CAASPP,5,Female,523,80.7,workbook
+Dublin USD,CA,2024,CAASPP,5,Male,517,88.8,workbook
+Dublin USD,CA,2024,CAASPP,5,EconDis,89,62.9,workbook
+Dublin USD,CA,2024,CAASPP,5,Black,34,52.9,workbook
+Dublin USD,CA,2024,CAASPP,5,Asian,684,90.5,workbook
+Dublin USD,CA,2024,CAASPP,5,Filipino,44,88.6,workbook
+Dublin USD,CA,2024,CAASPP,5,Hispanic,81,63.0,workbook
+Dublin USD,CA,2024,CAASPP,5,White,115,77.4,workbook
+Dublin USD,CA,2024,CAASPP,5,Non-SWD,965,89.2,workbook
+Dublin USD,CA,2024,CAASPP,5,Not-EconDis,951,86.8,workbook
+Dublin USD,CA,2024,CAASPP,5,SWD,75,26.7,workbook
+Dublin USD,CA,2024,CAASPP,5,Two or More Races,79,79.8,workbook
+Dublin USD,CA,2024,CAASPP,5,EL,34,32.4,workbook
+Dublin USD,CA,2024,CAASPP,5,English Only,618,83.8,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,All,929,70.1,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Female,500,67.0,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Male,429,73.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,EconDis,308,63.0,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Black,12,41.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Asian,612,77.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Filipino,54,75.9,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Hispanic,175,44.6,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,White,33,66.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Non-SWD,855,73.9,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Not-EconDis,621,73.6,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,SWD,74,25.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,Two or More Races,39,71.8,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,EL,135,35.6,workbook
+Walnut Valley USD,CA,2024,CAASPP,3,English Only,421,64.8,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,All,969,73.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Female,488,71.1,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Male,481,76.3,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,EconDis,306,70.6,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Asian,647,81.0,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Filipino,53,71.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Hispanic,196,49.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,White,31,67.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Non-SWD,901,77.4,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Not-EconDis,663,75.1,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,SWD,68,25.0,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,Two or More Races,35,85.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,EL,127,31.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,4,English Only,447,68.2,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,All,1080,77.2,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Female,559,75.7,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Male,521,78.9,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,EconDis,333,70.0,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Asian,747,84.2,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Filipino,53,77.4,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Hispanic,188,58.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,White,36,58.3,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Non-SWD,1018,79.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Not-EconDis,747,80.5,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,SWD,62,40.3,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,Two or More Races,45,64.4,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,EL,112,34.8,workbook
+Walnut Valley USD,CA,2024,CAASPP,5,English Only,467,72.6,workbook
+Palo Alto USD,CA,2024,CAASPP,3,All,703,78.2,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Female,373,73.5,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Male,330,83.6,workbook
+Palo Alto USD,CA,2024,CAASPP,3,EconDis,92,39.1,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Black,12,58.3,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Asian,297,91.6,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Hispanic,115,44.4,workbook
+Palo Alto USD,CA,2024,CAASPP,3,White,191,78.5,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Non-SWD,624,81.7,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Not-EconDis,611,84.1,workbook
+Palo Alto USD,CA,2024,CAASPP,3,SWD,79,50.6,workbook
+Palo Alto USD,CA,2024,CAASPP,3,Two or More Races,80,83.8,workbook
+Palo Alto USD,CA,2024,CAASPP,3,EL,80,37.5,workbook
+Palo Alto USD,CA,2024,CAASPP,3,English Only,403,79.9,workbook
+Palo Alto USD,CA,2024,CAASPP,4,All,690,81.2,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Female,339,79.3,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Male,351,82.9,workbook
+Palo Alto USD,CA,2024,CAASPP,4,EconDis,76,39.5,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Black,11,54.5,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Asian,298,92.3,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Hispanic,104,46.1,workbook
+Palo Alto USD,CA,2024,CAASPP,4,White,196,84.2,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Non-SWD,619,85.3,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Not-EconDis,614,86.3,workbook
+Palo Alto USD,CA,2024,CAASPP,4,SWD,71,45.1,workbook
+Palo Alto USD,CA,2024,CAASPP,4,Two or More Races,67,85.1,workbook
+Palo Alto USD,CA,2024,CAASPP,4,EL,61,37.7,workbook
+Palo Alto USD,CA,2024,CAASPP,4,English Only,400,83.2,workbook
+Palo Alto USD,CA,2024,CAASPP,5,All,713,80.7,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Female,375,79.7,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Male,338,81.7,workbook
+Palo Alto USD,CA,2024,CAASPP,5,EconDis,115,44.4,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Black,15,73.3,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Asian,299,92.3,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Hispanic,113,42.5,workbook
+Palo Alto USD,CA,2024,CAASPP,5,White,185,81.1,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Non-SWD,629,85.7,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Not-EconDis,598,87.6,workbook
+Palo Alto USD,CA,2024,CAASPP,5,SWD,84,42.9,workbook
+Palo Alto USD,CA,2024,CAASPP,5,Two or More Races,89,91.0,workbook
+Palo Alto USD,CA,2024,CAASPP,5,EL,56,25.0,workbook
+Palo Alto USD,CA,2024,CAASPP,5,English Only,401,86.3,workbook
+Milpitas USD,CA,2024,CAASPP,3,All,775,62.6,workbook
+Milpitas USD,CA,2024,CAASPP,3,Female,406,58.6,workbook
+Milpitas USD,CA,2024,CAASPP,3,Male,369,66.9,workbook
+Milpitas USD,CA,2024,CAASPP,3,EconDis,327,42.8,workbook
+Milpitas USD,CA,2024,CAASPP,3,Asian,450,74.9,workbook
+Milpitas USD,CA,2024,CAASPP,3,Filipino,81,58.0,workbook
+Milpitas USD,CA,2024,CAASPP,3,Hispanic,145,26.2,workbook
+Milpitas USD,CA,2024,CAASPP,3,White,34,73.5,workbook
+Milpitas USD,CA,2024,CAASPP,3,Non-SWD,702,67.1,workbook
+Milpitas USD,CA,2024,CAASPP,3,Not-EconDis,448,77.0,workbook
+Milpitas USD,CA,2024,CAASPP,3,SWD,73,19.2,workbook
+Milpitas USD,CA,2024,CAASPP,3,Two or More Races,51,60.8,workbook
+Milpitas USD,CA,2024,CAASPP,3,EL,192,26.6,workbook
+Milpitas USD,CA,2024,CAASPP,3,English Only,345,64.6,workbook
+Milpitas USD,CA,2024,CAASPP,4,All,804,63.9,workbook
+Milpitas USD,CA,2024,CAASPP,4,Female,410,58.3,workbook
+Milpitas USD,CA,2024,CAASPP,4,Male,394,69.8,workbook
+Milpitas USD,CA,2024,CAASPP,4,EconDis,373,49.6,workbook
+Milpitas USD,CA,2024,CAASPP,4,Black,18,27.8,workbook
+Milpitas USD,CA,2024,CAASPP,4,Asian,457,79.0,workbook
+Milpitas USD,CA,2024,CAASPP,4,Filipino,86,64.0,workbook
+Milpitas USD,CA,2024,CAASPP,4,Hispanic,153,26.1,workbook
+Milpitas USD,CA,2024,CAASPP,4,White,29,62.1,workbook
+Milpitas USD,CA,2024,CAASPP,4,Non-SWD,715,69.1,workbook
+Milpitas USD,CA,2024,CAASPP,4,Not-EconDis,431,76.3,workbook
+Milpitas USD,CA,2024,CAASPP,4,SWD,89,22.5,workbook
+Milpitas USD,CA,2024,CAASPP,4,Two or More Races,54,61.1,workbook
+Milpitas USD,CA,2024,CAASPP,4,EL,161,20.5,workbook
+Milpitas USD,CA,2024,CAASPP,4,English Only,352,62.8,workbook
+Milpitas USD,CA,2024,CAASPP,5,All,762,68.8,workbook
+Milpitas USD,CA,2024,CAASPP,5,Female,413,67.3,workbook
+Milpitas USD,CA,2024,CAASPP,5,Male,349,70.5,workbook
+Milpitas USD,CA,2024,CAASPP,5,EconDis,310,52.9,workbook
+Milpitas USD,CA,2024,CAASPP,5,Asian,443,81.7,workbook
+Milpitas USD,CA,2024,CAASPP,5,Filipino,96,67.7,workbook
+Milpitas USD,CA,2024,CAASPP,5,Hispanic,143,34.3,workbook
+Milpitas USD,CA,2024,CAASPP,5,White,24,62.5,workbook
+Milpitas USD,CA,2024,CAASPP,5,Non-SWD,691,73.8,workbook
+Milpitas USD,CA,2024,CAASPP,5,Not-EconDis,452,79.7,workbook
+Milpitas USD,CA,2024,CAASPP,5,SWD,71,19.7,workbook
+Milpitas USD,CA,2024,CAASPP,5,Two or More Races,44,65.9,workbook
+Milpitas USD,CA,2024,CAASPP,5,EL,123,17.1,workbook
+Milpitas USD,CA,2024,CAASPP,5,English Only,341,71.0,workbook
+Dublin USD,CA,2025,CAASPP,3,All,980,74.2,workbook
+Dublin USD,CA,2025,CAASPP,3,Female,485,71.1,workbook
+Dublin USD,CA,2025,CAASPP,3,Male,495,77.2,workbook
+Dublin USD,CA,2025,CAASPP,3,EconDis,165,50.3,workbook
+Dublin USD,CA,2025,CAASPP,3,Black,22,54.5,workbook
+Dublin USD,CA,2025,CAASPP,3,Asian,652,82.4,workbook
+Dublin USD,CA,2025,CAASPP,3,Filipino,34,73.5,workbook
+Dublin USD,CA,2025,CAASPP,3,Hispanic,102,47.1,workbook
+Dublin USD,CA,2025,CAASPP,3,White,108,59.3,workbook
+Dublin USD,CA,2025,CAASPP,3,Non-SWD,893,78.8,workbook
+Dublin USD,CA,2025,CAASPP,3,Not-EconDis,815,79.0,workbook
+Dublin USD,CA,2025,CAASPP,3,SWD,87,26.4,workbook
+Dublin USD,CA,2025,CAASPP,3,Two or More Races,62,66.1,workbook
+Dublin USD,CA,2025,CAASPP,3,EL,77,24.7,workbook
+Dublin USD,CA,2025,CAASPP,3,English Only,634,73.7,workbook
+Dublin USD,CA,2025,CAASPP,4,All,1003,77.8,workbook
+Dublin USD,CA,2025,CAASPP,4,Female,506,76.1,workbook
+Dublin USD,CA,2025,CAASPP,4,Male,497,79.5,workbook
+Dublin USD,CA,2025,CAASPP,4,EconDis,136,56.6,workbook
+Dublin USD,CA,2025,CAASPP,4,Black,19,42.1,workbook
+Dublin USD,CA,2025,CAASPP,4,Asian,683,84.0,workbook
+Dublin USD,CA,2025,CAASPP,4,Filipino,44,86.4,workbook
+Dublin USD,CA,2025,CAASPP,4,Hispanic,87,56.3,workbook
+Dublin USD,CA,2025,CAASPP,4,White,109,62.4,workbook
+Dublin USD,CA,2025,CAASPP,4,Non-SWD,919,81.5,workbook
+Dublin USD,CA,2025,CAASPP,4,Not-EconDis,867,81.1,workbook
+Dublin USD,CA,2025,CAASPP,4,SWD,84,36.9,workbook
+Dublin USD,CA,2025,CAASPP,4,Two or More Races,58,72.4,workbook
+Dublin USD,CA,2025,CAASPP,4,EL,61,22.9,workbook
+Dublin USD,CA,2025,CAASPP,4,English Only,610,76.9,workbook
+Dublin USD,CA,2025,CAASPP,5,All,987,81.4,workbook
+Dublin USD,CA,2025,CAASPP,5,Female,508,79.7,workbook
+Dublin USD,CA,2025,CAASPP,5,Male,478,83.2,workbook
+Dublin USD,CA,2025,CAASPP,5,EconDis,167,65.3,workbook
+Dublin USD,CA,2025,CAASPP,5,Black,20,55.0,workbook
+Dublin USD,CA,2025,CAASPP,5,Asian,620,88.0,workbook
+Dublin USD,CA,2025,CAASPP,5,Filipino,32,87.5,workbook
+Dublin USD,CA,2025,CAASPP,5,Hispanic,95,52.6,workbook
+Dublin USD,CA,2025,CAASPP,5,White,145,75.2,workbook
+Dublin USD,CA,2025,CAASPP,5,Non-SWD,908,86.0,workbook
+Dublin USD,CA,2025,CAASPP,5,Not-EconDis,820,84.7,workbook
+Dublin USD,CA,2025,CAASPP,5,SWD,79,28.2,workbook
+Dublin USD,CA,2025,CAASPP,5,Two or More Races,73,80.8,workbook
+Dublin USD,CA,2025,CAASPP,5,EL,37,24.3,workbook
+Dublin USD,CA,2025,CAASPP,5,English Only,586,81.4,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,All,908,73.0,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Female,450,71.6,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Male,458,74.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,EconDis,247,63.2,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Asian,619,77.2,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Filipino,53,75.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Hispanic,165,56.4,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,White,17,70.6,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Non-SWD,840,76.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Not-EconDis,661,76.7,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,SWD,68,25.0,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,Two or More Races,46,76.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,EL,162,42.6,workbook
+Walnut Valley USD,CA,2025,CAASPP,3,English Only,438,71.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,All,980,69.6,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Female,534,66.3,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Male,446,73.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,EconDis,291,60.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Black,11,54.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Asian,669,75.3,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Filipino,56,78.6,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Hispanic,173,49.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,White,31,58.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Non-SWD,898,72.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Not-EconDis,689,73.4,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,SWD,82,32.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,Two or More Races,37,62.2,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,EL,148,20.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,4,English Only,419,66.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,All,1040,75.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Female,533,74.5,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Male,507,75.7,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,EconDis,278,64.0,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Asian,709,81.0,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Filipino,54,88.9,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Hispanic,201,50.8,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,White,30,63.3,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Non-SWD,964,79.2,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Not-EconDis,762,79.1,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,SWD,76,23.7,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,Two or More Races,37,89.2,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,EL,135,20.7,workbook
+Walnut Valley USD,CA,2025,CAASPP,5,English Only,450,72.2,workbook
+Palo Alto USD,CA,2025,CAASPP,3,All,698,76.6,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Female,373,74.2,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Male,325,79.4,workbook
+Palo Alto USD,CA,2025,CAASPP,3,EconDis,106,44.3,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Black,15,71.4,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Asian,285,87.4,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Hispanic,129,44.2,workbook
+Palo Alto USD,CA,2025,CAASPP,3,White,175,79.4,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Non-SWD,615,81.8,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Not-EconDis,592,82.4,workbook
+Palo Alto USD,CA,2025,CAASPP,3,SWD,83,37.8,workbook
+Palo Alto USD,CA,2025,CAASPP,3,Two or More Races,87,85.1,workbook
+Palo Alto USD,CA,2025,CAASPP,3,EL,87,36.8,workbook
+Palo Alto USD,CA,2025,CAASPP,3,English Only,390,78.4,workbook
+Palo Alto USD,CA,2025,CAASPP,4,All,712,81.9,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Female,378,79.6,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Male,334,84.4,workbook
+Palo Alto USD,CA,2025,CAASPP,4,EconDis,106,45.3,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Black,11,45.5,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Asian,300,92.3,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Hispanic,118,50.0,workbook
+Palo Alto USD,CA,2025,CAASPP,4,White,195,84.6,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Non-SWD,636,85.2,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Not-EconDis,606,88.3,workbook
+Palo Alto USD,CA,2025,CAASPP,4,SWD,76,54.0,workbook
+Palo Alto USD,CA,2025,CAASPP,4,Two or More Races,78,92.3,workbook
+Palo Alto USD,CA,2025,CAASPP,4,EL,68,33.8,workbook
+Palo Alto USD,CA,2025,CAASPP,4,English Only,405,84.4,workbook
+Palo Alto USD,CA,2025,CAASPP,5,All,698,84.1,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Female,348,82.5,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Male,350,85.7,workbook
+Palo Alto USD,CA,2025,CAASPP,5,EconDis,86,45.4,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Asian,324,90.7,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Hispanic,98,56.1,workbook
+Palo Alto USD,CA,2025,CAASPP,5,White,183,90.2,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Non-SWD,627,88.2,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Not-EconDis,612,89.5,workbook
+Palo Alto USD,CA,2025,CAASPP,5,SWD,71,47.9,workbook
+Palo Alto USD,CA,2025,CAASPP,5,Two or More Races,65,86.2,workbook
+Palo Alto USD,CA,2025,CAASPP,5,EL,48,18.8,workbook
+Palo Alto USD,CA,2025,CAASPP,5,English Only,399,86.5,workbook
+Milpitas USD,CA,2025,CAASPP,3,All,750,64.9,workbook
+Milpitas USD,CA,2025,CAASPP,3,Female,381,58.5,workbook
+Milpitas USD,CA,2025,CAASPP,3,Male,369,71.5,workbook
+Milpitas USD,CA,2025,CAASPP,3,EconDis,280,45.7,workbook
+Milpitas USD,CA,2025,CAASPP,3,Black,15,26.7,workbook
+Milpitas USD,CA,2025,CAASPP,3,Asian,429,77.9,workbook
+Milpitas USD,CA,2025,CAASPP,3,Filipino,89,58.4,workbook
+Milpitas USD,CA,2025,CAASPP,3,Hispanic,140,32.1,workbook
+Milpitas USD,CA,2025,CAASPP,3,White,36,72.2,workbook
+Milpitas USD,CA,2025,CAASPP,3,Non-SWD,682,69.3,workbook
+Milpitas USD,CA,2025,CAASPP,3,Not-EconDis,470,76.4,workbook
+Milpitas USD,CA,2025,CAASPP,3,SWD,68,20.6,workbook
+Milpitas USD,CA,2025,CAASPP,3,Two or More Races,35,65.7,workbook
+Milpitas USD,CA,2025,CAASPP,3,EL,191,36.6,workbook
+Milpitas USD,CA,2025,CAASPP,3,English Only,341,67.7,workbook
+Milpitas USD,CA,2025,CAASPP,4,All,785,66.8,workbook
+Milpitas USD,CA,2025,CAASPP,4,Female,409,63.0,workbook
+Milpitas USD,CA,2025,CAASPP,4,Male,376,71.0,workbook
+Milpitas USD,CA,2025,CAASPP,4,EconDis,289,43.8,workbook
+Milpitas USD,CA,2025,CAASPP,4,Black,11,36.4,workbook
+Milpitas USD,CA,2025,CAASPP,4,Asian,445,79.5,workbook
+Milpitas USD,CA,2025,CAASPP,4,Filipino,80,62.5,workbook
+Milpitas USD,CA,2025,CAASPP,4,Hispanic,157,35.7,workbook
+Milpitas USD,CA,2025,CAASPP,4,White,35,71.4,workbook
+Milpitas USD,CA,2025,CAASPP,4,Non-SWD,716,71.7,workbook
+Milpitas USD,CA,2025,CAASPP,4,Not-EconDis,496,80.2,workbook
+Milpitas USD,CA,2025,CAASPP,4,SWD,69,16.2,workbook
+Milpitas USD,CA,2025,CAASPP,4,Two or More Races,55,63.0,workbook
+Milpitas USD,CA,2025,CAASPP,4,EL,157,19.8,workbook
+Milpitas USD,CA,2025,CAASPP,4,English Only,349,68.1,workbook
+Milpitas USD,CA,2025,CAASPP,5,All,787,69.6,workbook
+Milpitas USD,CA,2025,CAASPP,5,Female,405,65.8,workbook
+Milpitas USD,CA,2025,CAASPP,5,Male,382,73.6,workbook
+Milpitas USD,CA,2025,CAASPP,5,EconDis,314,53.2,workbook
+Milpitas USD,CA,2025,CAASPP,5,Black,14,35.7,workbook
+Milpitas USD,CA,2025,CAASPP,5,Asian,455,84.1,workbook
+Milpitas USD,CA,2025,CAASPP,5,Filipino,85,76.5,workbook
+Milpitas USD,CA,2025,CAASPP,5,Hispanic,144,27.1,workbook
+Milpitas USD,CA,2025,CAASPP,5,White,24,70.8,workbook
+Milpitas USD,CA,2025,CAASPP,5,Non-SWD,706,74.8,workbook
+Milpitas USD,CA,2025,CAASPP,5,Not-EconDis,473,80.5,workbook
+Milpitas USD,CA,2025,CAASPP,5,SWD,81,24.7,workbook
+Milpitas USD,CA,2025,CAASPP,5,Two or More Races,58,62.1,workbook
+Milpitas USD,CA,2025,CAASPP,5,EL,127,23.8,workbook
+Milpitas USD,CA,2025,CAASPP,5,English Only,342,68.4,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,All,686,72.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,White,111,60.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,Hispanic,27,48.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,Black,30,33.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,Female,330,75.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,Male,356,69.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,EconDis,653,74.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,SWD,62,37.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,3,Non-SWD,624,75.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,All,752,71.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,White,106,70.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,Hispanic,35,31.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,Black,29,31.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,Female,388,76.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,Male,364,66.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,EconDis,722,73.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,SWD,79,33.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,4,Non-SWD,673,76.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,All,734,78.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,White,114,68.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Hispanic,,60.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Black,,37.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Two or More Races,10,60.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Female,349,83.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Male,385,74.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,EconDis,,80.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,SWD,76,26.0,workbook
+West Windsor-Plainsboro,NJ,2019,NJSLA,5,Non-SWD,658,84.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,All,596,66.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,White,,55.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Hispanic,29,31.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Black,32,34.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Asian,418,74.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Two or More Races,,61.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Female,,67.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Male,,65.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,EconDis,35,46.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Not-EconDis,561,68.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,SWD,36,39.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,3,Non-SWD,560,68.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,All,655,68.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,White,85,53.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Hispanic,27,33.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Black,31,23.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Asian,492,75.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Two or More Races,,67.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Female,,74.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Male,,63.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,EconDis,39,31.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Not-EconDis,616,70.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,SWD,75,11.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,4,Non-SWD,580,75.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,All,688,73.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,White,87,54.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Hispanic,33,48.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Black,30,20.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Asian,523,81.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Two or More Races,,73.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Female,,78.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Male,,69.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,EconDis,51,45.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Not-EconDis,637,75.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,SWD,68,26.0,workbook
+West Windsor-Plainsboro,NJ,2022,NJSLA,5,Non-SWD,620,78.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,All,609,59.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,White,84,49.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Hispanic,40,33.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Black,29,41.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Asian,,65.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Two or More Races,,52.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Female,,68.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Male,,52.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,EconDis,38,11.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Not-EconDis,571,63.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,SWD,48,10.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,3,Non-SWD,561,63.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,All,636,74.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,White,80,64.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Hispanic,,40.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Black,,47.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Asian,463,80.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Two or More Races,,67.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Female,,74.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Male,,73.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,EconDis,39,38.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Not-EconDis,597,76.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,SWD,48,33.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,4,Non-SWD,588,77.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,All,669,81.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,White,83,72.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Hispanic,25,52.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Black,32,41.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Asian,508,87.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Two or More Races,,79.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Female,,85.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Male,,78.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,EconDis,34,32.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Not-EconDis,635,84.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,SWD,72,19.0,workbook
+West Windsor-Plainsboro,NJ,2023,NJSLA,5,Non-SWD,597,89.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,All,573,59.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,White,73,47.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Hispanic,33,27.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Black,,36.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Asian,,66.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Two or More Races,35,51.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Female,,66.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Male,,54.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,EconDis,37,19.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Not-EconDis,536,62.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,SWD,47,17.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Non-SWD,526,63.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,3,Non-ML,549,61.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,All,621,66.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,White,84,50.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Hispanic,31,39.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Black,29,31.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Asian,451,73.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Two or More Races,,58.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Female,,72.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Male,,60.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,EconDis,44,16.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Not-EconDis,577,69.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,SWD,57,18.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Non-SWD,564,71.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,4,Non-ML,,68.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,All,670,77.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,White,84,60.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Hispanic,,46.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Black,,50.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Asian,494,83.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Two or More Races,31,81.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Female,,81.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Male,,72.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,EconDis,42,31.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Not-EconDis,628,80.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,SWD,49,20.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Non-SWD,621,81.0,workbook
+West Windsor-Plainsboro,NJ,2024,NJSLA,5,Non-ML,,79.0,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,All,592,63.4,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,White,58,55.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Black,32,31.2,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Asian,416,67.8,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Hispanic,37,45.9,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Two or More Races,42,71.4,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Male,290,60.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Female,302,66.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,SWD,57,21.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,EL,97,40.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,EL,31,22.6,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Former ML,66,48.5,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,EconDis,57,26.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,Not-EconDis,535,67.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,3,SE Accommodation,21,19.0,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,All,608,71.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,White,66,62.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Black,30,43.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Asian,433,78.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Hispanic,38,34.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Two or More Races,36,63.9,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Male,348,67.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Female,260,76.1,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,SWD,49,24.4,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,EL,81,44.5,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,EL,22,13.6,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Former ML,59,56.0,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,EconDis,58,31.0,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,Not-EconDis,550,75.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,4,SE Accommodation,40,12.5,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,All,641,73.5,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,White,84,59.6,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Black,25,52.0,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Asian,461,79.2,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Hispanic,36,52.7,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Two or More Races,32,68.7,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Male,332,69.6,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Female,309,77.7,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,SWD,58,22.4,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,EL,69,44.9,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Former ML,56,55.3,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,EconDis,54,38.9,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,Not-EconDis,587,76.7,workbook
+West Windsor-Plainsboro,NJ,2025,NJSLA,5,SE Accommodation,53,17.0,workbook
+Coppell ISD,TX,2019,STAAR,3,All,,70.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Black,,36.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Hispanic,,53.0,workbook
+Coppell ISD,TX,2019,STAAR,3,White,,68.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Asian,,80.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Two or More Races,,52.0,workbook
+Coppell ISD,TX,2019,STAAR,3,SWD,,38.0,workbook
+Coppell ISD,TX,2019,STAAR,3,SWD (Former),,35.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Continuously Enrolled,,72.0,workbook
+Coppell ISD,TX,2019,STAAR,3,Non-Continuously Enrolled,,67.0,workbook
+Coppell ISD,TX,2019,STAAR,3,EconDis,,39.0,workbook
+Coppell ISD,TX,2019,STAAR,3,EL,,62.0,workbook
+Coppell ISD,TX,2019,STAAR,4,All,,73.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Black,,43.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Hispanic,,51.0,workbook
+Coppell ISD,TX,2019,STAAR,4,White,,71.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Asian,,82.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Two or More Races,,77.0,workbook
+Coppell ISD,TX,2019,STAAR,4,SWD,,35.0,workbook
+Coppell ISD,TX,2019,STAAR,4,SWD (Former),,50.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Continuously Enrolled,,75.0,workbook
+Coppell ISD,TX,2019,STAAR,4,Non-Continuously Enrolled,,69.0,workbook
+Coppell ISD,TX,2019,STAAR,4,EconDis,,48.0,workbook
+Coppell ISD,TX,2019,STAAR,4,EL,,64.0,workbook
+Coppell ISD,TX,2019,STAAR,5,All,,83.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Black,,69.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Hispanic,,70.0,workbook
+Coppell ISD,TX,2019,STAAR,5,White,,78.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Asian,,90.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Two or More Races,,63.0,workbook
+Coppell ISD,TX,2019,STAAR,5,SWD,,37.0,workbook
+Coppell ISD,TX,2019,STAAR,5,SWD (Former),,78.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Continuously Enrolled,,85.0,workbook
+Coppell ISD,TX,2019,STAAR,5,Non-Continuously Enrolled,,79.0,workbook
+Coppell ISD,TX,2019,STAAR,5,EconDis,,66.0,workbook
+Coppell ISD,TX,2019,STAAR,5,EL,,76.0,workbook
+Coppell ISD,TX,2022,STAAR,3,All,,74.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Black,,43.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Hispanic,,50.0,workbook
+Coppell ISD,TX,2022,STAAR,3,White,,77.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Asian,,81.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Two or More Races,,76.0,workbook
+Coppell ISD,TX,2022,STAAR,3,SWD,,36.0,workbook
+Coppell ISD,TX,2022,STAAR,3,SWD (Former),,64.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Continuously Enrolled,,74.0,workbook
+Coppell ISD,TX,2022,STAAR,3,Non-Continuously Enrolled,,73.0,workbook
+Coppell ISD,TX,2022,STAAR,3,EconDis,,48.0,workbook
+Coppell ISD,TX,2022,STAAR,3,EL,,59.0,workbook
+Coppell ISD,TX,2022,STAAR,4,All,,78.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Black,,60.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Hispanic,,46.0,workbook
+Coppell ISD,TX,2022,STAAR,4,White,,71.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Asian,,89.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Two or More Races,,85.0,workbook
+Coppell ISD,TX,2022,STAAR,4,SWD,,50.0,workbook
+Coppell ISD,TX,2022,STAAR,4,SWD (Former),,86.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Continuously Enrolled,,81.0,workbook
+Coppell ISD,TX,2022,STAAR,4,Non-Continuously Enrolled,,71.0,workbook
+Coppell ISD,TX,2022,STAAR,4,EconDis,,46.0,workbook
+Coppell ISD,TX,2022,STAAR,4,EL,,72.0,workbook
+Coppell ISD,TX,2022,STAAR,5,All,,83.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Black,,60.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Hispanic,,59.0,workbook
+Coppell ISD,TX,2022,STAAR,5,White,,81.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Asian,,91.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Two or More Races,,65.0,workbook
+Coppell ISD,TX,2022,STAAR,5,SWD,,46.0,workbook
+Coppell ISD,TX,2022,STAAR,5,SWD (Former),,76.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Continuously Enrolled,,84.0,workbook
+Coppell ISD,TX,2022,STAAR,5,Non-Continuously Enrolled,,80.0,workbook
+Coppell ISD,TX,2022,STAAR,5,EconDis,,58.0,workbook
+Coppell ISD,TX,2022,STAAR,5,EL,,80.0,workbook
+Coppell ISD,TX,2023,STAAR,3,All,,76.0,workbook
+Coppell ISD,TX,2023,STAAR,3,Black,,50.0,workbook
+Coppell ISD,TX,2023,STAAR,3,Hispanic,,53.0,workbook
+Coppell ISD,TX,2023,STAAR,3,White,,74.0,workbook
+Coppell ISD,TX,2023,STAAR,3,American Indian,,60.0,workbook
+Coppell ISD,TX,2023,STAAR,3,Asian,,86.0,workbook
+Coppell ISD,TX,2023,STAAR,3,SWD,,44.0,workbook
+Coppell ISD,TX,2023,STAAR,3,SWD (Former),,92.0,workbook
+Coppell ISD,TX,2023,STAAR,3,Continuously Enrolled,,78.0,workbook
+Coppell ISD,TX,2023,STAAR,3,Non-Continuously Enrolled,,74.0,workbook
+Coppell ISD,TX,2023,STAAR,3,EconDis,,36.0,workbook
+Coppell ISD,TX,2023,STAAR,3,EL,,67.0,workbook
+Coppell ISD,TX,2023,STAAR,4,All,,77.0,workbook
+Coppell ISD,TX,2023,STAAR,4,Black,,39.0,workbook
+Coppell ISD,TX,2023,STAAR,4,Hispanic,,60.0,workbook
+Coppell ISD,TX,2023,STAAR,4,White,,72.0,workbook
+Coppell ISD,TX,2023,STAAR,4,Asian,,86.0,workbook
+Coppell ISD,TX,2023,STAAR,4,SWD,,42.0,workbook
+Coppell ISD,TX,2023,STAAR,4,SWD (Former),,73.0,workbook
+Coppell ISD,TX,2023,STAAR,4,Continuously Enrolled,,77.0,workbook
+Coppell ISD,TX,2023,STAAR,4,Non-Continuously Enrolled,,77.0,workbook
+Coppell ISD,TX,2023,STAAR,4,EconDis,,46.0,workbook
+Coppell ISD,TX,2023,STAAR,4,EL,,60.0,workbook
+Coppell ISD,TX,2023,STAAR,5,All,,85.0,workbook
+Coppell ISD,TX,2023,STAAR,5,Black,,73.0,workbook
+Coppell ISD,TX,2023,STAAR,5,Hispanic,,62.0,workbook
+Coppell ISD,TX,2023,STAAR,5,White,,80.0,workbook
+Coppell ISD,TX,2023,STAAR,5,Asian,,93.0,workbook
+Coppell ISD,TX,2023,STAAR,5,SWD,,52.0,workbook
+Coppell ISD,TX,2023,STAAR,5,SWD (Former),,88.0,workbook
+Coppell ISD,TX,2023,STAAR,5,Continuously Enrolled,,86.0,workbook
+Coppell ISD,TX,2023,STAAR,5,Non-Continuously Enrolled,,84.0,workbook
+Coppell ISD,TX,2023,STAAR,5,EconDis,,54.0,workbook
+Coppell ISD,TX,2023,STAAR,5,EL,,74.0,workbook
+Coppell ISD,TX,2024,STAAR,3,All,,73.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Black,,36.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Hispanic,,52.0,workbook
+Coppell ISD,TX,2024,STAAR,3,White,,67.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Asian,,84.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Two or More Races,,59.0,workbook
+Coppell ISD,TX,2024,STAAR,3,SWD,,40.0,workbook
+Coppell ISD,TX,2024,STAAR,3,SWD (Former),,57.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Continuously Enrolled,,73.0,workbook
+Coppell ISD,TX,2024,STAAR,3,Non-Continuously Enrolled,,74.0,workbook
+Coppell ISD,TX,2024,STAAR,3,EconDis,,40.0,workbook
+Coppell ISD,TX,2024,STAAR,3,EL,,70.0,workbook
+Coppell ISD,TX,2024,STAAR,4,All,,79.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Black,,51.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Hispanic,,61.0,workbook
+Coppell ISD,TX,2024,STAAR,4,White,,72.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Asian,,87.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Two or More Races,,84.0,workbook
+Coppell ISD,TX,2024,STAAR,4,SWD,,44.0,workbook
+Coppell ISD,TX,2024,STAAR,4,SWD (Former),,86.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Continuously Enrolled,,79.0,workbook
+Coppell ISD,TX,2024,STAAR,4,Non-Continuously Enrolled,,78.0,workbook
+Coppell ISD,TX,2024,STAAR,4,EconDis,,40.0,workbook
+Coppell ISD,TX,2024,STAAR,4,EL,,71.0,workbook
+Coppell ISD,TX,2024,STAAR,5,All,,83.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Black,,53.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Hispanic,,69.0,workbook
+Coppell ISD,TX,2024,STAAR,5,White,,76.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Asian,,91.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Two or More Races,,93.0,workbook
+Coppell ISD,TX,2024,STAAR,5,SWD,,47.0,workbook
+Coppell ISD,TX,2024,STAAR,5,SWD (Former),,85.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Continuously Enrolled,,82.0,workbook
+Coppell ISD,TX,2024,STAAR,5,Non-Continuously Enrolled,,85.0,workbook
+Coppell ISD,TX,2024,STAAR,5,EconDis,,52.0,workbook
+Coppell ISD,TX,2024,STAAR,5,EL,,76.0,workbook
+Coppell ISD,TX,2025,STAAR,3,All,,78.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Black,,59.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Hispanic,,57.0,workbook
+Coppell ISD,TX,2025,STAAR,3,White,,74.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Asian,,87.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Two or More Races,,79.0,workbook
+Coppell ISD,TX,2025,STAAR,3,SWD,,45.0,workbook
+Coppell ISD,TX,2025,STAAR,3,SWD (Former),,88.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Continuously Enrolled,,78.0,workbook
+Coppell ISD,TX,2025,STAAR,3,Non-Continuously Enrolled,,78.0,workbook
+Coppell ISD,TX,2025,STAAR,3,EconDis,,49.0,workbook
+Coppell ISD,TX,2025,STAAR,3,EL,,77.0,workbook
+Coppell ISD,TX,2025,STAAR,4,All,,80.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Black,,37.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Hispanic,,65.0,workbook
+Coppell ISD,TX,2025,STAAR,4,White,,74.0,workbook
+Coppell ISD,TX,2025,STAAR,4,American Indian,,100.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Asian,,89.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Two or More Races,,74.0,workbook
+Coppell ISD,TX,2025,STAAR,4,SWD,,42.0,workbook
+Coppell ISD,TX,2025,STAAR,4,SWD (Former),,84.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Continuously Enrolled,,80.0,workbook
+Coppell ISD,TX,2025,STAAR,4,Non-Continuously Enrolled,,80.0,workbook
+Coppell ISD,TX,2025,STAAR,4,EconDis,,45.0,workbook
+Coppell ISD,TX,2025,STAAR,4,EL,,79.0,workbook
+Coppell ISD,TX,2025,STAAR,5,All,,83.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Black,,64.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Hispanic,,68.0,workbook
+Coppell ISD,TX,2025,STAAR,5,White,,76.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Asian,,90.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Two or More Races,,91.0,workbook
+Coppell ISD,TX,2025,STAAR,5,SWD,,48.0,workbook
+Coppell ISD,TX,2025,STAAR,5,SWD (Former),,91.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Continuously Enrolled,,85.0,workbook
+Coppell ISD,TX,2025,STAAR,5,Non-Continuously Enrolled,,78.0,workbook
+Coppell ISD,TX,2025,STAAR,5,EconDis,,47.0,workbook
+Coppell ISD,TX,2025,STAAR,5,EL,,74.0,workbook
+Troy SD,MI,2019,M-STEP,5,All,962,74.4,workbook
+Troy SD,MI,2019,M-STEP,5,Non-SWD,854,80.7,workbook
+Troy SD,MI,2019,M-STEP,4,SWD,69,36.2,workbook
+Troy SD,MI,2019,M-STEP,4,Non-EL,659,83.2,workbook
+Troy SD,MI,2019,M-STEP,4,EL,193,56.0,workbook
+Troy SD,MI,2019,M-STEP,4,Female,418,77.3,workbook
+Troy SD,MI,2019,M-STEP,4,Male,434,76.7,workbook
+Troy SD,MI,2019,M-STEP,4,Asian,336,86.6,workbook
+Troy SD,MI,2019,M-STEP,4,White,436,73.2,workbook
+Troy SD,MI,2019,M-STEP,4,Black,34,47.1,workbook
+Troy SD,MI,2019,M-STEP,4,Not-EconDis,717,82.0,workbook
+Troy SD,MI,2019,M-STEP,4,EconDis,135,50.4,workbook
+Troy SD,MI,2019,M-STEP,4,All,852,77.0,workbook
+Troy SD,MI,2019,M-STEP,4,Non-SWD,783,80.6,workbook
+Troy SD,MI,2019,M-STEP,5,SWD,108,25.0,workbook
+Troy SD,MI,2019,M-STEP,5,Non-EL,806,79.7,workbook
+Troy SD,MI,2019,M-STEP,5,EL,156,47.4,workbook
+Troy SD,MI,2019,M-STEP,5,Female,455,79.6,workbook
+Troy SD,MI,2019,M-STEP,5,Male,507,69.8,workbook
+Troy SD,MI,2019,M-STEP,5,Asian,389,86.1,workbook
+Troy SD,MI,2019,M-STEP,5,Two or More Races,26,76.9,workbook
+Troy SD,MI,2019,M-STEP,5,White,464,69.8,workbook
+Troy SD,MI,2019,M-STEP,5,Hispanic,32,56.3,workbook
+Troy SD,MI,2019,M-STEP,5,Black,47,38.3,workbook
+Troy SD,MI,2019,M-STEP,5,Not-EconDis,809,78.9,workbook
+Troy SD,MI,2019,M-STEP,5,EconDis,153,51.0,workbook
+Troy SD,MI,2019,M-STEP,3,EconDis,112,44.6,workbook
+Troy SD,MI,2019,M-STEP,3,All,904,74.0,workbook
+Troy SD,MI,2019,M-STEP,3,Non-SWD,833,77.1,workbook
+Troy SD,MI,2019,M-STEP,3,Not-EconDis,792,78.2,workbook
+Troy SD,MI,2019,M-STEP,3,Black,35,37.1,workbook
+Troy SD,MI,2019,M-STEP,3,Hispanic,35,60.0,workbook
+Troy SD,MI,2019,M-STEP,3,SWD,71,38.0,workbook
+Troy SD,MI,2019,M-STEP,3,Non-EL,673,77.7,workbook
+Troy SD,MI,2019,M-STEP,3,EL,231,63.2,workbook
+Troy SD,MI,2019,M-STEP,3,Female,429,76.2,workbook
+Troy SD,MI,2019,M-STEP,3,Male,475,72.0,workbook
+Troy SD,MI,2019,M-STEP,3,Asian,360,80.3,workbook
+Troy SD,MI,2019,M-STEP,3,Two or More Races,22,68.2,workbook
+Troy SD,MI,2019,M-STEP,3,White,447,73.4,workbook
+Troy SD,MI,2021,M-STEP,4,Non-SWD,664,72.7,workbook
+Troy SD,MI,2021,M-STEP,5,Non-SWD,614,71.7,workbook
+Troy SD,MI,2021,M-STEP,5,All,662,67.5,workbook
+Troy SD,MI,2021,M-STEP,5,EconDis,75,34.7,workbook
+Troy SD,MI,2021,M-STEP,5,Not-EconDis,587,71.7,workbook
+Troy SD,MI,2021,M-STEP,5,Hispanic,29,44.8,workbook
+Troy SD,MI,2021,M-STEP,5,White,347,63.1,workbook
+Troy SD,MI,2021,M-STEP,5,Asian,244,81.6,workbook
+Troy SD,MI,2021,M-STEP,5,Male,358,62.0,workbook
+Troy SD,MI,2021,M-STEP,5,Female,304,74.0,workbook
+Troy SD,MI,2021,M-STEP,5,EL,62,37.1,workbook
+Troy SD,MI,2021,M-STEP,5,Non-EL,600,70.7,workbook
+Troy SD,MI,2021,M-STEP,3,SWD,42,33.3,workbook
+Troy SD,MI,2021,M-STEP,3,Asian,198,76.3,workbook
+Troy SD,MI,2021,M-STEP,3,Two or More Races,21,66.7,workbook
+Troy SD,MI,2021,M-STEP,3,White,345,63.2,workbook
+Troy SD,MI,2021,M-STEP,3,Hispanic,21,52.4,workbook
+Troy SD,MI,2021,M-STEP,3,Black,28,50.0,workbook
+Troy SD,MI,2021,M-STEP,3,Not-EconDis,541,69.9,workbook
+Troy SD,MI,2021,M-STEP,3,EconDis,77,42.9,workbook
+Troy SD,MI,2021,M-STEP,3,Non-EL,477,73.2,workbook
+Troy SD,MI,2021,M-STEP,3,EL,141,44.0,workbook
+Troy SD,MI,2021,M-STEP,3,Female,315,69.5,workbook
+Troy SD,MI,2021,M-STEP,3,Male,303,63.4,workbook
+Troy SD,MI,2021,M-STEP,3,All,618,66.5,workbook
+Troy SD,MI,2021,M-STEP,3,Non-SWD,576,68.9,workbook
+Troy SD,MI,2021,M-STEP,5,SWD,48,14.6,workbook
+Troy SD,MI,2021,M-STEP,4,All,697,70.4,workbook
+Troy SD,MI,2021,M-STEP,4,EconDis,78,38.5,workbook
+Troy SD,MI,2021,M-STEP,4,Not-EconDis,619,74.5,workbook
+Troy SD,MI,2021,M-STEP,4,Black,25,32.0,workbook
+Troy SD,MI,2021,M-STEP,4,Hispanic,32,56.3,workbook
+Troy SD,MI,2021,M-STEP,4,SWD,33,24.2,workbook
+Troy SD,MI,2021,M-STEP,4,Non-EL,556,73.9,workbook
+Troy SD,MI,2021,M-STEP,4,EL,141,56.7,workbook
+Troy SD,MI,2021,M-STEP,4,Female,350,72.0,workbook
+Troy SD,MI,2021,M-STEP,4,Male,347,68.9,workbook
+Troy SD,MI,2021,M-STEP,4,Asian,247,83.4,workbook
+Troy SD,MI,2021,M-STEP,4,Two or More Races,20,60.0,workbook
+Troy SD,MI,2021,M-STEP,4,White,370,65.9,workbook
+Troy SD,MI,2022,M-STEP,3,All,824,69.1,workbook
+Troy SD,MI,2022,M-STEP,5,Non-EL,772,77.8,workbook
+Troy SD,MI,2022,M-STEP,5,SWD,60,30.0,workbook
+Troy SD,MI,2022,M-STEP,4,EL,237,57.8,workbook
+Troy SD,MI,2022,M-STEP,4,Non-EL,642,80.7,workbook
+Troy SD,MI,2022,M-STEP,4,SWD,70,32.9,workbook
+Troy SD,MI,2022,M-STEP,4,All,879,74.5,workbook
+Troy SD,MI,2022,M-STEP,4,Not-EconDis,729,77.8,workbook
+Troy SD,MI,2022,M-STEP,4,Female,429,76.5,workbook
+Troy SD,MI,2022,M-STEP,4,Male,450,72.7,workbook
+Troy SD,MI,2022,M-STEP,4,Non-SWD,809,78.1,workbook
+Troy SD,MI,2022,M-STEP,5,EL,149,45.6,workbook
+Troy SD,MI,2022,M-STEP,5,All,921,72.6,workbook
+Troy SD,MI,2022,M-STEP,5,EconDis,146,45.2,workbook
+Troy SD,MI,2022,M-STEP,5,Not-EconDis,775,77.8,workbook
+Troy SD,MI,2022,M-STEP,4,EconDis,150,58.7,workbook
+Troy SD,MI,2022,M-STEP,4,Asian,344,82.3,workbook
+Troy SD,MI,2022,M-STEP,3,SWD,60,30.0,workbook
+Troy SD,MI,2022,M-STEP,4,Two or More Races,33,81.8,workbook
+Troy SD,MI,2022,M-STEP,4,White,432,70.6,workbook
+Troy SD,MI,2022,M-STEP,4,Hispanic,28,75.0,workbook
+Troy SD,MI,2022,M-STEP,4,Black,38,44.7,workbook
+Troy SD,MI,2022,M-STEP,5,Non-SWD,861,75.6,workbook
+Troy SD,MI,2022,M-STEP,5,Female,473,74.6,workbook
+Troy SD,MI,2022,M-STEP,5,Male,448,70.5,workbook
+Troy SD,MI,2022,M-STEP,5,Asian,352,84.4,workbook
+Troy SD,MI,2022,M-STEP,5,Two or More Races,38,57.9,workbook
+Troy SD,MI,2022,M-STEP,5,White,436,69.5,workbook
+Troy SD,MI,2022,M-STEP,5,Hispanic,42,61.9,workbook
+Troy SD,MI,2022,M-STEP,5,Black,49,34.7,workbook
+Troy SD,MI,2022,M-STEP,3,Non-SWD,764,72.1,workbook
+Troy SD,MI,2022,M-STEP,3,EconDis,140,49.3,workbook
+Troy SD,MI,2022,M-STEP,3,Not-EconDis,684,73.1,workbook
+Troy SD,MI,2022,M-STEP,3,Black,32,37.5,workbook
+Troy SD,MI,2022,M-STEP,3,Hispanic,39,51.3,workbook
+Troy SD,MI,2022,M-STEP,3,White,371,65.2,workbook
+Troy SD,MI,2022,M-STEP,3,Two or More Races,28,67.9,workbook
+Troy SD,MI,2022,M-STEP,3,Asian,353,77.9,workbook
+Troy SD,MI,2022,M-STEP,3,Male,431,68.0,workbook
+Troy SD,MI,2022,M-STEP,3,Female,393,70.2,workbook
+Troy SD,MI,2022,M-STEP,3,EL,216,47.7,workbook
+Troy SD,MI,2022,M-STEP,3,Non-EL,608,76.6,workbook
+Troy SD,MI,2023,M-STEP,4,Male,451,73.6,workbook
+Troy SD,MI,2023,M-STEP,4,Asian,361,82.3,workbook
+Troy SD,MI,2023,M-STEP,4,Two or More Races,29,69.0,workbook
+Troy SD,MI,2023,M-STEP,4,White,367,71.9,workbook
+Troy SD,MI,2023,M-STEP,4,Hispanic,47,57.4,workbook
+Troy SD,MI,2023,M-STEP,4,Black,40,45.0,workbook
+Troy SD,MI,2023,M-STEP,4,Not-EconDis,698,79.1,workbook
+Troy SD,MI,2023,M-STEP,4,EconDis,147,51.0,workbook
+Troy SD,MI,2023,M-STEP,4,Non-SWD,768,78.8,workbook
+Troy SD,MI,2023,M-STEP,3,Non-SWD,748,69.7,workbook
+Troy SD,MI,2023,M-STEP,3,EL,217,53.0,workbook
+Troy SD,MI,2023,M-STEP,3,Female,390,71.0,workbook
+Troy SD,MI,2023,M-STEP,3,Male,423,61.2,workbook
+Troy SD,MI,2023,M-STEP,4,All,845,74.2,workbook
+Troy SD,MI,2023,M-STEP,5,All,919,71.1,workbook
+Troy SD,MI,2023,M-STEP,5,Non-SWD,850,74.6,workbook
+Troy SD,MI,2023,M-STEP,5,EconDis,155,51.6,workbook
+Troy SD,MI,2023,M-STEP,5,Not-EconDis,764,75.0,workbook
+Troy SD,MI,2023,M-STEP,5,Asian,373,83.1,workbook
+Troy SD,MI,2023,M-STEP,5,Two or More Races,34,79.4,workbook
+Troy SD,MI,2023,M-STEP,5,White,433,64.0,workbook
+Troy SD,MI,2023,M-STEP,5,Hispanic,37,56.8,workbook
+Troy SD,MI,2023,M-STEP,5,Black,40,42.5,workbook
+Troy SD,MI,2023,M-STEP,3,Non-EL,596,70.6,workbook
+Troy SD,MI,2023,M-STEP,3,EconDis,142,41.5,workbook
+Troy SD,MI,2023,M-STEP,3,Asian,286,78.7,workbook
+Troy SD,MI,2023,M-STEP,3,All,813,65.9,workbook
+Troy SD,MI,2023,M-STEP,4,SWD,77,28.6,workbook
+Troy SD,MI,2023,M-STEP,4,Non-EL,642,80.8,workbook
+Troy SD,MI,2023,M-STEP,4,EL,203,53.2,workbook
+Troy SD,MI,2023,M-STEP,4,Female,394,74.9,workbook
+Troy SD,MI,2023,M-STEP,3,Not-EconDis,671,71.1,workbook
+Troy SD,MI,2023,M-STEP,3,Two or More Races,65,66.2,workbook
+Troy SD,MI,2023,M-STEP,3,White,376,59.8,workbook
+Troy SD,MI,2023,M-STEP,3,Hispanic,48,58.3,workbook
+Troy SD,MI,2023,M-STEP,3,Black,38,39.5,workbook
+Troy SD,MI,2023,M-STEP,3,SWD,65,23.1,workbook
+Troy SD,MI,2023,M-STEP,5,Non-EL,775,77.0,workbook
+Troy SD,MI,2023,M-STEP,5,EL,144,38.9,workbook
+Troy SD,MI,2023,M-STEP,5,Female,451,75.2,workbook
+Troy SD,MI,2023,M-STEP,5,Male,468,67.1,workbook
+Troy SD,MI,2023,M-STEP,5,SWD,69,27.5,workbook
+Troy SD,MI,2025,M-STEP,5,SWD,82,23.2,workbook
+Troy SD,MI,2025,M-STEP,4,SWD,94,33.0,workbook
+Troy SD,MI,2025,M-STEP,3,Non-EL,592,72.3,workbook
+Troy SD,MI,2025,M-STEP,4,EconDis,149,49.0,workbook
+Troy SD,MI,2025,M-STEP,4,Not-EconDis,684,70.0,workbook
+Troy SD,MI,2025,M-STEP,4,Black,42,35.7,workbook
+Troy SD,MI,2025,M-STEP,3,EL,188,54.3,workbook
+Troy SD,MI,2025,M-STEP,3,All,780,67.9,workbook
+Troy SD,MI,2025,M-STEP,3,Non-SWD,693,73.0,workbook
+Troy SD,MI,2025,M-STEP,5,Non-SWD,777,72.6,workbook
+Troy SD,MI,2025,M-STEP,3,SWD,87,27.6,workbook
+Troy SD,MI,2025,M-STEP,4,Non-SWD,739,70.5,workbook
+Troy SD,MI,2025,M-STEP,3,Female,397,67.5,workbook
+Troy SD,MI,2025,M-STEP,3,Male,383,68.4,workbook
+Troy SD,MI,2025,M-STEP,3,Asian,280,72.9,workbook
+Troy SD,MI,2025,M-STEP,3,Two or More Races,39,61.5,workbook
+Troy SD,MI,2025,M-STEP,3,White,368,70.1,workbook
+Troy SD,MI,2025,M-STEP,3,Hispanic,44,56.8,workbook
+Troy SD,MI,2025,M-STEP,5,Male,446,66.1,workbook
+Troy SD,MI,2025,M-STEP,5,Female,413,69.7,workbook
+Troy SD,MI,2025,M-STEP,5,EL,139,33.8,workbook
+Troy SD,MI,2025,M-STEP,5,Non-EL,720,74.4,workbook
+Troy SD,MI,2025,M-STEP,3,Black,48,37.5,workbook
+Troy SD,MI,2025,M-STEP,3,Not-EconDis,659,72.5,workbook
+Troy SD,MI,2025,M-STEP,3,EconDis,121,43.0,workbook
+Troy SD,MI,2025,M-STEP,5,Hispanic,52,53.8,workbook
+Troy SD,MI,2025,M-STEP,5,White,384,64.6,workbook
+Troy SD,MI,2025,M-STEP,5,Two or More Races,61,70.5,workbook
+Troy SD,MI,2025,M-STEP,5,Asian,317,76.0,workbook
+Troy SD,MI,2025,M-STEP,5,All,859,67.9,workbook
+Troy SD,MI,2025,M-STEP,5,Not-EconDis,734,71.4,workbook
+Troy SD,MI,2025,M-STEP,5,Black,45,51.1,workbook
+Troy SD,MI,2025,M-STEP,5,EconDis,125,47.2,workbook
+Troy SD,MI,2025,M-STEP,4,Non-EL,634,73.0,workbook
+Troy SD,MI,2025,M-STEP,4,EL,199,44.7,workbook
+Troy SD,MI,2025,M-STEP,4,Female,392,70.9,workbook
+Troy SD,MI,2025,M-STEP,4,Male,441,62.1,workbook
+Troy SD,MI,2025,M-STEP,4,Asian,319,71.8,workbook
+Troy SD,MI,2025,M-STEP,4,Hispanic,47,57.4,workbook
+Troy SD,MI,2025,M-STEP,4,White,373,64.9,workbook
+Troy SD,MI,2025,M-STEP,4,Two or More Races,51,74.5,workbook
+Troy SD,MI,2025,M-STEP,4,All,833,66.3,workbook
+Troy SD,MI,2024,M-STEP,3,EL,221,45.7,workbook
+Troy SD,MI,2024,M-STEP,3,Female,375,69.6,workbook
+Troy SD,MI,2024,M-STEP,3,Male,441,57.8,workbook
+Troy SD,MI,2024,M-STEP,3,Asian,312,71.2,workbook
+Troy SD,MI,2024,M-STEP,3,Two or More Races,45,75.6,workbook
+Troy SD,MI,2024,M-STEP,3,White,368,59.5,workbook
+Troy SD,MI,2024,M-STEP,3,Hispanic,46,56.5,workbook
+Troy SD,MI,2024,M-STEP,3,Black,44,31.8,workbook
+Troy SD,MI,2024,M-STEP,4,Two or More Races,62,66.1,workbook
+Troy SD,MI,2024,M-STEP,4,Asian,296,77.4,workbook
+Troy SD,MI,2024,M-STEP,4,Male,432,64.6,workbook
+Troy SD,MI,2024,M-STEP,4,Female,399,69.2,workbook
+Troy SD,MI,2024,M-STEP,4,EL,181,43.1,workbook
+Troy SD,MI,2024,M-STEP,4,Non-EL,650,73.4,workbook
+Troy SD,MI,2024,M-STEP,4,SWD,76,28.9,workbook
+Troy SD,MI,2024,M-STEP,3,Non-SWD,734,67.4,workbook
+Troy SD,MI,2024,M-STEP,3,Not-EconDis,649,68.1,workbook
+Troy SD,MI,2024,M-STEP,3,EconDis,167,44.3,workbook
+Troy SD,MI,2024,M-STEP,3,All,816,63.2,workbook
+Troy SD,MI,2024,M-STEP,4,White,381,63.5,workbook
+Troy SD,MI,2024,M-STEP,4,Hispanic,49,57.1,workbook
+Troy SD,MI,2024,M-STEP,4,Black,43,34.9,workbook
+Troy SD,MI,2024,M-STEP,4,Not-EconDis,690,71.4,workbook
+Troy SD,MI,2024,M-STEP,4,EconDis,141,44.0,workbook
+Troy SD,MI,2024,M-STEP,5,All,887,69.0,workbook
+Troy SD,MI,2024,M-STEP,5,SWD,79,20.3,workbook
+Troy SD,MI,2024,M-STEP,5,Non-EL,749,75.8,workbook
+Troy SD,MI,2024,M-STEP,5,EL,138,31.9,workbook
+Troy SD,MI,2024,M-STEP,5,Female,423,69.3,workbook
+Troy SD,MI,2024,M-STEP,5,Male,464,68.8,workbook
+Troy SD,MI,2024,M-STEP,5,Non-SWD,808,73.8,workbook
+Troy SD,MI,2024,M-STEP,5,EconDis,164,50.0,workbook
+Troy SD,MI,2024,M-STEP,5,Not-EconDis,723,73.3,workbook
+Troy SD,MI,2024,M-STEP,5,Hispanic,55,49.1,workbook
+Troy SD,MI,2024,M-STEP,5,White,375,68.0,workbook
+Troy SD,MI,2024,M-STEP,5,Two or More Races,31,67.7,workbook
+Troy SD,MI,2024,M-STEP,5,Asian,375,77.9,workbook
+Troy SD,MI,2024,M-STEP,4,Non-SWD,755,70.6,workbook
+Troy SD,MI,2024,M-STEP,3,SWD,82,25.6,workbook
+Troy SD,MI,2024,M-STEP,3,Non-EL,595,69.7,workbook
+Troy SD,MI,2024,M-STEP,4,All,831,66.8,workbook
+Bellevue SD,WA,2019,SBA,3,Not-EconDis,,71.4,workbook
+Bellevue SD,WA,2019,SBA,3,Male,,69.2,workbook
+Bellevue SD,WA,2019,SBA,3,SWD,16,68.8,workbook
+Bellevue SD,WA,2019,SBA,3,All,1493,71.7,workbook
+Bellevue SD,WA,2019,SBA,3,EL,243,34.2,workbook
+Bellevue SD,WA,2019,SBA,3,Non-EL,1250,79.0,workbook
+Bellevue SD,WA,2019,SBA,3,Female,,73.5,workbook
+Bellevue SD,WA,2019,SBA,3,Black,,45.7,workbook
+Bellevue SD,WA,2019,SBA,3,White,476,70.8,workbook
+Bellevue SD,WA,2019,SBA,3,Asian,641,83.3,workbook
+Bellevue SD,WA,2019,SBA,3,Hispanic,203,37.4,workbook
+Bellevue SD,WA,2019,SBA,3,EconDis,268,32.5,workbook
+Bellevue SD,WA,2019,SBA,4,SWD,12,41.7,workbook
+Bellevue SD,WA,2019,SBA,4,All,1609,74.1,workbook
+Bellevue SD,WA,2019,SBA,4,EL,229,24.0,workbook
+Bellevue SD,WA,2019,SBA,4,Non-EL,1380,82.4,workbook
+Bellevue SD,WA,2019,SBA,4,Not-EconDis,1296,84.2,workbook
+Bellevue SD,WA,2019,SBA,4,Female,760,75.8,workbook
+Bellevue SD,WA,2019,SBA,4,Black,,46.7,workbook
+Bellevue SD,WA,2019,SBA,4,White,512,75.4,workbook
+Bellevue SD,WA,2019,SBA,4,Male,849,72.6,workbook
+Bellevue SD,WA,2019,SBA,4,EconDis,313,32.3,workbook
+Bellevue SD,WA,2019,SBA,4,Hispanic,203,35.5,workbook
+Bellevue SD,WA,2019,SBA,4,Asian,686,86.2,workbook
+Bellevue SD,WA,2019,SBA,5,SWD,13,61.5,workbook
+Bellevue SD,WA,2019,SBA,5,All,1511,79.7,workbook
+Bellevue SD,WA,2019,SBA,5,EL,157,26.1,workbook
+Bellevue SD,WA,2019,SBA,5,Not-EconDis,1227,87.1,workbook
+Bellevue SD,WA,2019,SBA,5,Female,714,83.9,workbook
+Bellevue SD,WA,2019,SBA,5,Black,,60.0,workbook
+Bellevue SD,WA,2019,SBA,5,White,489,83.8,workbook
+Bellevue SD,WA,2019,SBA,5,EconDis,284,47.5,workbook
+Bellevue SD,WA,2019,SBA,5,Hispanic,172,42.4,workbook
+Bellevue SD,WA,2019,SBA,5,Male,797,75.9,workbook
+Bellevue SD,WA,2019,SBA,5,Asian,663,87.3,workbook
+Bellevue SD,WA,2019,SBA,5,Non-EL,1354,85.9,workbook
+Bellevue SD,WA,2022,SBA,3,All,1299,71.6,workbook
+Bellevue SD,WA,2022,SBA,3,Not-EconDis,,33.3,workbook
+Bellevue SD,WA,2022,SBA,3,Male,,36.4,workbook
+Bellevue SD,WA,2022,SBA,3,SWD,120,31.7,workbook
+Bellevue SD,WA,2022,SBA,3,EL,257,37.7,workbook
+Bellevue SD,WA,2022,SBA,3,Non-EL,1042,79.9,workbook
+Bellevue SD,WA,2022,SBA,3,EconDis,255,32.9,workbook
+Bellevue SD,WA,2022,SBA,3,Female,610,73.8,workbook
+Bellevue SD,WA,2022,SBA,3,Hispanic,182,35.2,workbook
+Bellevue SD,WA,2022,SBA,3,White,322,70.8,workbook
+Bellevue SD,WA,2022,SBA,3,Asian,631,84.2,workbook
+Bellevue SD,WA,2022,SBA,3,Black,42,54.8,workbook
+Bellevue SD,WA,2022,SBA,4,EL,189,26.5,workbook
+Bellevue SD,WA,2022,SBA,4,Non-EL,1137,78.7,workbook
+Bellevue SD,WA,2022,SBA,4,EconDis,251,36.3,workbook
+Bellevue SD,WA,2022,SBA,4,Not-EconDis,1075,79.4,workbook
+Bellevue SD,WA,2022,SBA,4,Black,,29.5,workbook
+Bellevue SD,WA,2022,SBA,4,Hispanic,182,33.5,workbook
+Bellevue SD,WA,2022,SBA,4,Asian,606,84.7,workbook
+Bellevue SD,WA,2022,SBA,4,SWD,132,34.8,workbook
+Bellevue SD,WA,2022,SBA,4,All,1326,71.3,workbook
+Bellevue SD,WA,2022,SBA,4,Female,640,73.3,workbook
+Bellevue SD,WA,2022,SBA,4,Male,686,69.4,workbook
+Bellevue SD,WA,2022,SBA,4,White,350,73.7,workbook
+Bellevue SD,WA,2022,SBA,5,All,1407,74.4,workbook
+Bellevue SD,WA,2022,SBA,5,EL,176,22.7,workbook
+Bellevue SD,WA,2022,SBA,5,Non-EL,1231,81.8,workbook
+Bellevue SD,WA,2022,SBA,5,EconDis,290,42.8,workbook
+Bellevue SD,WA,2022,SBA,5,Not-EconDis,1117,82.6,workbook
+Bellevue SD,WA,2022,SBA,5,Female,660,78.5,workbook
+Bellevue SD,WA,2022,SBA,5,Black,,46.9,workbook
+Bellevue SD,WA,2022,SBA,5,Hispanic,194,39.2,workbook
+Bellevue SD,WA,2022,SBA,5,Asian,643,87.6,workbook
+Bellevue SD,WA,2022,SBA,5,SWD,145,24.8,workbook
+Bellevue SD,WA,2022,SBA,5,Male,747,70.8,workbook
+Bellevue SD,WA,2022,SBA,5,White,373,72.7,workbook
+Bellevue SD,WA,2023,SBA,3,All,14,57.1,workbook
+Bellevue SD,WA,2023,SBA,3,Male,,45.5,workbook
+Bellevue SD,WA,2023,SBA,3,SWD,14,57.1,workbook
+Bellevue SD,WA,2023,SBA,3,Non-EL,879,77.4,workbook
+Bellevue SD,WA,2023,SBA,3,EconDis,274,36.5,workbook
+Bellevue SD,WA,2023,SBA,3,Female,597,72.7,workbook
+Bellevue SD,WA,2023,SBA,3,Black,,28.1,workbook
+Bellevue SD,WA,2023,SBA,3,Hispanic,150,30.7,workbook
+Bellevue SD,WA,2023,SBA,3,White,324,71.6,workbook
+Bellevue SD,WA,2023,SBA,3,EL,310,48.4,workbook
+Bellevue SD,WA,2023,SBA,3,Not-EconDis,915,79.8,workbook
+Bellevue SD,WA,2023,SBA,3,Asian,525,82.9,workbook
+Bellevue SD,WA,2023,SBA,4,Non-EL,1054,81.1,workbook
+Bellevue SD,WA,2023,SBA,4,EconDis,296,36.8,workbook
+Bellevue SD,WA,2023,SBA,4,Not-EconDis,1000,82.8,workbook
+Bellevue SD,WA,2023,SBA,4,Hispanic,188,34.0,workbook
+Bellevue SD,WA,2023,SBA,4,White,311,70.1,workbook
+Bellevue SD,WA,2023,SBA,4,SWD,138,34.8,workbook
+Bellevue SD,WA,2023,SBA,4,All,1296,72.3,workbook
+Bellevue SD,WA,2023,SBA,4,EL,242,33.9,workbook
+Bellevue SD,WA,2023,SBA,4,Female,613,73.9,workbook
+Bellevue SD,WA,2023,SBA,4,Male,683,70.9,workbook
+Bellevue SD,WA,2023,SBA,4,Black,45,53.3,workbook
+Bellevue SD,WA,2023,SBA,4,Asian,617,87.4,workbook
+Bellevue SD,WA,2023,SBA,5,All,1330,75.0,workbook
+Bellevue SD,WA,2023,SBA,5,EL,196,26.0,workbook
+Bellevue SD,WA,2023,SBA,5,Not-EconDis,1017,85.2,workbook
+Bellevue SD,WA,2023,SBA,5,Black,,40.8,workbook
+Bellevue SD,WA,2023,SBA,5,Hispanic,193,36.8,workbook
+Bellevue SD,WA,2023,SBA,5,SWD,145,36.6,workbook
+Bellevue SD,WA,2023,SBA,5,Female,,76.2,workbook
+Bellevue SD,WA,2023,SBA,5,Male,685,73.9,workbook
+Bellevue SD,WA,2023,SBA,5,Non-EL,1134,83.4,workbook
+Bellevue SD,WA,2023,SBA,5,EconDis,313,41.9,workbook
+Bellevue SD,WA,2023,SBA,5,Asian,596,87.6,workbook
+Bellevue SD,WA,2023,SBA,5,White,342,80.4,workbook
+Bellevue SD,WA,2024,SBA,3,All,1316,70.1,workbook
+Bellevue SD,WA,2024,SBA,3,EL,353,40.8,workbook
+Bellevue SD,WA,2024,SBA,3,Non-EL,963,80.8,workbook
+Bellevue SD,WA,2024,SBA,3,EconDis,303,37.3,workbook
+Bellevue SD,WA,2024,SBA,3,Not-EconDis,1013,79.9,workbook
+Bellevue SD,WA,2024,SBA,3,Female,607,75.1,workbook
+Bellevue SD,WA,2024,SBA,3,Male,709,65.7,workbook
+Bellevue SD,WA,2024,SBA,3,Asian,618,82.5,workbook
+Bellevue SD,WA,2024,SBA,3,Black,,33.3,workbook
+Bellevue SD,WA,2024,SBA,3,Hispanic,187,28.9,workbook
+Bellevue SD,WA,2024,SBA,3,White,310,73.2,workbook
+Bellevue SD,WA,2024,SBA,3,SWD,175,38.3,workbook
+Bellevue SD,WA,2024,SBA,4,All,1260,68.5,workbook
+Bellevue SD,WA,2024,SBA,4,EL,316,40.5,workbook
+Bellevue SD,WA,2024,SBA,4,Non-EL,944,77.9,workbook
+Bellevue SD,WA,2024,SBA,4,EconDis,310,36.5,workbook
+Bellevue SD,WA,2024,SBA,4,Not-EconDis,950,79.0,workbook
+Bellevue SD,WA,2024,SBA,4,Female,625,70.9,workbook
+Bellevue SD,WA,2024,SBA,4,Male,635,66.1,workbook
+Bellevue SD,WA,2024,SBA,4,Asian,554,82.7,workbook
+Bellevue SD,WA,2024,SBA,4,Black,,31.8,workbook
+Bellevue SD,WA,2024,SBA,4,Hispanic,168,32.7,workbook
+Bellevue SD,WA,2024,SBA,4,White,333,67.3,workbook
+Bellevue SD,WA,2024,SBA,4,SWD,148,30.4,workbook
+Bellevue SD,WA,2024,SBA,5,All,1344,76.1,workbook
+Bellevue SD,WA,2024,SBA,5,EL,216,29.2,workbook
+Bellevue SD,WA,2024,SBA,5,Non-EL,1128,85.1,workbook
+Bellevue SD,WA,2024,SBA,5,EconDis,312,38.8,workbook
+Bellevue SD,WA,2024,SBA,5,Not-EconDis,1032,87.4,workbook
+Bellevue SD,WA,2024,SBA,5,Female,,76.3,workbook
+Bellevue SD,WA,2024,SBA,5,Male,705,75.9,workbook
+Bellevue SD,WA,2024,SBA,5,Asian,648,89.2,workbook
+Bellevue SD,WA,2024,SBA,5,Black,,55.1,workbook
+Bellevue SD,WA,2024,SBA,5,Hispanic,196,42.4,workbook
+Bellevue SD,WA,2024,SBA,5,White,312,73.7,workbook
+Bellevue SD,WA,2024,SBA,5,SWD,161,36.7,workbook
+Bellevue SD,WA,2025,SBA,3,All,1333,65.1,workbook
+Bellevue SD,WA,2025,SBA,3,EL,369,34.2,workbook
+Bellevue SD,WA,2025,SBA,3,Non-EL,,60.0,workbook
+Bellevue SD,WA,2025,SBA,3,EconDis,322,28.3,workbook
+Bellevue SD,WA,2025,SBA,3,Not-EconDis,1011,76.9,workbook
+Bellevue SD,WA,2025,SBA,3,Female,643,69.2,workbook
+Bellevue SD,WA,2025,SBA,3,Male,690,61.3,workbook
+Bellevue SD,WA,2025,SBA,3,Asian,602,80.1,workbook
+Bellevue SD,WA,2025,SBA,3,Black,,40.9,workbook
+Bellevue SD,WA,2025,SBA,3,Hispanic,200,25.5,workbook
+Bellevue SD,WA,2025,SBA,3,White,328,61.9,workbook
+Bellevue SD,WA,2025,SBA,3,SWD,170,34.7,workbook
+Bellevue SD,WA,2025,SBA,4,All,1375,70.8,workbook
+Bellevue SD,WA,2025,SBA,4,EL,328,33.2,workbook
+Bellevue SD,WA,2025,SBA,4,Non-EL,1047,82.5,workbook
+Bellevue SD,WA,2025,SBA,4,EconDis,321,35.8,workbook
+Bellevue SD,WA,2025,SBA,4,Not-EconDis,1054,81.4,workbook
+Bellevue SD,WA,2025,SBA,4,Female,,74.1,workbook
+Bellevue SD,WA,2025,SBA,4,Male,,70.0,workbook
+Bellevue SD,WA,2025,SBA,4,Asian,671,82.9,workbook
+Bellevue SD,WA,2025,SBA,4,Black,,30.0,workbook
+Bellevue SD,WA,2025,SBA,4,Hispanic,199,32.2,workbook
+Bellevue SD,WA,2025,SBA,4,White,303,73.6,workbook
+Bellevue SD,WA,2025,SBA,4,SWD,175,40.0,workbook
+Bellevue SD,WA,2025,SBA,5,All,1333,72.5,workbook
+Bellevue SD,WA,2025,SBA,5,EL,250,27.6,workbook
+Bellevue SD,WA,2025,SBA,5,Non-EL,1083,82.8,workbook
+Bellevue SD,WA,2025,SBA,5,EconDis,332,37.7,workbook
+Bellevue SD,WA,2025,SBA,5,Not-EconDis,1001,84.0,workbook
+Bellevue SD,WA,2025,SBA,5,Female,661,75.5,workbook
+Bellevue SD,WA,2025,SBA,5,Male,672,69.5,workbook
+Bellevue SD,WA,2025,SBA,5,Asian,603,84.6,workbook
+Bellevue SD,WA,2025,SBA,5,Black,,37.7,workbook
+Bellevue SD,WA,2025,SBA,5,Hispanic,176,35.2,workbook
+Bellevue SD,WA,2025,SBA,5,White,337,73.9,workbook
+Bellevue SD,WA,2025,SBA,5,SWD,139,28.1,workbook
+MICHIGAN STATE,MI,2019,M-STEP,3,All,,45.1,mi_oh_agent
+MICHIGAN STATE,MI,2022,M-STEP,3,All,,41.6,mi_oh_agent
+MICHIGAN STATE,MI,2022,M-STEP,4,All,,43.4,mi_oh_agent
+MICHIGAN STATE,MI,2022,M-STEP,5,All,,43.1,mi_oh_agent
+MICHIGAN STATE,MI,2023,M-STEP,3,All,,40.9,mi_oh_agent
+MICHIGAN STATE,MI,2023,M-STEP,4,All,,44.3,mi_oh_agent
+MICHIGAN STATE,MI,2023,M-STEP,5,All,,43.9,mi_oh_agent
+MICHIGAN STATE,MI,2024,M-STEP,3,All,,39.6,mi_oh_agent
+MICHIGAN STATE,MI,2024,M-STEP,4,All,,43.3,mi_oh_agent
+MICHIGAN STATE,MI,2024,M-STEP,5,All,,44.0,mi_oh_agent
+MICHIGAN STATE,MI,2025,M-STEP,3,All,,38.9,mi_oh_agent
+MICHIGAN STATE,MI,2025,M-STEP,4,All,,42.4,mi_oh_agent
+MICHIGAN STATE,MI,2025,M-STEP,5,All,,44.4,mi_oh_agent
+MICHIGAN STATE,MI,2023,M-STEP,3,EconDis,,27.0,mi_oh_agent
+MICHIGAN STATE,MI,2023,M-STEP,3,Not-EconDis,,56.6,mi_oh_agent
+OHIO STATE,OH,2022,OST,3,All,118164,58.0,mi_oh_agent
+OHIO STATE,OH,2022,OST,4,All,118279,63.0,mi_oh_agent
+OHIO STATE,OH,2022,OST,5,All,119964,65.0,mi_oh_agent
+OHIO STATE,OH,2023,OST,3,All,118132,62.0,mi_oh_agent
+OHIO STATE,OH,2023,OST,4,All,120147,59.0,mi_oh_agent
+OHIO STATE,OH,2023,OST,5,All,119548,68.0,mi_oh_agent
+OHIO STATE,OH,2024,OST,3,All,114312,62.0,mi_oh_agent
+OHIO STATE,OH,2024,OST,4,All,119792,64.0,mi_oh_agent
+OHIO STATE,OH,2024,OST,5,All,120513,71.0,mi_oh_agent
+OHIO STATE,OH,2025,OST,3,All,122135,59.0,mi_oh_agent
+OHIO STATE,OH,2025,OST,4,All,116328,62.0,mi_oh_agent
+OHIO STATE,OH,2025,OST,5,All,120188,68.0,mi_oh_agent
+Bloomfield Hills Schools,MI,2025,M-STEP,3,All,,65.6,mi_oh_agent
+Bloomfield Hills Schools,MI,2025,M-STEP,4,All,,70.6,mi_oh_agent
+Birmingham Public Schools,MI,2025,M-STEP,3,All,,66.6,mi_oh_agent
+Birmingham Public Schools,MI,2025,M-STEP,4,All,,75.4,mi_oh_agent
+Novi Community School District,MI,2025,M-STEP,3,All,,63.1,mi_oh_agent
+Novi Community School District,MI,2025,M-STEP,4,All,,68.5,mi_oh_agent
+Rochester Community Schools,MI,2025,M-STEP,3,All,,61.6,mi_oh_agent
+Rochester Community Schools,MI,2025,M-STEP,4,All,,67.9,mi_oh_agent
+Walled Lake Consolidated Schools,MI,2025,M-STEP,3,All,,48.1,mi_oh_agent
+Walled Lake Consolidated Schools,MI,2025,M-STEP,4,All,,53.6,mi_oh_agent
+West Bloomfield School District,MI,2025,M-STEP,3,All,,48.7,mi_oh_agent
+West Bloomfield School District,MI,2025,M-STEP,4,All,,49.7,mi_oh_agent
+Detroit Public Schools Community District,MI,2024,M-STEP,3,All,,11.7,mi_oh_agent
+Detroit Public Schools Community District,MI,2024,M-STEP,4,All,,13.7,mi_oh_agent
+Detroit Public Schools Community District,MI,2025,M-STEP,3,All,,12.9,mi_oh_agent
+Steubenville City Schools,OH,2018,OST,3,All,,93.0,mi_oh_agent
+Steubenville City Schools,OH,2022,OST,3,All,,97.0,mi_oh_agent
+Steubenville City Schools,OH,2020,OST,3,EconDis,,89.7,mi_oh_agent
+Steubenville City Schools,OH,2021,OST,3,EconDis,,93.3,mi_oh_agent
+Steubenville City Schools,OH,2022,OST,3,EconDis,,96.9,mi_oh_agent
+Steubenville City Schools,OH,2023,OST,3,EconDis,,98.5,mi_oh_agent
+Steubenville City Schools,OH,2024,OST,3,EconDis,,97.5,mi_oh_agent
+Steubenville City Schools,OH,2024,OST,3,Black,,100.0,mi_oh_agent
+Steubenville City Schools,OH,2024,OST,3,SWD,,92.0,mi_oh_agent
+Modesto City Elem,CA,2019,CAASPP,3,All,1620,28.78,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,Asian,68,35.29,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,White,244,47.13,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,Hispanic,1116,24.39,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,Black,40,25.0,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,EL,545,6.06,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,EconDis,1419,24.26,ca_agent
+Modesto City Elem,CA,2019,CAASPP,3,SWD,202,6.97,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,All,1557,30.12,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,Asian,68,52.94,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,White,233,45.06,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,Hispanic,1102,25.95,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,Black,30,16.67,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,EL,527,9.49,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,EconDis,1341,26.7,ca_agent
+Modesto City Elem,CA,2019,CAASPP,4,SWD,219,6.39,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,All,1661,32.75,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,Asian,80,46.25,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,White,254,47.24,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,Hispanic,1124,28.47,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,Black,45,20.0,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,EL,516,5.62,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,EconDis,1448,29.07,ca_agent
+Modesto City Elem,CA,2019,CAASPP,5,SWD,230,6.96,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,All,1504,23.89,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,Asian,63,30.16,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,White,215,42.33,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,Hispanic,1056,18.96,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,Black,40,25.0,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,EL,581,8.43,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,EconDis,1286,19.07,ca_agent
+Modesto City Elem,CA,2022,CAASPP,3,SWD,145,9.66,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,All,1437,26.13,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,Asian,65,36.92,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,White,205,39.22,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,Hispanic,1012,21.76,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,Black,40,25.0,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,EL,577,12.65,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,EconDis,1253,22.06,ca_agent
+Modesto City Elem,CA,2022,CAASPP,4,SWD,176,8.57,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,All,1542,29.92,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,Asian,64,39.06,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,White,231,44.16,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,Hispanic,1084,25.95,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,Black,34,11.76,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,EL,583,9.79,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,EconDis,1316,25.78,ca_agent
+Modesto City Elem,CA,2022,CAASPP,5,SWD,205,9.76,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,All,1483,24.14,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,Asian,56,33.93,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,White,196,39.29,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,Hispanic,1073,20.41,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,Black,36,13.89,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,EL,547,10.05,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,EconDis,1247,21.01,ca_agent
+Modesto City Elem,CA,2023,CAASPP,3,SWD,167,9.58,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,All,1520,24.49,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,Asian,61,26.23,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,White,211,42.65,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,Hispanic,1076,21.12,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,Black,40,12.5,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,EL,580,9.84,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,EconDis,1294,20.11,ca_agent
+Modesto City Elem,CA,2023,CAASPP,4,SWD,171,8.77,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,All,1443,28.0,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,Asian,63,39.68,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,White,198,41.92,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,Hispanic,1026,23.39,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,Black,45,33.33,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,EL,550,9.27,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,EconDis,1241,23.93,ca_agent
+Modesto City Elem,CA,2023,CAASPP,5,SWD,162,6.79,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,All,1519,27.18,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,Asian,49,37.5,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,White,185,47.28,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,Hispanic,1151,22.78,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,Black,36,33.33,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,EL,580,12.44,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,EconDis,1341,23.84,ca_agent
+Modesto City Elem,CA,2024,CAASPP,3,SWD,187,12.37,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,All,1474,29.58,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,Asian,51,41.18,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,White,200,44.0,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,Hispanic,1077,26.28,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,Black,28,17.86,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,EL,521,13.82,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,EconDis,1300,26.77,ca_agent
+Modesto City Elem,CA,2024,CAASPP,4,SWD,194,7.73,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,All,1525,31.85,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,Asian,67,32.84,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,White,211,51.18,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,Hispanic,1087,28.66,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,Black,37,13.51,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,EL,528,10.27,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,EconDis,1364,28.41,ca_agent
+Modesto City Elem,CA,2024,CAASPP,5,SWD,186,8.11,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,All,1567,28.72,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,Asian,54,25.93,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,White,193,43.01,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,Hispanic,1172,26.45,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,Black,29,10.34,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,EL,533,11.26,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,EconDis,1326,24.66,ca_agent
+Modesto City Elem,CA,2025,CAASPP,3,SWD,194,11.34,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,All,1575,30.69,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,Asian,54,40.74,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,White,193,48.19,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,Hispanic,1183,27.41,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,Black,32,18.75,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,EL,586,14.53,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,EconDis,1329,27.64,ca_agent
+Modesto City Elem,CA,2025,CAASPP,4,SWD,210,9.52,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,All,1498,35.25,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,Asian,59,52.54,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,White,210,48.57,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,Hispanic,1099,31.57,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,Black,23,21.74,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,EL,467,9.21,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,EconDis,1272,31.76,ca_agent
+Modesto City Elem,CA,2025,CAASPP,5,SWD,206,4.85,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,All,956,55.65,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,Asian,85,63.53,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,White,132,68.94,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,Hispanic,647,51.78,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,Black,10,,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,EL,148,25.0,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,EconDis,674,49.7,ca_agent
+Sanger Unified,CA,2019,CAASPP,3,SWD,55,21.82,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,All,906,54.3,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,Asian,107,64.49,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,White,124,70.16,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,Hispanic,592,48.48,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,Black,13,61.54,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,EL,165,21.21,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,EconDis,649,47.15,ca_agent
+Sanger Unified,CA,2019,CAASPP,4,SWD,56,19.64,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,All,966,51.04,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,Asian,100,52.0,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,White,134,73.13,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,Hispanic,653,45.79,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,Black,11,27.27,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,EL,142,10.56,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,EconDis,681,45.23,ca_agent
+Sanger Unified,CA,2019,CAASPP,5,SWD,83,15.66,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,All,986,44.93,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,Asian,139,53.24,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,White,116,63.79,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,Hispanic,666,39.34,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,Black,14,28.57,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,EL,188,23.94,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,EconDis,512,37.5,ca_agent
+Sanger Unified,CA,2022,CAASPP,3,SWD,67,16.42,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,All,981,41.08,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,Asian,140,56.43,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,White,101,55.45,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,Hispanic,666,34.53,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,Black,16,31.25,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,EL,205,16.1,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,EconDis,545,31.56,ca_agent
+Sanger Unified,CA,2022,CAASPP,4,SWD,67,14.93,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,All,1017,46.12,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,Asian,126,53.97,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,White,118,53.39,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,Hispanic,679,42.42,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,Black,7,,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,EL,177,18.08,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,EconDis,546,40.48,ca_agent
+Sanger Unified,CA,2022,CAASPP,5,SWD,65,18.46,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,All,996,46.29,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,Asian,156,53.21,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,White,106,60.38,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,Hispanic,685,41.9,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,Black,17,47.06,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,EL,199,23.12,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,EconDis,683,38.51,ca_agent
+Sanger Unified,CA,2023,CAASPP,3,SWD,74,21.62,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,All,971,43.77,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,Asian,137,53.28,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,White,116,68.97,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,Hispanic,656,36.28,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,Black,11,45.45,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,EL,176,13.07,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,EconDis,678,35.99,ca_agent
+Sanger Unified,CA,2023,CAASPP,4,SWD,68,17.65,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,All,976,44.88,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,Asian,135,59.26,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,White,97,56.7,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,Hispanic,673,39.67,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,Black,17,23.53,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,EL,175,11.43,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,EconDis,690,38.26,ca_agent
+Sanger Unified,CA,2023,CAASPP,5,SWD,71,9.86,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,All,982,52.55,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,Asian,160,59.38,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,White,106,70.75,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,Hispanic,672,47.92,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,Black,10,,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,EL,156,25.0,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,EconDis,749,47.4,ca_agent
+Sanger Unified,CA,2024,CAASPP,3,SWD,60,15.0,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,All,1006,44.73,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,Asian,157,51.59,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,White,105,66.67,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,Hispanic,696,39.37,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,Black,14,35.71,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,EL,180,10.56,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,EconDis,749,37.65,ca_agent
+Sanger Unified,CA,2024,CAASPP,4,SWD,81,14.81,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,All,987,49.14,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,Asian,137,59.12,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,White,107,70.09,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,Hispanic,680,42.21,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,Black,10,,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,EL,150,12.0,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,EconDis,740,43.78,ca_agent
+Sanger Unified,CA,2024,CAASPP,5,SWD,74,13.51,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,All,970,57.32,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,Asian,172,63.95,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,White,102,69.61,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,Hispanic,657,53.27,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,Black,8,,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,EL,146,28.08,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,EconDis,686,50.0,ca_agent
+Sanger Unified,CA,2025,CAASPP,3,SWD,67,20.9,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,All,979,48.52,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,Asian,163,55.21,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,White,98,65.31,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,Hispanic,677,43.28,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,Black,9,,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,EL,141,11.35,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,EconDis,711,41.77,ca_agent
+Sanger Unified,CA,2025,CAASPP,4,SWD,74,24.32,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,All,1018,49.31,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,Asian,158,62.66,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,White,107,71.03,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,Hispanic,706,42.35,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,Black,14,50.0,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,EL,158,10.76,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,EconDis,706,41.5,ca_agent
+Sanger Unified,CA,2025,CAASPP,5,SWD,91,13.19,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,All,2921,55.91,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,Asian,915,76.61,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,White,207,63.77,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,Hispanic,1621,42.38,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,Black,16,50.0,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,EL,974,26.39,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,EconDis,2057,49.2,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,3,SWD,353,23.8,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,All,2941,57.33,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,Asian,983,78.33,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,White,216,63.43,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,Hispanic,1604,42.77,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,Black,17,41.18,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,EL,1085,26.91,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,EconDis,2057,51.68,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,4,SWD,373,18.77,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,All,3138,60.1,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,Asian,1095,81.0,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,White,216,65.74,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,Hispanic,1675,46.03,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,Black,24,50.0,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,EL,1004,23.41,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,EconDis,2189,53.72,ca_agent
+Garden Grove Unified,CA,2019,CAASPP,5,SWD,426,23.71,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,All,2643,52.01,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,Asian,945,71.22,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,White,142,62.68,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,Hispanic,1399,36.98,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,Black,17,35.29,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,EL,1143,36.05,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,EconDis,1982,45.38,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,3,SWD,324,26.23,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,All,2672,55.39,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,Asian,930,75.59,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,White,160,66.88,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,Hispanic,1424,40.45,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,Black,13,23.08,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,EL,1089,32.87,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,EconDis,2007,49.53,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,4,SWD,294,23.13,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,All,2634,54.77,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,Asian,825,78.67,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,White,182,64.64,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,Hispanic,1474,38.87,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,Black,14,50.0,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,EL,908,25.33,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,EconDis,2009,48.9,ca_agent
+Garden Grove Unified,CA,2022,CAASPP,5,SWD,342,21.41,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,All,2569,52.9,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,Asian,856,72.08,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,White,140,64.29,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,Hispanic,1427,38.82,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,Black,14,42.86,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,EL,991,33.0,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,EconDis,1944,47.27,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,3,SWD,304,28.29,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,All,2701,53.83,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,Asian,994,73.34,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,White,144,62.5,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,Hispanic,1424,38.41,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,Black,15,6.67,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,EL,996,29.52,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,EconDis,2060,46.7,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,4,SWD,352,24.15,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,All,2707,57.98,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,Asian,959,79.04,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,White,169,61.54,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,Hispanic,1447,42.74,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,Black,12,25.0,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,EL,942,26.96,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,EconDis,2050,51.88,ca_agent
+Garden Grove Unified,CA,2023,CAASPP,5,SWD,315,21.59,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,All,2447,51.04,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,Asian,871,70.61,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,White,139,61.15,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,Hispanic,1299,36.03,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,Black,16,50.0,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,EL,934,28.16,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,EconDis,1935,45.94,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,3,SWD,327,27.22,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,All,2569,55.24,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,Asian,869,72.38,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,White,143,72.03,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,Hispanic,1414,40.59,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,Black,15,46.67,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,EL,822,23.84,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,EconDis,2064,49.42,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,4,SWD,288,27.08,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,All,2718,58.76,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,Asian,1016,78.05,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,White,145,66.21,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,Hispanic,1419,43.06,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,Black,11,18.18,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,EL,840,25.95,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,EconDis,2180,54.31,ca_agent
+Garden Grove Unified,CA,2024,CAASPP,5,SWD,342,26.61,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,All,2401,52.02,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,Asian,809,72.28,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,White,135,60.0,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,Hispanic,1300,36.77,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,Black,16,68.75,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,EL,885,29.75,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,EconDis,1866,46.3,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,3,SWD,322,30.53,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,All,2507,55.25,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,Asian,902,74.5,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,White,137,69.34,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,Hispanic,1329,39.35,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,Black,16,62.5,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,EL,820,21.95,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,EconDis,1955,48.8,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,4,SWD,351,29.06,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,All,2656,59.17,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,Asian,901,78.14,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,White,151,70.86,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,Hispanic,1454,44.67,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,Black,15,33.33,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,EL,720,20.86,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,EconDis,2057,53.31,ca_agent
+Garden Grove Unified,CA,2025,CAASPP,5,SWD,302,27.48,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,All,5334,55.62,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,Asian,337,70.62,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,White,572,77.8,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,Hispanic,3185,50.03,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,Black,663,42.99,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,EL,632,16.61,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,EconDis,3862,47.81,ca_agent
+Long Beach Unified,CA,2019,CAASPP,3,SWD,780,32.35,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,All,5183,53.95,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,Asian,348,67.53,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,White,614,76.87,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,Hispanic,3029,48.62,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,Black,619,39.74,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,EL,766,13.03,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,EconDis,3705,46.16,ca_agent
+Long Beach Unified,CA,2019,CAASPP,4,SWD,767,28.82,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,All,5369,56.81,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,Asian,381,73.49,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,White,671,80.92,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,Hispanic,3104,49.45,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,Black,625,44.16,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,EL,605,11.9,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,EconDis,3847,49.21,ca_agent
+Long Beach Unified,CA,2019,CAASPP,5,SWD,761,30.62,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,All,4818,43.53,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,Asian,329,57.14,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,White,533,73.12,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,Hispanic,2895,36.39,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,Black,592,29.83,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,EL,1086,18.28,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,EconDis,2681,32.96,ca_agent
+Long Beach Unified,CA,2022,CAASPP,3,SWD,596,18.38,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,All,4789,44.86,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,Asian,317,62.46,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,White,540,73.33,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,Hispanic,2893,37.79,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,Black,591,29.88,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,EL,888,17.91,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,EconDis,2632,34.7,ca_agent
+Long Beach Unified,CA,2022,CAASPP,4,SWD,624,19.58,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,All,4818,52.26,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,Asian,343,68.42,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,White,544,77.57,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,Hispanic,2809,46.56,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,Black,643,34.95,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,EL,705,19.49,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,EconDis,2644,43.77,ca_agent
+Long Beach Unified,CA,2022,CAASPP,5,SWD,630,19.94,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,All,4475,47.63,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,Asian,308,60.71,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,White,567,73.37,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,Hispanic,2655,40.96,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,Black,526,31.37,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,EL,916,23.03,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,EconDis,2896,38.0,ca_agent
+Long Beach Unified,CA,2023,CAASPP,3,SWD,586,24.23,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,All,4763,45.61,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,Asian,323,62.54,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,White,538,76.58,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,Hispanic,2871,37.62,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,Black,573,31.41,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,EL,1023,16.72,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,EconDis,3171,36.75,ca_agent
+Long Beach Unified,CA,2023,CAASPP,4,SWD,673,17.98,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,All,4754,51.65,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,Asian,307,68.4,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,White,519,77.65,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,Hispanic,2866,45.64,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,Black,610,35.63,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,EL,806,20.47,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,EconDis,3230,43.79,ca_agent
+Long Beach Unified,CA,2023,CAASPP,5,SWD,647,18.55,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,All,4402,47.76,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,Asian,320,64.06,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,White,531,76.98,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,Hispanic,2570,39.91,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,Black,520,31.73,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,EL,897,22.57,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,EconDis,2986,38.24,ca_agent
+Long Beach Unified,CA,2024,CAASPP,3,SWD,595,22.71,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,All,4433,48.14,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,Asian,310,63.23,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,White,562,76.83,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,Hispanic,2620,41.08,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,Black,521,30.33,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,EL,809,17.8,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,EconDis,3071,40.29,ca_agent
+Long Beach Unified,CA,2024,CAASPP,4,SWD,630,19.37,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,All,4717,50.81,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,Asian,315,70.79,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,White,530,74.91,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,Hispanic,2853,44.41,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,Black,567,37.39,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,EL,892,16.61,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,EconDis,3335,43.94,ca_agent
+Long Beach Unified,CA,2024,CAASPP,5,SWD,691,18.26,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,All,4458,48.26,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,Asian,278,65.47,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,White,586,74.87,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,Hispanic,2673,40.66,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,Black,502,31.67,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,EL,804,16.19,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,EconDis,2848,36.86,ca_agent
+Long Beach Unified,CA,2025,CAASPP,3,SWD,657,26.18,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,All,4428,49.45,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,Asian,313,67.41,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,White,531,77.59,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,Hispanic,2616,41.34,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,Black,502,33.27,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,EL,769,15.08,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,EconDis,2847,38.4,ca_agent
+Long Beach Unified,CA,2025,CAASPP,4,SWD,652,24.23,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,All,4461,54.62,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,Asian,314,68.79,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,White,540,81.3,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,Hispanic,2657,48.81,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,Black,529,36.93,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,EL,670,16.27,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,EconDis,2906,44.44,ca_agent
+Long Beach Unified,CA,2025,CAASPP,5,SWD,677,23.78,ca_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,All,442858,48.54,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,Asian,40758,72.8,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,White,99175,62.97,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,Hispanic,243659,38.49,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,Black,23407,31.31,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,EL,95618,18.43,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,EconDis,275098,36.61,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,3,SWD,51224,21.32,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,All,435581,49.47,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,Asian,39769,74.64,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,White,97362,64.27,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,Hispanic,240525,39.31,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,Black,23090,31.92,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,EL,97241,17.58,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,EconDis,270452,37.49,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,4,SWD,53659,19.43,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,All,454770,51.68,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,Asian,42199,77.67,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,White,100743,67.07,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,Hispanic,252473,41.27,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,Black,24361,34.03,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,EL,85761,13.29,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,EconDis,282477,39.6,ca_state_agent
+CALIFORNIA STATE,CA,2019,CAASPP,5,SWD,57210,17.98,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,All,413597,42.17,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,Asian,42351,69.46,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,White,84449,57.51,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,Hispanic,229097,30.61,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,Black,20781,26.61,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,EL,98850,16.81,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,EconDis,249501,29.41,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,3,SWD,47211,19.83,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,All,420037,44.22,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,Asian,42104,72.66,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,White,86007,59.58,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,Hispanic,234467,32.8,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,Black,21056,27.36,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,EL,99618,16.52,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,EconDis,253701,31.54,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,4,SWD,50922,18.52,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,All,428017,47.09,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,Asian,40574,75.19,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,White,88412,62.34,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,Hispanic,240782,36.23,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,Black,22030,30.72,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,EL,86304,13.68,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,EconDis,258960,34.78,ca_state_agent
+CALIFORNIA STATE,CA,2022,CAASPP,5,SWD,53346,17.37,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,All,410559,42.96,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,Asian,41026,69.0,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,White,84220,57.49,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,Hispanic,228189,32.03,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,Black,20041,27.17,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,EL,93691,16.07,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,EconDis,257947,31.01,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,3,SWD,51701,20.05,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,All,416005,43.73,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,Asian,43207,71.71,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,White,83996,58.5,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,Hispanic,230991,32.39,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,Black,20926,27.09,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,EL,89001,13.63,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,EconDis,262896,31.62,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,4,SWD,53901,18.05,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,All,421850,46.69,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,Asian,42936,74.42,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,White,85174,61.88,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,Hispanic,236180,35.59,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,Black,21210,29.52,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,EL,83010,12.3,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,EconDis,266840,34.8,ca_state_agent
+CALIFORNIA STATE,CA,2023,CAASPP,5,SWD,54235,17.1,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,All,403798,42.8,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,Asian,41799,67.35,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,White,81432,56.55,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,Hispanic,224670,32.27,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,Black,18863,28.22,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,EL,90280,15.35,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,EconDis,265605,32.52,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,3,SWD,55262,19.47,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,All,413723,43.9,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,Asian,42161,70.44,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,White,84549,57.7,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,Hispanic,229605,33.17,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,Black,20152,26.93,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,EL,85939,12.97,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,EconDis,272567,33.38,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,4,SWD,57345,17.76,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,All,418641,47.37,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,Asian,44187,74.38,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,White,84048,61.19,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,Hispanic,232409,36.59,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,Black,20915,30.48,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,EL,76389,11.45,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,EconDis,275053,36.68,ca_state_agent
+CALIFORNIA STATE,CA,2024,CAASPP,5,SWD,56746,17.04,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,All,406075,44.21,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,Asian,41160,67.62,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,White,80533,57.93,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,Hispanic,227143,34.11,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,Black,18989,29.55,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,EL,87255,15.24,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,EconDis,263420,33.36,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,3,SWD,58159,20.45,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,All,408592,45.7,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,Asian,43026,70.69,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,White,81178,59.68,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,Hispanic,228254,35.13,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,Black,18939,30.05,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,EL,82061,12.89,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,EconDis,264393,34.48,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,4,SWD,59620,18.91,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,All,417860,48.8,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,Asian,43385,73.41,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,White,83900,62.77,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,Hispanic,232842,38.4,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,Black,20212,32.46,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,EL,73318,11.19,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,EconDis,270660,37.57,ca_state_agent
+CALIFORNIA STATE,CA,2025,CAASPP,5,SWD,59575,18.23,ca_state_agent
+Aldine ISD,TX,2019,STAAR,3,All,,30.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,Black,,26.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,Hispanic,,30.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,White,,28.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,Asian,,49.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,EconDis,,28.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,EL,,30.0,tx_agent
+Aldine ISD,TX,2019,STAAR,3,SWD,,20.0,tx_agent
+Aldine ISD,TX,2019,STAAR,4,All,,31.0,tx_agent
+Aldine ISD,TX,2019,STAAR,4,Asian,,70.0,tx_agent
+Aldine ISD,TX,2019,STAAR,4,EconDis,,30.0,tx_agent
+Aldine ISD,TX,2019,STAAR,5,All,,38.0,tx_agent
+Aldine ISD,TX,2019,STAAR,5,Asian,,62.0,tx_agent
+Aldine ISD,TX,2019,STAAR,5,EconDis,,37.0,tx_agent
+Aldine ISD,TX,2022,STAAR,3,All,,30.0,tx_agent
+Aldine ISD,TX,2022,STAAR,3,Asian,,53.0,tx_agent
+Aldine ISD,TX,2022,STAAR,4,All,,34.0,tx_agent
+Aldine ISD,TX,2022,STAAR,4,Asian,,66.0,tx_agent
+Aldine ISD,TX,2022,STAAR,5,All,,39.0,tx_agent
+Aldine ISD,TX,2022,STAAR,5,Asian,,62.0,tx_agent
+Aldine ISD,TX,2023,STAAR,3,All,,31.0,tx_agent
+Aldine ISD,TX,2023,STAAR,3,Asian,,67.0,tx_agent
+Aldine ISD,TX,2023,STAAR,4,All,,29.0,tx_agent
+Aldine ISD,TX,2023,STAAR,4,Asian,,69.0,tx_agent
+Aldine ISD,TX,2023,STAAR,5,All,,39.0,tx_agent
+Aldine ISD,TX,2023,STAAR,5,Asian,,83.0,tx_agent
+Aldine ISD,TX,2024,STAAR,3,All,,30.0,tx_agent
+Aldine ISD,TX,2024,STAAR,3,Asian,,58.0,tx_agent
+Aldine ISD,TX,2024,STAAR,4,All,,35.0,tx_agent
+Aldine ISD,TX,2024,STAAR,4,Asian,,72.0,tx_agent
+Aldine ISD,TX,2024,STAAR,5,All,,37.0,tx_agent
+Aldine ISD,TX,2024,STAAR,5,Asian,,71.0,tx_agent
+Aldine ISD,TX,2025,STAAR,3,All,,34.0,tx_agent
+Aldine ISD,TX,2025,STAAR,3,Asian,,41.0,tx_agent
+Aldine ISD,TX,2025,STAAR,4,All,,42.0,tx_agent
+Aldine ISD,TX,2025,STAAR,4,Asian,,76.0,tx_agent
+Aldine ISD,TX,2025,STAAR,5,All,,47.0,tx_agent
+Aldine ISD,TX,2025,STAAR,5,Asian,,76.0,tx_agent
+Brownsville ISD,TX,2019,STAAR,3,All,,46.0,tx_agent
+Brownsville ISD,TX,2019,STAAR,4,All,,51.0,tx_agent
+Brownsville ISD,TX,2019,STAAR,5,All,,56.0,tx_agent
+Brownsville ISD,TX,2022,STAAR,3,All,,46.0,tx_agent
+Brownsville ISD,TX,2022,STAAR,4,All,,56.0,tx_agent
+Brownsville ISD,TX,2022,STAAR,5,All,,58.0,tx_agent
+Brownsville ISD,TX,2023,STAAR,3,All,,53.0,tx_agent
+Brownsville ISD,TX,2023,STAAR,4,All,,47.0,tx_agent
+Brownsville ISD,TX,2023,STAAR,5,All,,59.0,tx_agent
+Brownsville ISD,TX,2024,STAAR,3,All,,49.0,tx_agent
+Brownsville ISD,TX,2024,STAAR,4,All,,58.0,tx_agent
+Brownsville ISD,TX,2024,STAAR,5,All,,56.0,tx_agent
+Brownsville ISD,TX,2025,STAAR,3,All,,50.0,tx_agent
+Brownsville ISD,TX,2025,STAAR,4,All,,57.0,tx_agent
+Brownsville ISD,TX,2025,STAAR,5,All,,62.0,tx_agent
+Spring Branch ISD,TX,2019,STAAR,3,All,,46.0,tx_agent
+Spring Branch ISD,TX,2019,STAAR,3,Asian,,75.0,tx_agent
+Spring Branch ISD,TX,2019,STAAR,3,White,,70.0,tx_agent
+Spring Branch ISD,TX,2019,STAAR,3,Hispanic,,31.0,tx_agent
+Spring Branch ISD,TX,2022,STAAR,3,All,,55.0,tx_agent
+Spring Branch ISD,TX,2022,STAAR,3,Asian,,82.0,tx_agent
+Spring Branch ISD,TX,2023,STAAR,3,All,,60.0,tx_agent
+Spring Branch ISD,TX,2023,STAAR,3,Asian,,88.0,tx_agent
+Spring Branch ISD,TX,2024,STAAR,3,All,,60.0,tx_agent
+Spring Branch ISD,TX,2024,STAAR,3,Asian,,87.0,tx_agent
+Spring Branch ISD,TX,2025,STAAR,3,All,,57.0,tx_agent
+Spring Branch ISD,TX,2025,STAAR,3,Asian,,85.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,All,,60.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,Asian,,77.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,White,,70.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,Hispanic,,40.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,Black,,44.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,EconDis,,37.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,SWD,,37.0,tx_agent
+Plano ISD,TX,2019,STAAR,3,EL,,48.0,tx_agent
+Plano ISD,TX,2019,STAAR,4,All,,59.0,tx_agent
+Plano ISD,TX,2019,STAAR,4,Asian,,80.0,tx_agent
+Plano ISD,TX,2019,STAAR,5,All,,68.0,tx_agent
+Plano ISD,TX,2019,STAAR,5,Asian,,87.0,tx_agent
+Plano ISD,TX,2022,STAAR,3,All,,66.0,tx_agent
+Plano ISD,TX,2022,STAAR,3,Asian,,83.0,tx_agent
+Plano ISD,TX,2023,STAAR,3,All,,63.0,tx_agent
+Plano ISD,TX,2023,STAAR,3,Asian,,83.0,tx_agent
+Plano ISD,TX,2024,STAAR,3,All,,61.0,tx_agent
+Plano ISD,TX,2024,STAAR,3,Asian,,82.0,tx_agent
+Plano ISD,TX,2025,STAAR,3,All,,61.0,tx_agent
+Plano ISD,TX,2025,STAAR,3,Asian,,82.0,tx_agent
+Plano ISD,TX,2025,STAAR,3,White,,73.0,tx_agent
+Plano ISD,TX,2025,STAAR,3,Hispanic,,39.0,tx_agent
+Plano ISD,TX,2025,STAAR,3,Black,,46.0,tx_agent
+Plano ISD,TX,2025,STAAR,4,All,,62.0,tx_agent
+Plano ISD,TX,2025,STAAR,4,Asian,,83.0,tx_agent
+Plano ISD,TX,2025,STAAR,5,All,,68.0,tx_agent
+Plano ISD,TX,2025,STAAR,5,Asian,,85.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,All,,65.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,Asian,,79.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,White,,63.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,Hispanic,,51.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,Black,,42.0,tx_agent
+Frisco ISD,TX,2019,STAAR,3,EconDis,,37.0,tx_agent
+Frisco ISD,TX,2019,STAAR,4,All,,65.0,tx_agent
+Frisco ISD,TX,2019,STAAR,4,Asian,,80.0,tx_agent
+Frisco ISD,TX,2019,STAAR,5,All,,77.0,tx_agent
+Frisco ISD,TX,2019,STAAR,5,Asian,,89.0,tx_agent
+Frisco ISD,TX,2022,STAAR,3,All,,72.0,tx_agent
+Frisco ISD,TX,2022,STAAR,3,Asian,,82.0,tx_agent
+Frisco ISD,TX,2023,STAAR,3,All,,74.0,tx_agent
+Frisco ISD,TX,2023,STAAR,3,Asian,,86.0,tx_agent
+Frisco ISD,TX,2024,STAAR,3,All,,73.0,tx_agent
+Frisco ISD,TX,2024,STAAR,3,Asian,,84.0,tx_agent
+Frisco ISD,TX,2025,STAAR,3,All,,74.0,tx_agent
+Frisco ISD,TX,2025,STAAR,3,Asian,,84.0,tx_agent
+Frisco ISD,TX,2025,STAAR,3,White,,75.0,tx_agent
+Frisco ISD,TX,2025,STAAR,3,Hispanic,,55.0,tx_agent
+Frisco ISD,TX,2025,STAAR,3,Black,,52.0,tx_agent
+Frisco ISD,TX,2025,STAAR,4,All,,77.0,tx_agent
+Frisco ISD,TX,2025,STAAR,4,Asian,,87.0,tx_agent
+Frisco ISD,TX,2025,STAAR,5,All,,83.0,tx_agent
+Frisco ISD,TX,2025,STAAR,5,Asian,,92.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,3,All,,39.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,3,Black,,31.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,3,White,,50.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,3,EconDis,,31.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,3,SWD,,10.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,4,All,,34.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,4,Black,,27.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,4,White,,53.0,tx_agent
+West Baton Rouge Parish,LA,2022,LEAP,5,All,,39.0,tx_agent
+West Baton Rouge Parish,LA,2023,LEAP,3,All,,50.0,tx_agent
+West Baton Rouge Parish,LA,2023,LEAP,3,White,,61.0,tx_agent
+West Baton Rouge Parish,LA,2023,LEAP,3,Black,,43.0,tx_agent
+West Baton Rouge Parish,LA,2023,LEAP,4,All,,45.0,tx_agent
+West Baton Rouge Parish,LA,2023,LEAP,5,All,,40.0,tx_agent
+West Baton Rouge Parish,LA,2024,LEAP,3,All,,39.0,tx_agent
+West Baton Rouge Parish,LA,2024,LEAP,4,All,,45.0,tx_agent
+West Baton Rouge Parish,LA,2024,LEAP,5,All,,51.0,tx_agent
+West Baton Rouge Parish,LA,2025,LEAP,3,All,,42.0,tx_agent
+West Baton Rouge Parish,LA,2025,LEAP,4,All,,39.0,tx_agent
+West Baton Rouge Parish,LA,2025,LEAP,5,All,,49.0,tx_agent
+Starkville-Oktibbeha CSD,MS,2019,MAAP,3,All,415,41.7,tx_agent
+Starkville-Oktibbeha CSD,MS,2019,MAAP,4,All,372,37.3,tx_agent
+Starkville-Oktibbeha CSD,MS,2019,MAAP,5,All,424,32.1,tx_agent
+Starkville-Oktibbeha CSD,MS,2022,MAAP,3,All,305,42.2,tx_agent
+Starkville-Oktibbeha CSD,MS,2022,MAAP,4,All,339,35.9,tx_agent
+Starkville-Oktibbeha CSD,MS,2022,MAAP,5,All,368,42.4,tx_agent
+Starkville-Oktibbeha CSD,MS,2023,MAAP,3,All,344,43.9,tx_agent
+Starkville-Oktibbeha CSD,MS,2023,MAAP,4,All,299,48.1,tx_agent
+Starkville-Oktibbeha CSD,MS,2023,MAAP,5,All,315,46.0,tx_agent
+Starkville-Oktibbeha CSD,MS,2024,MAAP,3,All,365,47.2,tx_agent
+Starkville-Oktibbeha CSD,MS,2024,MAAP,4,All,334,50.0,tx_agent
+Starkville-Oktibbeha CSD,MS,2024,MAAP,5,All,291,48.4,tx_agent
+Starkville-Oktibbeha CSD,MS,2025,MAAP,3,All,425,39.8,tx_agent
+Starkville-Oktibbeha CSD,MS,2025,MAAP,4,All,345,45.8,tx_agent
+Starkville-Oktibbeha CSD,MS,2025,MAAP,5,All,336,55.4,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,All,593,51.4,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,Asian,24,79.2,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,White,412,55.6,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,Hispanic,59,25.4,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,Black,97,42.3,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,EconDis,200,31.5,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,EL,24,12.5,tx_agent
+Johnson City Schools,TN,2019,TCAP,3,SWD,67,17.9,tx_agent
+Johnson City Schools,TN,2019,TCAP,4,All,593,53.6,tx_agent
+Johnson City Schools,TN,2019,TCAP,4,Asian,22,81.8,tx_agent
+Johnson City Schools,TN,2019,TCAP,5,All,598,48.3,tx_agent
+Johnson City Schools,TN,2019,TCAP,5,Asian,21,61.9,tx_agent
+Johnson City Schools,TN,2022,TCAP,3,All,581,55.4,tx_agent
+Johnson City Schools,TN,2022,TCAP,3,Asian,23,78.3,tx_agent
+Johnson City Schools,TN,2022,TCAP,4,All,594,62.3,tx_agent
+Johnson City Schools,TN,2022,TCAP,4,Asian,23,82.6,tx_agent
+Johnson City Schools,TN,2022,TCAP,5,All,580,53.1,tx_agent
+Johnson City Schools,TN,2023,TCAP,3,All,605,64.3,tx_agent
+Johnson City Schools,TN,2023,TCAP,3,Asian,29,82.8,tx_agent
+Johnson City Schools,TN,2023,TCAP,4,All,598,65.2,tx_agent
+Johnson City Schools,TN,2023,TCAP,5,All,566,58.5,tx_agent
+Johnson City Schools,TN,2024,TCAP,3,All,551,64.1,tx_agent
+Johnson City Schools,TN,2024,TCAP,3,Asian,16,75.0,tx_agent
+Johnson City Schools,TN,2024,TCAP,4,All,596,68.8,tx_agent
+Johnson City Schools,TN,2024,TCAP,4,Asian,30,90.0,tx_agent
+Johnson City Schools,TN,2024,TCAP,5,All,578,61.8,tx_agent
+Johnson City Schools,TN,2025,TCAP,3,All,590,57.3,tx_agent
+Johnson City Schools,TN,2025,TCAP,3,Asian,14,71.4,tx_agent
+Johnson City Schools,TN,2025,TCAP,4,All,535,73.3,tx_agent
+Johnson City Schools,TN,2025,TCAP,4,Asian,19,78.9,tx_agent
+Johnson City Schools,TN,2025,TCAP,5,All,572,64.5,tx_agent
+Johnson City Schools,TN,2025,TCAP,5,Asian,27,85.2,tx_agent
+TEXAS STATE,TX,2019,STAAR,3,All,,45.0,tx_agent
+TEXAS STATE,TX,2019,STAAR,4,All,,44.0,tx_agent
+TEXAS STATE,TX,2019,STAAR,5,All,,54.0,tx_agent
+TEXAS STATE,TX,2022,STAAR,3,All,,51.0,tx_agent
+TEXAS STATE,TX,2022,STAAR,4,All,,54.0,tx_agent
+TEXAS STATE,TX,2022,STAAR,5,All,,58.0,tx_agent
+TEXAS STATE,TX,2023,STAAR,3,All,,50.0,tx_agent
+TEXAS STATE,TX,2023,STAAR,4,All,,48.0,tx_agent
+TEXAS STATE,TX,2023,STAAR,5,All,,57.0,tx_agent
+TEXAS STATE,TX,2024,STAAR,3,All,,48.0,tx_agent
+TEXAS STATE,TX,2024,STAAR,4,All,,51.0,tx_agent
+TEXAS STATE,TX,2024,STAAR,5,All,,55.0,tx_agent
+TEXAS STATE,TX,2025,STAAR,3,All,,52.0,tx_agent
+TEXAS STATE,TX,2025,STAAR,4,All,,54.0,tx_agent
+TEXAS STATE,TX,2025,STAAR,5,All,,58.0,tx_agent
+TENNESSEE STATE,TN,2019,TCAP,3,All,71986,36.9,tx_agent
+TENNESSEE STATE,TN,2022,TCAP,3,All,72156,35.7,tx_agent
+TENNESSEE STATE,TN,2022,TCAP,4,All,71966,39.3,tx_agent
+TENNESSEE STATE,TN,2022,TCAP,5,All,71383,37.7,tx_agent
+TENNESSEE STATE,TN,2023,TCAP,3,All,72360,40.5,tx_agent
+TENNESSEE STATE,TN,2023,TCAP,4,All,72574,43.5,tx_agent
+TENNESSEE STATE,TN,2024,TCAP,3,All,71249,41.0,tx_agent
+TENNESSEE STATE,TN,2024,TCAP,4,All,71496,46.4,tx_agent
+TENNESSEE STATE,TN,2024,TCAP,5,All,72522,38.6,tx_agent
+TENNESSEE STATE,TN,2025,TCAP,3,All,71249,41.7,tx_agent
+TENNESSEE STATE,TN,2025,TCAP,4,All,71496,47.7,tx_agent
+TENNESSEE STATE,TN,2025,TCAP,5,All,72522,40.7,tx_agent
+LOUISIANA STATE,LA,2022,LEAP,3,All,,39.0,tx_agent
+LOUISIANA STATE,LA,2022,LEAP,4,All,,44.0,tx_agent
+LOUISIANA STATE,LA,2022,LEAP,5,All,,40.0,tx_agent
+LOUISIANA STATE,LA,2023,LEAP,3,All,,42.0,tx_agent
+LOUISIANA STATE,LA,2023,LEAP,4,All,,44.0,tx_agent
+LOUISIANA STATE,LA,2023,LEAP,5,All,,40.0,tx_agent
+LOUISIANA STATE,LA,2024,LEAP,3,All,,44.0,tx_agent
+LOUISIANA STATE,LA,2024,LEAP,4,All,,41.0,tx_agent
+LOUISIANA STATE,LA,2024,LEAP,5,All,,43.0,tx_agent
+LOUISIANA STATE,LA,2025,LEAP,3,All,,43.0,tx_agent
+LOUISIANA STATE,LA,2025,LEAP,4,All,,42.0,tx_agent
+LOUISIANA STATE,LA,2025,LEAP,5,All,,43.0,tx_agent
+MISSISSIPPI STATE,MS,2019,MAAP,3,All,,48.3,tx_agent
+MISSISSIPPI STATE,MS,2019,MAAP,4,All,,48.5,tx_agent
+MISSISSIPPI STATE,MS,2019,MAAP,5,All,,33.6,tx_agent
+MISSISSIPPI STATE,MS,2022,MAAP,3,All,,46.4,tx_agent
+MISSISSIPPI STATE,MS,2022,MAAP,4,All,,43.8,tx_agent
+MISSISSIPPI STATE,MS,2022,MAAP,5,All,,46.5,tx_agent
+MISSISSIPPI STATE,MS,2023,MAAP,3,All,,51.6,tx_agent
+MISSISSIPPI STATE,MS,2023,MAAP,4,All,,53.3,tx_agent
+MISSISSIPPI STATE,MS,2023,MAAP,5,All,,51.9,tx_agent
+MISSISSIPPI STATE,MS,2024,MAAP,3,All,,57.7,tx_agent
+MISSISSIPPI STATE,MS,2024,MAAP,4,All,,57.1,tx_agent
+MISSISSIPPI STATE,MS,2024,MAAP,5,All,,51.7,tx_agent
+MISSISSIPPI STATE,MS,2025,MAAP,3,All,,49.3,tx_agent
+MISSISSIPPI STATE,MS,2025,MAAP,4,All,,52.1,tx_agent
+MISSISSIPPI STATE,MS,2025,MAAP,5,All,,55.9,tx_agent

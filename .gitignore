@@ -1,0 +1,9 @@
+# Raw SEDA bulk files (88 MB each — regenerate via analysis/extract_seda_subset.py)
+data/_raw_seda_*.csv
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

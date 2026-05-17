@@ -81,14 +81,51 @@ See slide 19 of the deck for full methodology, and slides 20-24 for all 43 cited
 
 ```
 .
-├── index.html              vanilla-JS slide viewer, ~8 KB, no dependencies
-├── slides/                 24 PNG renders at 144 DPI, ~6 MB total
-│   ├── 01.png
-│   └── …
-└── README.md
+├── README.md                        this file
+├── index.html                       vanilla-JS slide viewer (~8 KB, no dependencies)
+├── slides/                          24 PNG renders at 144 DPI (~6 MB) — served by index.html
+├── deck/
+│   └── Troy_K5_ELA_Executive_Summary_v4.pptx   the source PowerPoint deck
+├── analysis/                        Python scripts to reproduce the analysis
+│   ├── build_deck.py                builds the .pptx from data + charts
+│   ├── extract_seda_subset.py       downloads SEDA + extracts 50-district subset
+│   └── compute_deltas.py            computes pre/post-COVID Δ matrix
+├── data/                            processed data files
+│   ├── master_dataset.csv           2,544 rows — district × year × grade × subgroup × % proficient on state tests
+│   ├── seda_2025_pooled.json        SEDA cs RLA G3-G5 pooled per district × year × subgroup
+│   ├── seda_2025_state.json         State-level SEDA averages by year
+│   ├── seda_subgroup_delta.csv      Pre/post-COVID Δ matrix per subgroup × district
+│   ├── seda_2009_2019_extract.csv   Raw SEDA 6.0 extract (50 districts × G3-G5 ELA)
+│   └── seda_2009_2025_extract.csv   Raw SEDA 2025.1 extract (50 districts × G3-G5 ELA)
+├── charts/                          19 matplotlib PNGs embedded in the deck
+├── reports/                         supporting analysis documents (markdown)
+│   ├── synthesis.md                 master synthesis report
+│   ├── quantitative_analysis.md     28-district analysis with 6 charts
+│   ├── seda_2025_analysis.md        SEDA 2025.1 pre/post-COVID deep dive
+│   ├── troy_data_brief.md           Troy M-STEP trajectory + subgroup tables
+│   ├── curriculum_evaluations.md    All 14 Section 35m approved curricula evaluated
+│   ├── collab_lit_ufli_pressure_test.md   Collab Lit + UFLI critique
+│   ├── peer_district_cases.md       Peer-district transition cases
+│   ├── education_scorecard_2026_dotr.md   20 DOTR outperformer case studies
+│   └── sustained_outperformers.md   17 sustained-outperformer districts
+└── docs/                            methodology + reproducibility documentation
+    ├── METHODOLOGY.md               metric definitions, time windows, district universe
+    ├── REPRODUCIBILITY.md           how to reproduce every claim in 3 commands
+    └── DISTRICT_UNIVERSE.md         all 50 districts with NCES LEA IDs
 ```
 
-No build step. No frameworks. Three files total.
+The web viewer (`index.html` + `slides/`) has no dependencies. The reproduction pipeline (`analysis/` + `data/`) requires Python 3.9 + `python-pptx` + `matplotlib`.
+
+## Reproduce in three commands
+
+```bash
+cd analysis
+python3 extract_seda_subset.py    # downloads SEDA + extracts 50-district subset
+python3 compute_deltas.py          # computes pre/post-COVID Δ matrix + prints ranking
+python3 build_deck.py              # regenerates the .pptx deck
+```
+
+See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for full instructions including the deck-rendering pipeline.
 
 ---
 
