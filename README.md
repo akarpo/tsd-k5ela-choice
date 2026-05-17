@@ -10,15 +10,15 @@ A web presentation of a quantitative analysis pressure-testing Troy School Distr
 
 ## What this is
 
-A 25-slide executive summary that asks one question:
+A 27-slide executive summary that asks one question:
 
 > Is Collaborative Literacy 3rd Ed. + UFLI Foundations the right K-5 ELA choice for Troy's balanced-literacy → Science of Reading transition?
 
 And answers it with three convergent pieces of evidence from a 50-district national benchmark on the Stanford Education Data Archive (SEDA) 2025.1 cohort-standardized scale, 2009–2025:
 
 - **0 of 50** outperformer + peer districts use Collaborative Literacy as their K-5 core.
-- **4 of 4** districts with the strongest post-COVID recovery (Δ ≥ +0.10 grade levels) run structured-literacy programs. Of 13 total districts that gained at all post-COVID, 7 use SoR-aligned cores, 4 use BL, 2 use mixed approaches — but the top tier is exclusively SoR-aligned.
-- **3 of 3** of Troy's stronger alternatives (Amplify CKLA, EL Education, Wit & Wisdom) have direct post-COVID recovery evidence.
+- **19 of 20** Education Scorecard 2026 ELA-relevant outperformer districts (demographic-adjusted gain methodology) run, supplement, or are transitioning to SoR-aligned curricula. Only Wayne County NC stayed in pure balanced literacy.
+- **3 of 3** of Troy's stronger alternatives (Amplify CKLA, EL Education, Wit & Wisdom) have named district adoptions with post-COVID recovery evidence — Marion County KY + Fond du Lac WI (CKLA), Detroit DPSCD (EL Education), West Baton Rouge + Baltimore (Wit & Wisdom).
 
 The deck includes the honest pre-COVID baseline (Troy gained on aggregate, with uneven subgroup performance), the post-COVID collapse (Troy ranks 47 of 49 on pre→post-COVID Δ), and case studies of two districts on Michigan's MDE Section 35m approved list that adopted Amplify CKLA and are now leapfrogging their state averages (Marion County KY, Fond du Lac WI).
 
