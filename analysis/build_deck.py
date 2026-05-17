@@ -65,7 +65,7 @@ def title_bar(slide, title, subtitle=None):
         add_text(slide, Inches(0.4), Inches(0.52), Inches(12.5), Inches(0.32),
                  subtitle, size=11, color=RGBColor(0xCC, 0xDD, 0xEE))
 
-def footer(slide, page_num, total=24):
+def footer(slide, page_num, total=25):
     add_text(slide, Inches(0.4), Inches(7.15), Inches(8), Inches(0.3),
              "Troy SD K-5 ELA — Executive Summary v4 (with citations + appendix)",
              size=8.5, color=GRAY_MID)
@@ -141,18 +141,18 @@ add_text(s, col_x[0]+Inches(0.2), col_y+Inches(2.2), col_w-Inches(0.4), Inches(0
          "There is no national precedent for the combination Troy is considering.",
          size=11, color=GRAY_DARK, align=PP_ALIGN.CENTER, italic=True)
 
-# Column 2: 4 of 4
+# Column 2: 4 of 4 strongest gainers
 add_rect(s, col_x[1], col_y, col_w, col_h, LIGHT_GREEN)
 add_rect(s, col_x[1], col_y, col_w, Inches(0.06), ACCENT_GREEN)
 add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.2), col_w-Inches(0.4), Inches(0.95),
          "4 of 4", size=52, bold=True, color=ACCENT_GREEN, align=PP_ALIGN.CENTER)
 add_text(s, col_x[1]+Inches(0.2), col_y+Inches(1.25), col_w-Inches(0.4), Inches(0.8),
-         "districts that GAINED post-COVID¹ on the SEDA scale run structured-literacy programs.",
-         size=12.5, bold=True, color=GRAY_DARK, align=PP_ALIGN.CENTER)
+         "districts with the STRONGEST post-COVID recovery¹ (Δ ≥ +0.10 grade levels) all run structured-literacy programs.",
+         size=11.5, bold=True, color=GRAY_DARK, align=PP_ALIGN.CENTER)
 add_rect(s, col_x[1]+Inches(0.7), col_y+Inches(2.1), col_w-Inches(1.4), Inches(0.025), ACCENT_GREEN)
 add_text(s, col_x[1]+Inches(0.2), col_y+Inches(2.2), col_w-Inches(0.4), Inches(0.8),
-         "Spring Branch ISD³⁶  •  Palo Alto USD³⁵\nWest Baton Rouge³⁷  •  Johnson City TN³⁹",
-         size=10.5, color=GRAY_DARK, align=PP_ALIGN.CENTER, font="Consolas")
+         "Spring Branch³⁶ +0.28  •  Palo Alto³⁵ +0.13\nW. Baton Rouge³⁷ +0.13  •  Johnson City³⁹ +0.12\n\nNext-strongest BL gainer: Frisco ISD at +0.097.",
+         size=10, color=GRAY_DARK, align=PP_ALIGN.CENTER, font="Consolas")
 
 # Column 3: 3 of 3
 add_rect(s, col_x[2], col_y, col_w, col_h, LIGHT_GREEN)
@@ -290,6 +290,83 @@ add_text(s, Inches(8.95), Inches(5.4), Inches(4.0), Inches(1.8),
          size=11.5, color=GRAY_DARK)
 footer(s, 5)
 
+
+# =================================================================
+# SLIDE 6 (NEW) — COMPREHENSIVE CURRICULUM-TYPE BREAKDOWN
+# =================================================================
+s = prs.slides.add_slide(BLANK)
+title_bar(s, "The comprehensive view — every district, every curriculum type",
+          "Curriculum alone doesn't determine recovery. But magnitude of gain correlates with structured literacy.")
+
+# Top summary box
+add_rect(s, Inches(0.4), Inches(1.0), Inches(12.5), Inches(0.95), GRAY_LIGHT)
+add_text(s, Inches(0.6), Inches(1.1), Inches(12), Inches(0.4),
+         "Of 49 districts with sufficient pre/post-COVID data¹:", size=13, bold=True, color=TROY_BLUE)
+add_text(s, Inches(0.6), Inches(1.45), Inches(12), Inches(0.5),
+         "13 gained on the SEDA scale  •  36 declined  •  Many SoR-adopters also declined — recovery is not automatic.",
+         size=12, color=GRAY_DARK)
+
+# Three-column breakdown
+col_y = Inches(2.15)
+col_h = Inches(4.55)
+col_w = Inches(4.05)
+col_x = [Inches(0.4), Inches(4.65), Inches(8.9)]
+
+# Big gain (≥+0.10)
+add_rect(s, col_x[0], col_y, col_w, col_h, LIGHT_GREEN)
+add_rect(s, col_x[0], col_y, col_w, Inches(0.5), ACCENT_GREEN)
+add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
+         "Big gain  (Δ ≥ +0.10)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+add_text(s, col_x[0]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
+         "4 districts — ALL SoR", size=15, bold=True, color=ACCENT_GREEN, align=PP_ALIGN.CENTER)
+add_text(s, col_x[0]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
+         ("Spring Branch ISD     +0.284  (TX STR³⁶)\n"
+          "Palo Alto USD              +0.132  (ESRI³⁵, post-Calkins)\n"
+          "West Baton Rouge   +0.132  (W&W + Fundations³⁷)\n"
+          "Johnson City TN          +0.121  (TN HQIM³⁹)\n\n"
+          "100% of districts in this tier run structured-literacy programs.\n\n"
+          "Next-strongest gainer outside this tier: Frisco ISD (TX, BL) at +0.097."),
+         size=10, color=GRAY_DARK, font="Consolas")
+
+# Moderate (+0.05 to +0.10)
+add_rect(s, col_x[1], col_y, col_w, col_h, RGBColor(0xFF, 0xF4, 0xE0))
+add_rect(s, col_x[1], col_y, col_w, Inches(0.5), ACCENT_ORANGE)
+add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
+         "Moderate gain  (+0.05 to +0.10)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+add_text(s, col_x[1]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
+         "6 districts — mixed", size=15, bold=True, color=ACCENT_ORANGE, align=PP_ALIGN.CENTER)
+add_text(s, col_x[1]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
+         ("Frisco ISD                       +0.097  (BL)\n"
+          "Milpitas USD                   +0.090  (Benchmark)\n"
+          "Issaquah SD                    +0.087  (Benchmark '24)\n"
+          "Dublin USD                       +0.084  (Benchmark+Heggerty)\n"
+          "Coppell ISD                     +0.068  (BL)\n"
+          "Princeton PS                   +0.060  (NJ affluent, BL?)\n\n"
+          "Mix of BL, Benchmark-Advance, and recently-adopted SoR."),
+         size=10, color=GRAY_DARK, font="Consolas")
+
+# Decliners + recovery is not automatic
+add_rect(s, col_x[2], col_y, col_w, col_h, LIGHT_RED)
+add_rect(s, col_x[2], col_y, col_w, Inches(0.5), ACCENT_RED)
+add_text(s, col_x[2]+Inches(0.2), col_y+Inches(0.1), col_w-Inches(0.4), Inches(0.35),
+         "Decliners  (Δ < 0)", size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+add_text(s, col_x[2]+Inches(0.2), col_y+Inches(0.65), col_w-Inches(0.4), Inches(0.45),
+         "36 districts — both types", size=15, bold=True, color=ACCENT_RED, align=PP_ALIGN.CENTER)
+add_text(s, col_x[2]+Inches(0.25), col_y+Inches(1.25), col_w-Inches(0.5), Inches(3.2),
+         ("SoR districts that DECLINED include:\n"
+          "Detroit DPSCD, Aldine, Brownsville, Baltimore,\n"
+          "Bethlehem, Roanoke County, Seaford, Steubenville,\n"
+          "Fond du Lac, Brandywine, Sikeston, East Chicago…\n\n"
+          "Adopting SoR alone is necessary but not sufficient.\n\n"
+          "Recovery requires curriculum + sustained PD + screeners + 2-3 year cohort lag (see slide 18)."),
+         size=10, color=GRAY_DARK)
+
+# Bottom callout
+add_text(s, Inches(0.4), Inches(6.85), Inches(12.5), Inches(0.4),
+         "Honest finding: SoR doesn't guarantee recovery. But the only districts achieving STRONG recovery so far are SoR-aligned.",
+         size=12.5, bold=True, color=TROY_BLUE, align=PP_ALIGN.CENTER)
+footer(s, 6)
+
 # =================================================================
 # SLIDE 6 — MI PEER COMPARISON
 # =================================================================
@@ -324,7 +401,7 @@ add_text(s, Inches(9.25), Inches(4.65), Inches(3.6), Inches(2.0),
 add_text(s, Inches(9.25), Inches(6.4), Inches(3.6), Inches(0.6),
          "Troy at G4 sits BELOW four MI peers with smaller Asian populations.",
          size=12, color=ACCENT_RED, bold=True)
-footer(s, 6)
+footer(s, 7)
 
 # =================================================================
 # SLIDE 7 — SUBGROUP RANKINGS: TROY WORST ON AFFLUENT
@@ -355,7 +432,7 @@ add_text(s, Inches(8.75), Inches(5.9), Inches(4.2), Inches(1.3),
          ("The MORE affluent the subgroup, the WORSE Troy's decline.\n\n"
           "This is the exact inverse of what \"demographics protect against COVID disruption\" predicts."),
          size=12, color=GRAY_DARK)
-footer(s, 7)
+footer(s, 8)
 
 # =================================================================
 # SLIDE 8 — THREE COMMON DEFENSES EMPIRICALLY REFUTED
@@ -386,7 +463,7 @@ for i, (n, head, body, color) in enumerate(defenses):
              head, size=15, bold=True, color=TROY_BLUE)
     add_text(s, Inches(1.4), y+Inches(0.55), Inches(11.5), Inches(1.3),
              body, size=13, color=GRAY_DARK)
-footer(s, 8)
+footer(s, 9)
 
 # =================================================================
 # SLIDE 9 — ASIAN SUBGROUP DETAIL
@@ -422,7 +499,7 @@ add_text(s, Inches(8.55), Inches(5.8), Inches(4.4), Inches(1.4),
          ("Palo Alto (Troy's closest demographic match by Asian %) exited Calkins UoS in 2021 via ESRI³⁵.\n\n"
           "Result: +0.269 grade-level gain on Asian subgroup. Direct evidence the shift works."),
          size=11.5, color=GRAY_DARK)
-footer(s, 9)
+footer(s, 10)
 
 # =================================================================
 # SLIDE 10 — NOT-ECD DETAIL
@@ -457,7 +534,7 @@ add_text(s, Inches(9.25), Inches(5.3), Inches(3.6), Inches(0.4),
 add_text(s, Inches(9.25), Inches(5.7), Inches(3.6), Inches(1.4),
          ("These are the families with the most home-literacy resources. If Troy's curriculum design were sound, these are the kids who should recover first. They're recovering last."),
          size=10, color=GRAY_DARK)
-footer(s, 10)
+footer(s, 11)
 
 # =================================================================
 # SLIDE 11 (NEW) — CKLA DISTRICTS LEAPFROGGING THEIR STATES
@@ -492,7 +569,7 @@ add_text(s, Inches(9.25), Inches(4.65), Inches(3.6), Inches(2.4),
           "Troy is losing ~0.11 grade levels relative to MI state.\n"
           "The two CKLA peers gained +0.12 and +0.17 relative to their states."),
          size=11, color=GRAY_DARK, font="Consolas")
-footer(s, 11)
+footer(s, 12)
 
 # =================================================================
 # SLIDE 12 (NEW) — MARION COUNTY + FOND DU LAC PLAYBOOKS
@@ -555,7 +632,7 @@ for i, (head, body) in enumerate(fdl_rows):
     add_text(s, Inches(6.95), y+Inches(0.32), Inches(5.8), Inches(0.65),
              body, size=11, color=GRAY_DARK)
 
-footer(s, 12)
+footer(s, 13)
 
 # =================================================================
 # SLIDE 13 — RECOVERY CASE STUDIES
@@ -585,7 +662,7 @@ for i, (head, deltas, body) in enumerate(cards):
              deltas, size=10, bold=True, color=GRAY_DARK, font="Consolas")
     add_text(s, Inches(9.25), y+Inches(0.7), Inches(3.6), Inches(0.7),
              body, size=11, color=GRAY_DARK)
-footer(s, 13)
+footer(s, 14)
 
 # =================================================================
 # SLIDE 12 — LONG BEACH NATURAL EXPERIMENT (POST-COVID)
@@ -614,7 +691,7 @@ add_text(s, Inches(9.25), Inches(4.7), Inches(3.6), Inches(2.2),
           "Same district. Same insider supt tradition. Same demographics. The pre-COVID period worked.\n\n"
           "Post-COVID, the Calkins-derived core failed to support recovery — same pattern as Troy."),
          size=11.5, color=GRAY_DARK)
-footer(s, 14)
+footer(s, 15)
 
 # =================================================================
 # SLIDE 13 — THE MECHANISM
@@ -661,7 +738,7 @@ add_text(s, Inches(9.05), Inches(1.65), Inches(3.7), Inches(5.0),
           "•  Doesn't depend on home support — designed to teach reading in school\n\n"
           "•  When classroom delivery returned, the curriculum was still intact and could rebuild skills"),
          size=12.5, color=GRAY_DARK)
-footer(s, 15)
+footer(s, 16)
 
 # =================================================================
 # SLIDE 14 — CURRICULUM VERDICT MATRIX
@@ -720,7 +797,7 @@ add_text(s, Inches(0.4), Inches(5.85), Inches(12.5), Inches(1.4),
           "Of the 4 districts that GAINED on the SEDA scale 2017-19 → 2022-25, all four use structured literacy.\n"
           "Of Troy's stronger alternatives — CKLA, EL Education, Wit & Wisdom — each has direct post-COVID recovery evidence."),
          size=12.5, color=GRAY_DARK)
-footer(s, 16)
+footer(s, 17)
 
 # =================================================================
 # SLIDE 15 — RECOMMENDATION
@@ -756,7 +833,7 @@ for i, (label, name, body, color) in enumerate(paths):
              name, size=16, bold=True, color=TROY_BLUE)
     add_text(s, Inches(0.8), y+Inches(0.75), Inches(11.5), Inches(0.65),
              body, size=12, color=GRAY_DARK)
-footer(s, 17)
+footer(s, 18)
 
 # =================================================================
 # SLIDE 16 — EXECUTION + TRACK
@@ -805,7 +882,7 @@ for i, (name, status, when) in enumerate(tracks):
              status, size=11, color=GRAY_DARK)
     add_text(s, Inches(8.0), y+Inches(0.55), Inches(5.0), Inches(0.25),
              "→ " + when, size=10, color=ACCENT_GREEN, italic=True)
-footer(s, 18)
+footer(s, 19)
 
 
 # =================================================================
@@ -851,7 +928,7 @@ add_text(s, Inches(7), Inches(1.45), Inches(6), Inches(5.6),
           "•  17 Education Scorecard 2026 DOTR outperformers across KY, LA, MS, TN, GA, MD, WI, DE, VA, CT, NY, PA, IN, MO, NC, NH, IA, ID, SD"),
          size=11, color=GRAY_DARK)
 
-footer(s, 19)
+footer(s, 20)
 
 # =================================================================
 # SLIDE 20 — PRIMARY DATASETS [refs 1-13]
@@ -885,7 +962,7 @@ for n, title, body in refs1:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=9, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 20)
+footer(s, 21)
 
 # =================================================================
 # SLIDE 21 — CURRICULUM EVIDENCE [refs 14-19]
@@ -912,7 +989,7 @@ for n, title, body in refs2:
     add_text(s, Inches(1.1), y+Inches(0.32), Inches(11.7), Inches(0.4),
              body, size=10.5, color=GRAY_DARK)
     y += Inches(0.8)
-footer(s, 21)
+footer(s, 22)
 
 # =================================================================
 # SLIDE 22 — RESEARCH & JOURNALISM [refs 20-29]
@@ -943,7 +1020,7 @@ for n, title, body in refs3:
     add_text(s, Inches(1.1), y+Inches(0.25), Inches(11.7), Inches(0.32),
              body, size=10, color=GRAY_DARK)
     y += Inches(0.6)
-footer(s, 22)
+footer(s, 23)
 
 # =================================================================
 # SLIDE 23 — DISTRICT CASE STUDIES [refs 30-43]
@@ -978,7 +1055,7 @@ for n, title, body in refs4:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=8.5, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 23)
+footer(s, 24)
 
 # =================================================================
 # SLIDE 24 — PROJECT ARTIFACTS + FILE MAP
@@ -1049,7 +1126,7 @@ add_rect(s, Inches(6.95), Inches(1.4), Inches(6.0), Inches(5.5), GRAY_LIGHT)
 render_column(left_groups, Inches(0.55))
 render_column(right_groups, Inches(7.10))
 
-footer(s, 24)
+footer(s, 25)
 
 # Save
 out = "/Users/Alex/Downloads/tsd-k5ela/Troy_K5_ELA_Executive_Summary_v4.pptx"
