@@ -1269,18 +1269,18 @@ add_pic(s, f'{CHART_DIR}/chart_seda_scatter.png',
 add_pic(s, f'{CHART_DIR}/chart_seda_rank_shift.png',
         Inches(6.7), Inches(0.95), width=Inches(6.3))
 
-# Bottom panel: subgroup table spanning full width
-add_rect(s, Inches(0.3), Inches(5.6), Inches(12.7), Inches(1.7), GRAY_LIGHT)
-add_text(s, Inches(0.5), Inches(5.65), Inches(12.0), Inches(0.3),
+# Bottom panel: subgroup table spanning full width — compressed to clear footer
+add_rect(s, Inches(0.3), Inches(5.5), Inches(12.7), Inches(1.5), GRAY_LIGHT)
+add_text(s, Inches(0.5), Inches(5.55), Inches(12.0), Inches(0.25),
          "Every subgroup: pre-COVID rank → post-COVID rank (among 504 level-matched peers, 1 = highest)",
-         size=11, bold=True, color=TROY_BLUE)
+         size=10, bold=True, color=TROY_BLUE)
 
 # Table header
-hdr_y = Inches(5.95)
+hdr_y = Inches(5.82)
 col_x = [Inches(0.5), Inches(2.6), Inches(4.5), Inches(6.3), Inches(7.8), Inches(9.5), Inches(11.2)]
 headers = ["Subgroup", "Pre Rank", "Post Rank", "Shift", "Pre Level", "Post Level", "Δ"]
 for x, h in zip(col_x, headers):
-    add_text(s, x, hdr_y, Inches(1.6), Inches(0.22),
+    add_text(s, x, hdr_y, Inches(1.6), Inches(0.2),
              h, size=9, bold=True, color=TROY_BLUE)
 
 sub_table = [
@@ -1293,13 +1293,13 @@ sub_table = [
     ("Econ Disadv",    "313 / 449", "318 / 461", "▼ 5",   "+0.012", "-0.133", "-0.145"),
 ]
 for i, (sub, pre_r, post_r, shift, pre_l, post_l, delta) in enumerate(sub_table):
-    y = Inches(6.2) + i * Inches(0.2)
+    y = Inches(6.05) + i * Inches(0.125)
     vals = [sub, pre_r, post_r, shift, pre_l, post_l, delta]
     for x, v in zip(col_x, vals):
         is_shift = v.startswith("▼") or v.startswith("▲")
         color = ACCENT_RED if v.startswith("▼") and int(v.split()[1]) > 50 else ACCENT_GREEN if v.startswith("▲") else GRAY_DARK
         bold = is_shift
-        add_text(s, x, y, Inches(1.6), Inches(0.2),
+        add_text(s, x, y, Inches(1.6), Inches(0.17),
                  v, size=8.5, color=color, bold=bold)
 
 footer(s, 24)
