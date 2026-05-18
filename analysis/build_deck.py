@@ -65,7 +65,7 @@ def title_bar(slide, title, subtitle=None):
         add_text(slide, Inches(0.4), Inches(0.52), Inches(12.5), Inches(0.32),
                  subtitle, size=11, color=RGBColor(0xCC, 0xDD, 0xEE))
 
-def footer(slide, page_num, total=28):
+def footer(slide, page_num, total=29):
     add_text(slide, Inches(0.4), Inches(7.22), Inches(8), Inches(0.25),
              "Troy SD K-5 ELA — Executive Summary  •  github.com/akarpo/tsd-k5ela-choice",
              size=8, color=GRAY_MID)
@@ -1196,6 +1196,60 @@ add_text(s, Inches(7), Inches(6.65), Inches(6), Inches(0.5),
 
 footer(s, 23)
 
+
+# =================================================================
+# SLIDE 23b — SEDA ELA PEER RANKING (APPENDIX)
+# =================================================================
+s = prs.slides.add_slide(BLANK)
+title_bar(s, "Appendix — Troy vs. 504 level-matched peers, K-5 ELA (SEDA 2025.1)",
+          "Pre-COVID baseline ±0.25 of Troy, enrollment ≥150/grade-year, complete 2017-2025 data")
+
+add_pic(s, f'{CHART_DIR}/chart_seda_ela_peers.png',
+        Inches(0.3), Inches(0.95), width=Inches(8.3))
+
+# Right panel: key stats
+add_text(s, Inches(8.8), Inches(1.0), Inches(4.3), Inches(0.4),
+         "Key findings", size=14, bold=True, color=TROY_BLUE)
+
+findings = [
+    ("504", "level-matched peer districts nationwide"),
+    ("81 / 504", "Troy's rank (16th percentile) — bottom sixth"),
+    ("-0.252", "Troy's post-COVID Δ (grade levels vs national norm)"),
+    ("-0.107", "Peer median Δ — Troy underperforms by 0.145 grade levels"),
+]
+for i, (num, desc) in enumerate(findings):
+    y = Inches(1.5) + i * Inches(0.75)
+    add_text(s, Inches(8.8), y, Inches(1.2), Inches(0.35),
+             num, size=18, bold=True, color=ACCENT_RED)
+    add_text(s, Inches(10.0), y, Inches(3.1), Inches(0.65),
+             desc, size=11, color=GRAY_DARK)
+
+# Subgroup breakdown
+add_text(s, Inches(8.8), Inches(4.6), Inches(4.3), Inches(0.35),
+         "Subgroup ranks (vs peers with data)", size=12, bold=True, color=TROY_BLUE)
+sub_rows = [
+    ("All Students", "81 / 504", "16th pct"),
+    ("Asian", "21 / 257", "8th pct"),
+    ("White", "96 / 496", "19th pct"),
+    ("Econ Disadvantaged", "229 / 429", "53rd pct"),
+]
+for i, (sub, rank, pct) in enumerate(sub_rows):
+    y = Inches(5.05) + i * Inches(0.4)
+    color = ACCENT_RED if "8th" in pct or "16th" in pct or "19th" in pct else ACCENT_GREEN
+    add_text(s, Inches(8.8), y, Inches(2.0), Inches(0.35),
+             sub, size=11, color=GRAY_DARK)
+    add_text(s, Inches(10.8), y, Inches(1.3), Inches(0.35),
+             rank, size=11, bold=True, color=color)
+    add_text(s, Inches(12.1), y, Inches(1.0), Inches(0.35),
+             pct, size=10, color=color, italic=True)
+
+add_text(s, Inches(8.8), Inches(6.7), Inches(4.3), Inches(0.5),
+         "Peers derived independently from the Math analysis (44% overlap).\n"
+         "Troy's ELA baseline (+0.729) is lower than Math (+0.937) — different peer universe.",
+         size=9, color=GRAY_MID, italic=True)
+
+footer(s, 24)
+
 # =================================================================
 # SLIDE 20 — PRIMARY DATASETS [refs 1-13]
 # =================================================================
@@ -1228,7 +1282,7 @@ for n, title, body in refs1:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=9, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 24)
+footer(s, 25)
 
 # =================================================================
 # SLIDE 21 — CURRICULUM EVIDENCE [refs 14-19]
@@ -1255,7 +1309,7 @@ for n, title, body in refs2:
     add_text(s, Inches(1.1), y+Inches(0.32), Inches(11.7), Inches(0.4),
              body, size=10.5, color=GRAY_DARK)
     y += Inches(0.8)
-footer(s, 25)
+footer(s, 26)
 
 # =================================================================
 # SLIDE 22 — RESEARCH & JOURNALISM [refs 20-29]
@@ -1286,7 +1340,7 @@ for n, title, body in refs3:
     add_text(s, Inches(1.1), y+Inches(0.25), Inches(11.7), Inches(0.32),
              body, size=10, color=GRAY_DARK)
     y += Inches(0.6)
-footer(s, 26)
+footer(s, 27)
 
 # =================================================================
 # SLIDE 23 — DISTRICT CASE STUDIES [refs 30-43]
@@ -1321,7 +1375,7 @@ for n, title, body in refs4:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=8.5, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 27)
+footer(s, 28)
 
 # =================================================================
 # SLIDE 24 — PROJECT ARTIFACTS + FILE MAP
@@ -1387,7 +1441,7 @@ add_rect(s, Inches(6.95), Inches(1.4), Inches(6.0), Inches(5.5), GRAY_LIGHT)
 render_column(left_groups, Inches(0.55))
 render_column(right_groups, Inches(7.10))
 
-footer(s, 28)
+footer(s, 29)
 
 # Save
 import os
