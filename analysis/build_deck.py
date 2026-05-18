@@ -1265,7 +1265,7 @@ title_bar(s, "Appendix — Troy slid from top 3% to top 11% nationally in K-5 EL
 add_rect(s, Inches(0.3), Inches(0.95), Inches(5.2), Inches(4.6), LIGHT_RED)
 add_text(s, Inches(0.5), Inches(1.05), Inches(4.8), Inches(0.35),
          "National K-5 ELA ranking trajectory", size=14, bold=True, color=ACCENT_RED)
-add_text(s, Inches(0.5), Inches(1.38), Inches(4.8), Inches(0.25),
+add_text(s, Inches(0.5), Inches(1.42), Inches(4.8), Inches(0.25),
          "SEDA 2025.1 cs scale — all U.S. districts with G3-G5 ELA data",
          size=9.5, color=GRAY_MID, italic=True)
 
@@ -1302,10 +1302,9 @@ for i, (yr, score, rank, pct, warn) in enumerate(_nr_data):
              pct, size=13, bold=True, color=ACCENT_GREEN if i == 0 else (ACCENT_RED if warn else GRAY_DARK))
 
 # Key callout below table
-add_rect(s, Inches(0.4), Inches(3.95), Inches(5.0), Inches(0.04), ACCENT_RED)
-add_text(s, Inches(0.5), Inches(4.1), Inches(4.8), Inches(0.35),
+add_text(s, Inches(0.5), Inches(4.22), Inches(4.8), Inches(0.30),
          "Dropped ~600 places in 4 years", size=16, bold=True, color=ACCENT_RED)
-add_text(s, Inches(0.5), Inches(4.5), Inches(4.8), Inches(0.9),
+add_text(s, Inches(0.5), Inches(4.58), Inches(4.8), Inches(0.85),
          "Troy went from top 3% nationally to the edge of the top decile.\n"
          "Score declined −0.360 grade levels (nearly half a grade).\n"
          "2025 rank ticks up slightly only because fewer districts reported.",
