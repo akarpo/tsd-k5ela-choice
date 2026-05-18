@@ -475,7 +475,7 @@ add_text(s, Inches(8.9), Inches(5.55), Inches(4), Inches(0.95),
           "• 1 district:    future SoR adoption\n"
           "• 1 district:    unclear curriculum\n"
           "• 1 district:    stayed BL  (Wayne County NC)"),
-         size=9, color=GRAY_DARK)
+         size=10, color=GRAY_DARK)
 add_text(s, Inches(8.9), Inches(6.45), Inches(4), Inches(0.3),
          "19 of 20  =  95% SoR-aligned",
          size=10, bold=True, color=ACCENT_RED)
@@ -728,7 +728,7 @@ add_text(s, Inches(9.25), Inches(5.3), Inches(3.6), Inches(0.4),
          "Why this matters", size=11, bold=True, color=TROY_BLUE)
 add_text(s, Inches(9.25), Inches(5.7), Inches(3.6), Inches(1.4),
          ("These are the families with the most home-literacy resources. If Troy's curriculum design were sound, these are the kids who should recover first. They're recovering last."),
-         size=10, color=GRAY_DARK)
+         size=11.5, color=GRAY_DARK)
 footer(s, 12)
 
 # =================================================================
@@ -1187,12 +1187,12 @@ add_text(s, Inches(7), Inches(1.45), Inches(6), Inches(5.0),
           "•  15 additional Education Scorecard 2026 DOTR districts    (15)\n   (CT, DE, GA, IA, ID, IN, KY, MD, MO, MS, NC, NH, SD, TN, WI — Detroit + Spring Branch already counted)\n"
           "•  2 DOTR Reading-Only adds    (2)   (West Baton Rouge LA, Roanoke County VA — Modesto already in CA)\n"
           "•  3 sustained / early-SoR comparators    (3)   (Seaford DE, Valley Stream 30 NY, Bethlehem PA)"),
-         size=10.5, color=GRAY_DARK)
+         size=11.5, color=GRAY_DARK)
 add_text(s, Inches(7), Inches(6.4), Inches(6), Inches(0.5),
-         "Counts referenced elsewhere in the deck:", size=10.5, bold=True, color=TROY_BLUE)
+         "Counts referenced elsewhere in the deck:", size=11, bold=True, color=TROY_BLUE)
 add_text(s, Inches(7), Inches(6.65), Inches(6), Inches(0.5),
          "20 = ELA-relevant DOTR districts (17 Math+Reading + 3 Reading-only).  28 = predecessor state-test analysis (raw % proficient on M-STEP/CAASPP/STAAR/etc., before SEDA expansion) — see reports/quantitative_analysis.md.",
-         size=9.5, color=GRAY_DARK, italic=True)
+         size=10.5, color=GRAY_DARK, italic=True)
 
 footer(s, 22)
 
@@ -1355,14 +1355,14 @@ refs2 = [
 ]
 y = Inches(1.0)
 for n, title, body in refs2:
-    add_rect(s, Inches(0.4), y, Inches(0.55), Inches(0.7), TROY_BLUE)
-    add_text(s, Inches(0.4), y+Inches(0.2), Inches(0.55), Inches(0.3),
-             n, size=14, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-    add_text(s, Inches(1.1), y+Inches(0.05), Inches(11.7), Inches(0.3),
-             title, size=13, bold=True, color=TROY_BLUE)
-    add_text(s, Inches(1.1), y+Inches(0.32), Inches(11.7), Inches(0.4),
-             body, size=10.5, color=GRAY_DARK)
-    y += Inches(0.8)
+    add_rect(s, Inches(0.4), y, Inches(0.55), Inches(0.8), TROY_BLUE)
+    add_text(s, Inches(0.4), y+Inches(0.22), Inches(0.55), Inches(0.35),
+             n, size=16, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text(s, Inches(1.1), y+Inches(0.05), Inches(11.7), Inches(0.35),
+             title, size=14, bold=True, color=TROY_BLUE)
+    add_text(s, Inches(1.1), y+Inches(0.38), Inches(11.7), Inches(0.45),
+             body, size=12, color=GRAY_DARK)
+    y += Inches(0.95)
 footer(s, 26)
 
 # =================================================================
@@ -1427,7 +1427,7 @@ for n, title, body in refs4:
     add_text(s, Inches(1.1), y, Inches(11.7), Inches(0.22),
              title, size=11, bold=True, color=TROY_BLUE)
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
-             body, size=8.5, color=GRAY_DARK)
+             body, size=9.5, color=GRAY_DARK)
     y += Inches(0.45)
 footer(s, 28)
 
@@ -1483,11 +1483,11 @@ def render_column(col_groups, x_left):
                  group, size=13, bold=True, color=ACCENT_GREEN)
         y += Inches(0.35)
         for fname, desc in files:
-            add_text(s, x_left+Inches(0.15), y, Inches(3.6), Inches(0.22),
-                     fname, size=8.5, color=GRAY_DARK, font="Consolas", bold=True)
-            add_text(s, x_left+Inches(3.8), y, Inches(2.5), Inches(0.22),
-                     desc, size=8.5, color=GRAY_MID)
-            y += Inches(0.26)
+            add_text(s, x_left+Inches(0.15), y, Inches(3.6), Inches(0.25),
+                     fname, size=9.5, color=GRAY_DARK, font="Consolas", bold=True)
+            add_text(s, x_left+Inches(3.8), y, Inches(2.5), Inches(0.25),
+                     desc, size=9.5, color=GRAY_MID)
+            y += Inches(0.29)
         y += Inches(0.15)
 
 add_rect(s, Inches(0.4), Inches(1.4), Inches(6.4), Inches(5.5), GRAY_LIGHT)
