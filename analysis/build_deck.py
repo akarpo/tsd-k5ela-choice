@@ -1107,7 +1107,7 @@ add_text(s, Inches(0.5), Inches(1.0), Inches(7), Inches(0.4),
 factors = [
     ("1", "Stack, don't bolt", "Knowledge core + systematic phonics + teacher PD as ONE system"),
     ("2", "60+ hours structured PD", "LETRS most-cited³¹ (3 of 20 DOTRs); brand varies; depth doesn't"),
-    ("3", "Universal screeners + MTSS", "K-2 Acadience/DIBELS with intervention triggers"),
+    ("3", "Universal screeners + MTSS", "MDE-approved K-3 screeners: mCLASS/DIBELS 8, Amira, MAP Reading Fluency"),
     ("4", "Plan for a 2-3 year lag", "Bethlehem K-change 2015 → G3 bounce 2018²⁶"),
     ("5", "Fidelity is the binding constraint", "NYC Phase 1 conf 55% vs Phase 2 38%⁴³ = real outcome gap"),
 ]
