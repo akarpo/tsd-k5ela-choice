@@ -65,7 +65,7 @@ def title_bar(slide, title, subtitle=None):
         add_text(slide, Inches(0.4), Inches(0.52), Inches(12.5), Inches(0.32),
                  subtitle, size=11, color=RGBColor(0xCC, 0xDD, 0xEE))
 
-def footer(slide, page_num, total=30):
+def footer(slide, page_num, total=29):
     add_text(slide, Inches(0.4), Inches(7.22), Inches(8), Inches(0.25),
              "Troy SD K-5 ELA — Executive Summary  •  github.com/akarpo/tsd-k5ela-choice",
              size=8, color=GRAY_MID)
@@ -627,7 +627,7 @@ add_rect(s, Inches(0.4), Inches(6.78), Inches(12.5), Inches(0.30), TROY_BLUE)
 add_text(s, Inches(0.4), Inches(6.83), Inches(12.5), Inches(0.25),
          "Two independent sources converge: SEDA cs scale (49 districts) and MDE M-STEP %prof (Troy subgroups) both say the SoR-relevant subgroups are falling fastest.",
          size=10, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-footer(s, 10)
+footer(s, 9)
 
 # =================================================================
 # SLIDE 11 — THREE COMMON DEFENSES EMPIRICALLY REFUTED
@@ -658,7 +658,7 @@ for i, (n, head, body, color) in enumerate(defenses):
              head, size=15, bold=True, color=TROY_BLUE)
     add_text(s, Inches(1.4), y+Inches(0.55), Inches(11.5), Inches(1.3),
              body, size=13, color=GRAY_DARK)
-footer(s, 11)
+footer(s, 10)
 
 # =================================================================
 # SLIDE 9 — ASIAN SUBGROUP DETAIL
@@ -694,7 +694,7 @@ add_text(s, Inches(7.15), Inches(5.8), Inches(5.7), Inches(1.0),
          ("Palo Alto (Troy's closest demographic match by Asian %) exited Calkins UoS in 2021 via ESRI³⁵.\n\n"
           "Result: +0.269 grade-level gain on Asian subgroup. Direct evidence the shift works."),
          size=11.5, color=GRAY_DARK)
-footer(s, 12)
+footer(s, 11)
 
 # =================================================================
 # SLIDE 10 — NOT-ECD DETAIL
@@ -729,7 +729,7 @@ add_text(s, Inches(9.25), Inches(5.3), Inches(3.6), Inches(0.4),
 add_text(s, Inches(9.25), Inches(5.7), Inches(3.6), Inches(1.4),
          ("These are the families with the most home-literacy resources. If Troy's curriculum design were sound, these are the kids who should recover first. They're recovering last."),
          size=10, color=GRAY_DARK)
-footer(s, 13)
+footer(s, 12)
 
 # =================================================================
 # SLIDE 11 (NEW) — CKLA DISTRICTS LEAPFROGGING THEIR STATES
@@ -764,7 +764,7 @@ add_text(s, Inches(9.25), Inches(4.65), Inches(3.6), Inches(2.4),
           "Troy is losing ~0.11 grade levels relative to MI state.\n"
           "The two CKLA peers gained +0.12 and +0.17 relative to their states."),
          size=11, color=GRAY_DARK, font="Consolas")
-footer(s, 14)
+footer(s, 13)
 
 # =================================================================
 # SLIDE 12 (NEW) — MARION COUNTY + FOND DU LAC PLAYBOOKS
@@ -827,7 +827,7 @@ for i, (head, body) in enumerate(fdl_rows):
     add_text(s, Inches(6.95), y+Inches(0.32), Inches(5.8), Inches(0.65),
              body, size=11, color=GRAY_DARK)
 
-footer(s, 15)
+footer(s, 14)
 
 # =================================================================
 # SLIDE 13 — RECOVERY CASE STUDIES
@@ -857,7 +857,7 @@ for i, (head, deltas, body) in enumerate(cards):
              deltas, size=10, bold=True, color=GRAY_DARK, font="Consolas")
     add_text(s, Inches(9.25), y+Inches(0.7), Inches(3.6), Inches(0.7),
              body, size=11, color=GRAY_DARK)
-footer(s, 16)
+footer(s, 15)
 
 # =================================================================
 # SLIDE 12 — LONG BEACH NATURAL EXPERIMENT (POST-COVID)
@@ -886,7 +886,7 @@ add_text(s, Inches(9.25), Inches(4.7), Inches(3.6), Inches(2.2),
           "Same district. Same insider supt tradition. Same demographics. The pre-COVID period worked.\n\n"
           "Post-COVID, the Calkins-derived core failed to support recovery — same pattern as Troy."),
          size=11.5, color=GRAY_DARK)
-footer(s, 17)
+footer(s, 16)
 
 # =================================================================
 # SLIDE 13 — THE MECHANISM
@@ -933,7 +933,7 @@ add_text(s, Inches(9.05), Inches(1.65), Inches(3.7), Inches(5.0),
           "•  Doesn't depend on home support — designed to teach reading in school\n\n"
           "•  When classroom delivery returned, the curriculum was still intact and could rebuild skills"),
          size=12.5, color=GRAY_DARK)
-footer(s, 18)
+footer(s, 17)
 
 # =================================================================
 # SLIDE 18 (NEW) — GRADE-LEVEL Δ COUNTER-HYPOTHESIS TEST
@@ -997,7 +997,7 @@ add_text(s, Inches(0.55), Inches(6.60), Inches(2.8), Inches(0.3),
 add_text(s, Inches(3.4), Inches(6.60), Inches(9.5), Inches(0.35),
          "Cohort effects (G5 had K 5 yrs ago); cross-grade scale differences; COVID hit early grades hardest (K-1 missed foundational year); small SoR-recent/Mixed n.",
          size=9, color=GRAY_DARK)
-footer(s, 19)
+footer(s, 18)
 
 # =================================================================
 # SLIDE 19 — CURRICULUM VERDICT MATRIX
@@ -1056,7 +1056,7 @@ add_text(s, Inches(0.4), Inches(5.85), Inches(12.5), Inches(1.4),
           "Of the 4 districts that GAINED on the SEDA scale 2017-19 → 2022-25, all four use structured literacy.\n"
           "Of Troy's stronger alternatives — CKLA, EL Education, Wit & Wisdom — each has direct post-COVID recovery evidence."),
          size=12.5, color=GRAY_DARK)
-footer(s, 20)
+footer(s, 19)
 
 # =================================================================
 # SLIDE 15 — RECOMMENDATION
@@ -1092,7 +1092,7 @@ for i, (label, name, body, color) in enumerate(paths):
              name, size=16, bold=True, color=TROY_BLUE)
     add_text(s, Inches(0.8), y+Inches(0.75), Inches(11.5), Inches(0.65),
              body, size=12, color=GRAY_DARK)
-footer(s, 21)
+footer(s, 20)
 
 # =================================================================
 # SLIDE 16 — EXECUTION + TRACK
@@ -1141,7 +1141,7 @@ for i, (name, status, when) in enumerate(tracks):
              status, size=11, color=GRAY_DARK)
     add_text(s, Inches(8.0), y+Inches(0.55), Inches(5.0), Inches(0.25),
              "→ " + when, size=10, color=ACCENT_GREEN, italic=True)
-footer(s, 22)
+footer(s, 21)
 
 
 # =================================================================
@@ -1194,7 +1194,7 @@ add_text(s, Inches(7), Inches(6.65), Inches(6), Inches(0.5),
          "20 = ELA-relevant DOTR districts (17 Math+Reading + 3 Reading-only).  28 = predecessor state-test analysis (raw % proficient on M-STEP/CAASPP/STAAR/etc., before SEDA expansion) — see reports/quantitative_analysis.md.",
          size=9.5, color=GRAY_DARK, italic=True)
 
-footer(s, 23)
+footer(s, 22)
 
 
 # =================================================================
@@ -1202,7 +1202,7 @@ footer(s, 23)
 # =================================================================
 s = prs.slides.add_slide(BLANK)
 title_bar(s, "Appendix — Troy vs. 504 level-matched peers: post-COVID decline (SEDA 2025.1)",
-          "Pre-COVID baseline ±0.25 of Troy, enrollment ≥150/grade-year, complete 2017-2025 data")
+          "2019 → 2025 change analysis  •  Pre-COVID baseline ±0.25 of Troy, enrollment ≥150/grade-year")
 
 add_pic(s, f'{CHART_DIR}/chart_seda_ela_peers.png',
         Inches(0.3), Inches(0.95), width=Inches(8.3))
@@ -1226,7 +1226,7 @@ for i, (num, desc) in enumerate(findings):
 
 # Subgroup delta ranks — ALL subgroups with pre and post rank
 add_text(s, Inches(8.8), Inches(4.5), Inches(4.3), Inches(0.35),
-         "Subgroup Δ ranks (post − pre COVID)", size=12, bold=True, color=TROY_BLUE)
+         "Subgroup Δ ranks — higher rank = worse decline", size=12, bold=True, color=TROY_BLUE)
 sub_delta_rows = [
     ("All Students",   "424 / 504", "84th pct"),
     ("Asian",          "243 / 265", "92nd pct"),
@@ -1252,14 +1252,14 @@ add_text(s, Inches(8.8), Inches(6.8), Inches(4.3), Inches(0.4),
          "(+0.729) lower than Math (+0.937) — different peer universe.",
          size=8.5, color=GRAY_MID, italic=True)
 
-footer(s, 24)
+footer(s, 23)
 
 # =================================================================
 # SLIDE 23c — SEDA ELA LEADERBOARD: ABSOLUTE LEVEL (APPENDIX)
 # =================================================================
 s = prs.slides.add_slide(BLANK)
 title_bar(s, "Appendix — Troy dropped from top-third to bottom 40% on the ELA leaderboard",
-          "2019 → 2025 absolute performance level among 504 peers — not just change, but where Troy sits now")
+          "Absolute performance level among 504 peers — not just change, but where Troy sits now")
 
 # Left: scatter plot
 add_pic(s, f'{CHART_DIR}/chart_seda_scatter.png',
@@ -1272,7 +1272,7 @@ add_pic(s, f'{CHART_DIR}/chart_seda_rank_shift.png',
 # Bottom panel: subgroup table spanning full width
 add_rect(s, Inches(0.3), Inches(5.6), Inches(12.7), Inches(1.7), GRAY_LIGHT)
 add_text(s, Inches(0.5), Inches(5.65), Inches(12.0), Inches(0.3),
-         "Every subgroup: pre-COVID rank → post-COVID rank among 504 level-matched peers  (lower rank = higher performance)",
+         "Every subgroup: pre-COVID rank → post-COVID rank (among 504 level-matched peers, 1 = highest)",
          size=11, bold=True, color=TROY_BLUE)
 
 # Table header
@@ -1302,7 +1302,7 @@ for i, (sub, pre_r, post_r, shift, pre_l, post_l, delta) in enumerate(sub_table)
         add_text(s, x, y, Inches(1.6), Inches(0.2),
                  v, size=8.5, color=color, bold=bold)
 
-footer(s, 25)
+footer(s, 24)
 
 # =================================================================
 # SLIDE 20 — PRIMARY DATASETS [refs 1-13]
@@ -1336,7 +1336,7 @@ for n, title, body in refs1:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=9, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 26)
+footer(s, 25)
 
 # =================================================================
 # SLIDE 21 — CURRICULUM EVIDENCE [refs 14-19]
@@ -1363,7 +1363,7 @@ for n, title, body in refs2:
     add_text(s, Inches(1.1), y+Inches(0.32), Inches(11.7), Inches(0.4),
              body, size=10.5, color=GRAY_DARK)
     y += Inches(0.8)
-footer(s, 27)
+footer(s, 26)
 
 # =================================================================
 # SLIDE 22 — RESEARCH & JOURNALISM [refs 20-29]
@@ -1394,7 +1394,7 @@ for n, title, body in refs3:
     add_text(s, Inches(1.1), y+Inches(0.25), Inches(11.7), Inches(0.32),
              body, size=10, color=GRAY_DARK)
     y += Inches(0.6)
-footer(s, 28)
+footer(s, 27)
 
 # =================================================================
 # SLIDE 23 — DISTRICT CASE STUDIES [refs 30-43]
@@ -1429,7 +1429,7 @@ for n, title, body in refs4:
     add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
              body, size=8.5, color=GRAY_DARK)
     y += Inches(0.45)
-footer(s, 29)
+footer(s, 28)
 
 # =================================================================
 # SLIDE 24 — PROJECT ARTIFACTS + FILE MAP
@@ -1495,7 +1495,7 @@ add_rect(s, Inches(6.95), Inches(1.4), Inches(6.0), Inches(5.5), GRAY_LIGHT)
 render_column(left_groups, Inches(0.55))
 render_column(right_groups, Inches(7.10))
 
-footer(s, 30)
+footer(s, 29)
 
 # Save
 import os
