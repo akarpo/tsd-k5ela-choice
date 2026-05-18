@@ -1259,7 +1259,7 @@ footer(s, 24)
 # =================================================================
 s = prs.slides.add_slide(BLANK)
 title_bar(s, "Appendix — Troy dropped from top-third to bottom 40% on the ELA leaderboard",
-          "Absolute performance level among 504 peers — not just change, but where Troy sits now")
+          "2019 → 2025 absolute performance level among 504 peers — not just change, but where Troy sits now")
 
 # Left: scatter plot
 add_pic(s, f'{CHART_DIR}/chart_seda_scatter.png',
@@ -1272,7 +1272,7 @@ add_pic(s, f'{CHART_DIR}/chart_seda_rank_shift.png',
 # Bottom panel: subgroup table spanning full width
 add_rect(s, Inches(0.3), Inches(5.6), Inches(12.7), Inches(1.7), GRAY_LIGHT)
 add_text(s, Inches(0.5), Inches(5.65), Inches(12.0), Inches(0.3),
-         "Every subgroup: pre-COVID rank → post-COVID rank (among 504 level-matched peers, 1 = highest)",
+         "Every subgroup: pre-COVID rank → post-COVID rank among 504 level-matched peers  (lower rank = higher performance)",
          size=11, bold=True, color=TROY_BLUE)
 
 # Table header
