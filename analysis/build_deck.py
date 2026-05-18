@@ -492,118 +492,79 @@ footer(s, 7)
 s = prs.slides.add_slide(BLANK)
 title_bar(s, "Of 8 Michigan affluent peers, Troy fell the furthest",
           "Same state, same M-STEP test, similar demographics. Pre-COVID expected vs post-COVID actual (SEDA cs Δ).")
+
+# Left: line chart (taller aspect ratio, fills left side)
 add_pic(s, f'{CHART_DIR}/chart12_mi_peers_2009_2025.png',
-        Inches(0.2), Inches(0.95), height=Inches(3.3))
+        Inches(0.1), Inches(1.0), width=Inches(8.1))
 
-# Subgroup actual-vs-predicted table below the chart
-# Data: pre-COVID (2017-19 avg) = Expected; post-COVID (2022-25 avg) = Actual; Δ = Actual - Expected
-subgroup_data = {
-    "Troy SD":          {"All": (-0.253, 1.178, 0.925), "Asian": (-0.347, 1.690, 1.343), "White": (-0.231, 0.979, 0.748), "Not-ECD": (-0.252, 1.265, 1.013)},
-    "West Bloomfield":  {"All": (-0.243, 0.533, 0.290), "Asian": (+0.068, 0.922, 0.990), "White": (-0.125, 0.677, 0.552), "Not-ECD": (-0.197, 0.762, 0.565)},
-    "Rochester CSD":    {"All": (-0.215, 1.021, 0.806), "Asian": (-0.171, 1.428, 1.257), "White": (-0.231, 0.912, 0.681), "Not-ECD": (-0.208, 1.073, 0.865)},
-    "Novi CSD":         {"All": (-0.103, 1.079, 0.976), "Asian": (-0.033, 1.473, 1.440), "White": (-0.229, 0.867, 0.638), "Not-ECD": (-0.046, 1.188, 1.142)},
-    "Northville PS":    {"All": (-0.087, 1.131, 1.044), "Asian": (-0.285, 1.384, 1.099), "White": (-0.082, 1.091, 1.009), "Not-ECD": (-0.077, 1.183, 1.106)},
-    "Birmingham PS":    {"All": (-0.017, 1.091, 1.074), "Asian": (-0.105, 1.297, 1.192), "White": (-0.022, 1.063, 1.041), "Not-ECD": (-0.008, 1.149, 1.141)},
-    "Bloomfield Hills": {"All": (+0.026, 0.889, 0.915), "Asian": (-0.023, 1.189, 1.166), "White": (+0.076, 0.971, 1.047), "Not-ECD": (+0.036, 1.019, 1.055)},
-}
-subgroups = ["All", "Asian", "White", "Not-ECD"]
+# Right panel: full subgroup Δ table with expected in parens
+panel_x = Inches(8.3)
+panel_w = Inches(4.85)
+panel_top = Inches(1.0)
+panel_h = Inches(6.1)
+add_rect(s, panel_x, panel_top, panel_w, panel_h, GRAY_LIGHT)
+add_text(s, panel_x + Inches(0.1), panel_top + Inches(0.05), Inches(4.6), Inches(0.3),
+         "Pre→Post COVID Δ  (expected pre-COVID in parens)", size=9, bold=True, color=TROY_BLUE)
 
-# Table header background
-tbl_top = Inches(4.35)
-add_rect(s, Inches(0.2), tbl_top, Inches(12.9), Inches(0.35), TROY_BLUE)
+# Full subgroup data: (delta, pre_expected) per subgroup
+# Subgroups: All, Asian, White, Black, Hispanic, EconDis, Not-ECD
+subgroup_full = [
+    ("Troy SD",         [(-0.253,0.730), (-0.347,1.103), (-0.231,0.592), (-0.274,-0.051), (-0.031,0.160), (-0.147,0.013), (-0.252,0.848)]),
+    ("West Bloomfield", [(-0.243,0.167), (+0.068,0.433), (-0.125,0.381), (-0.274,-0.276), (-0.206,-0.085), (-0.249,-0.278), (-0.197,0.415)]),
+    ("Rochester CSD",   [(-0.215,0.560), (-0.171,0.755), (-0.231,0.575), (-0.340,0.072), (-0.114,0.228), (-0.161,-0.081), (-0.208,0.637)]),
+    ("Novi CSD",        [(-0.103,0.569), (-0.033,0.729), (-0.229,0.586), (-0.335,-0.083), (+0.164,0.158), (-0.236,-0.073), (-0.046,0.625)]),
+    ("Northville PS",   [(-0.087,0.715), (-0.285,1.174), (-0.082,0.646), (None,None), (+0.226,0.291), (+0.024,-0.039), (-0.077,0.758)]),
+    ("Birmingham PS",   [(-0.017,0.542), (-0.105,0.926), (-0.022,0.594), (-0.058,0.075), (-0.079,0.583), (+0.029,-0.021), (-0.008,0.592)]),
+    ("Bloomfield Hills",[( 0.026,0.466), (-0.023,0.781), (+0.076,0.458), (-0.446,0.004), (None,None), (+0.014,-0.206), (+0.036,0.538)]),
+]
+sg_labels = ["All", "Asn", "Wht", "Blk", "Hsp", "EcD", "N-EC"]
 
-# Column layout: District(2.0) | All Exp/Act/Δ (2.4) | Asian Exp/Act/Δ (2.4) | White Exp/Act/Δ (2.4) | Not-ECD Exp/Act/Δ (2.4)
-col_dist_x = Inches(0.3)
-col_dist_w = Inches(1.9)
-sg_col_starts = [Inches(2.3), Inches(5.0), Inches(7.7), Inches(10.4)]
-sub_w = Inches(0.85)
+# Top block: All, Asian, White, Black  (4 cols)
+# Bottom block: Hispanic, EconDis, Not-ECD  (3 cols)
+col_dist_x = panel_x + Inches(0.1)
+col_dist_w = Inches(1.3)
+row_h = Inches(0.3)
 
-# Header row
-hdr_y = tbl_top + Inches(0.03)
-add_text(s, col_dist_x, hdr_y, col_dist_w, Inches(0.3),
-         "District", size=9, bold=True, color=WHITE)
-for i, sg in enumerate(subgroups):
-    sg_x = sg_col_starts[i]
-    add_text(s, sg_x, hdr_y, Inches(2.55), Inches(0.3),
-             f"{sg}:  Exp    Act      Δ", size=9, bold=True, color=WHITE, font="Consolas")
+def render_block(start_y, sg_indices, sg_names):
+    hdr_y = start_y
+    add_rect(s, panel_x + Inches(0.05), hdr_y, panel_w - Inches(0.1), Inches(0.26), TROY_BLUE)
+    add_text(s, col_dist_x, hdr_y, col_dist_w, Inches(0.26),
+             "District", size=7.5, bold=True, color=WHITE)
+    col_w = Inches((4.85 - 1.4) / len(sg_indices))
+    col_xs = [panel_x + Inches(1.4) + col_w * i for i in range(len(sg_indices))]
+    for i, idx in enumerate(sg_indices):
+        add_text(s, col_xs[i], hdr_y, col_w, Inches(0.26),
+                 sg_names[i], size=7.5, bold=True, color=WHITE, font="Consolas")
+    ry = hdr_y + Inches(0.3)
+    for dist_name, sg_vals in subgroup_full:
+        is_troy = "Troy" in dist_name
+        if is_troy:
+            add_rect(s, panel_x + Inches(0.05), ry - Inches(0.01),
+                     panel_w - Inches(0.1), row_h, LIGHT_RED)
+        add_text(s, col_dist_x, ry, col_dist_w, row_h,
+                 dist_name, size=7.5, bold=is_troy, color=ACCENT_RED if is_troy else GRAY_DARK)
+        for i, idx in enumerate(sg_indices):
+            delta, pre = sg_vals[idx]
+            if delta is None:
+                cell = "—"
+                d_color = GRAY_MID
+            else:
+                d_color = ACCENT_RED if delta < -0.15 else (ACCENT_GREEN if delta > 0 else GRAY_DARK)
+                cell = f"{delta:+.2f} ({pre:.2f})"
+            add_text(s, col_xs[i], ry, col_w, row_h,
+                     cell, size=7, font="Consolas",
+                     color=d_color if is_troy or (delta is not None and abs(delta) > 0.15) else GRAY_DARK)
+        ry += row_h
+    return ry
 
-# Data rows
-row_y = tbl_top + Inches(0.42)
-row_h = Inches(0.32)
-for dist_name, sg_vals in subgroup_data.items():
-    is_troy = "Troy" in dist_name
-    if is_troy:
-        add_rect(s, Inches(0.2), row_y - Inches(0.02), Inches(12.9), row_h, LIGHT_RED)
-    add_text(s, col_dist_x, row_y, col_dist_w, row_h,
-             dist_name, size=9, bold=is_troy, color=ACCENT_RED if is_troy else GRAY_DARK)
-    for i, sg in enumerate(subgroups):
-        delta, post, pre = sg_vals[sg]
-        delta_str = f"{delta:+.3f}" if delta != 0 else " 0.000"
-        d_color = ACCENT_RED if delta < -0.15 else (ACCENT_GREEN if delta > 0 else GRAY_DARK)
-        cell_text = f"{pre:.2f}  {post:.2f}  {delta_str}"
-        add_text(s, sg_col_starts[i], row_y, Inches(2.55), row_h,
-                 cell_text, size=9, color=d_color if is_troy or abs(delta) > 0.15 else GRAY_DARK, font="Consolas")
-    row_y += row_h
+# Block 1: All, Asian, White, Black
+blk1_end = render_block(panel_top + Inches(0.4), [0, 1, 2, 3], ["All", "Asian", "White", "Black"])
 
-# Callout below table
-add_text(s, Inches(0.3), row_y + Inches(0.15), Inches(12.5), Inches(0.5),
-         "Troy's Asian subgroup declined −0.35 GL — worst among all MI affluent peers. "
-         "West Bloomfield Asians +0.07 (only MI peer with positive Asian Δ).",
-         size=10.5, color=ACCENT_RED, bold=True)
+# Block 2: Hispanic, EconDis, Not-ECD
+render_block(blk1_end + Inches(0.15), [4, 5, 6], ["Hisp", "EconDis", "Not-ECD"])
+
 footer(s, 8)
 
-# =================================================================
-# SLIDE 7 — SUBGROUP RANKINGS: TROY WORST ON AFFLUENT
-# =================================================================
-s = prs.slides.add_slide(BLANK)
-title_bar(s, "Troy's worst subgroup declines are the affluent ones",
-          "Across 7 SEDA subgroups, Troy ranks bottom-5 on 5 of them — including the demographics affluence should protect")
-add_pic(s, f'{CHART_DIR}/chart15_troy_subgroup_rank.png',
-        Inches(0.4), Inches(1.0), width=Inches(8.0))
-# Right table
-add_rect(s, Inches(8.6), Inches(1.0), Inches(4.5), Inches(6.0), GRAY_LIGHT)
-add_text(s, Inches(8.75), Inches(1.15), Inches(4.2), Inches(0.4),
-         "Troy SEDA Δ rank per subgroup¹", size=12, bold=True, color=TROY_BLUE)
-# Rect-table for guaranteed column alignment (was monospace, kept drifting)
-_sg_rows = [
-    ("Asian",    "34/35", "−0.347", True),
-    ("White",    "44/46", "−0.231", True),
-    ("Not-ECD",  "42/46", "−0.252", True),
-    ("All",      "47/49", "−0.253", True),
-    ("Black",    "27/33", "−0.274", False),
-    ("EconDis",  "32/47", "−0.147", False),
-    ("Hispanic", "12/39", "−0.031", False),
-]
-# header row
-_hx_n = Inches(8.95); _hx_r = Inches(10.50); _hx_d = Inches(11.50); _hx_m = Inches(12.45)
-_w_n = Inches(1.55); _w_r = Inches(1.00); _w_d = Inches(0.95); _w_m = Inches(0.50)
-add_text(s, _hx_n, Inches(1.6), _w_n, Inches(0.28),
-         "Subgroup", size=11, bold=True, color=TROY_BLUE)
-add_text(s, _hx_r, Inches(1.6), _w_r, Inches(0.28),
-         "Rank", size=11, bold=True, color=TROY_BLUE)
-add_text(s, _hx_d, Inches(1.6), _w_d, Inches(0.28),
-         "Δ", size=11, bold=True, color=TROY_BLUE)
-add_rect(s, _hx_n, Inches(1.93), Inches(4.0), Inches(0.02), GRAY_MID)
-_ry = Inches(2.00)
-for name, rank, delta_v, flag in _sg_rows:
-    color = ACCENT_RED if flag else GRAY_DARK
-    add_text(s, _hx_n, _ry, _w_n, Inches(0.30), name,
-             size=11, color=color, bold=flag)
-    add_text(s, _hx_r, _ry, _w_r, Inches(0.30), rank,
-             size=11, color=color, font="Consolas", bold=flag)
-    add_text(s, _hx_d, _ry, _w_d, Inches(0.30), delta_v,
-             size=11, color=color, font="Consolas", bold=flag)
-    if flag:
-        add_text(s, _hx_m, _ry, _w_m, Inches(0.30), "◄",
-                 size=11, color=ACCENT_RED, bold=True)
-    _ry += Inches(0.36)
-add_text(s, Inches(8.75), Inches(5.5), Inches(4.2), Inches(0.4),
-         "The pattern", size=12, bold=True, color=ACCENT_RED)
-add_text(s, Inches(8.75), Inches(5.9), Inches(4.2), Inches(1.3),
-         ("The MORE affluent the subgroup, the WORSE Troy's decline.\n\n"
-          "This is the exact inverse of what \"demographics protect against COVID disruption\" predicts."),
-         size=12, color=GRAY_DARK)
-footer(s, 9)
 
 # =================================================================
 # SLIDE 10 (NEW) — STUDENTS WITH DISABILITIES TRAJECTORY (M-STEP)
@@ -616,46 +577,49 @@ title_bar(s, "The Students-with-Disabilities subgroup tells the same story — o
 add_pic(s, f'{CHART_DIR}/chart_swd_deck.png',
         Inches(0.3), Inches(1.0), width=Inches(8.5))
 
-# Right column: rect-table for Δ numbers (no more monospace drift)
-add_rect(s, Inches(8.95), Inches(1.0), Inches(4.3), Inches(3.15), LIGHT_RED)
+# Right column: Troy SWD vs Peer-7 SWD delta table
+add_rect(s, Inches(8.95), Inches(1.0), Inches(4.3), Inches(3.0), LIGHT_RED)
 add_text(s, Inches(9.1), Inches(1.08), Inches(3.85), Inches(0.32),
-         "Pre→Post-COVID Δ  on M-STEP %Adv+Prof", size=11, bold=True, color=ACCENT_RED)
-# 4-column table: Grade | SWD | non-SWD | State
+         "Pre→Post-COVID Δ  (M-STEP %Adv+Prof)", size=11, bold=True, color=ACCENT_RED)
+# 3-column table: Grade | Troy SWD | Peer-7 SWD
 _swd_rows = [
-    ("Grade 3", "−11.6", "−6.7", "−5.0", True),
-    ("Grade 4",  "−1.6", "−6.7", "−2.1", False),
-    ("Grade 5",  "−4.6", "−7.2", "−2.2", False),
+    ("Grade 3", "−11.6 pp", "−3.8 pp", "−7.9 pp", True),
+    ("Grade 4",  "−1.6 pp", "−0.1 pp", "−1.5 pp", False),
+    ("Grade 5",  "−4.6 pp", "+0.7 pp", "−5.3 pp", True),
 ]
-_cx_g = Inches(9.15); _cx_swd = Inches(10.20); _cx_non = Inches(11.20); _cx_st = Inches(12.20)
+_cx_g = Inches(9.15); _cx_troy = Inches(10.20); _cx_peer = Inches(11.20); _cx_gap = Inches(12.15)
 _cw = Inches(0.95)
-# Headers
-add_text(s, _cx_g,   Inches(1.5), _cw, Inches(0.28), "Grade",  size=10, bold=True, color=GRAY_MID)
-add_text(s, _cx_swd, Inches(1.5), _cw, Inches(0.28), "SWD",     size=10, bold=True, color=ACCENT_RED, align=PP_ALIGN.RIGHT)
-add_text(s, _cx_non, Inches(1.5), _cw, Inches(0.28), "non-SWD", size=10, bold=True, color=GRAY_MID,   align=PP_ALIGN.RIGHT)
-add_text(s, _cx_st,  Inches(1.5), _cw, Inches(0.28), "State",   size=10, bold=True, color=GRAY_MID,   align=PP_ALIGN.RIGHT)
+add_text(s, _cx_g,    Inches(1.5), _cw, Inches(0.28), "Grade",    size=10, bold=True, color=GRAY_MID)
+add_text(s, _cx_troy, Inches(1.5), _cw, Inches(0.28), "Troy",     size=10, bold=True, color=ACCENT_RED, align=PP_ALIGN.RIGHT)
+add_text(s, _cx_peer, Inches(1.5), _cw, Inches(0.28), "Peer-7",   size=10, bold=True, color=TROY_BLUE, align=PP_ALIGN.RIGHT)
+add_text(s, _cx_gap,  Inches(1.5), _cw, Inches(0.28), "Gap",      size=10, bold=True, color=GRAY_MID, align=PP_ALIGN.RIGHT)
 add_rect(s, _cx_g, Inches(1.82), Inches(3.85), Inches(0.02), GRAY_MID)
 _ry = Inches(1.95)
-for gr, swd, non_, st, hi in _swd_rows:
+for gr, troy_v, peer_v, gap_v, hi in _swd_rows:
     color = ACCENT_RED if hi else GRAY_DARK
-    add_text(s, _cx_g,   _ry, _cw, Inches(0.30), gr,       size=11, color=color, bold=hi)
-    add_text(s, _cx_swd, _ry, _cw, Inches(0.30), swd+" pp", size=11, color=color, bold=hi, font="Consolas", align=PP_ALIGN.RIGHT)
-    add_text(s, _cx_non, _ry, _cw, Inches(0.30), non_+" pp",size=11, color=GRAY_DARK, font="Consolas", align=PP_ALIGN.RIGHT)
-    add_text(s, _cx_st,  _ry, _cw, Inches(0.30), st+" pp", size=11, color=GRAY_DARK, font="Consolas", align=PP_ALIGN.RIGHT)
+    add_text(s, _cx_g,    _ry, _cw, Inches(0.30), gr,     size=11, color=color, bold=hi)
+    add_text(s, _cx_troy, _ry, _cw, Inches(0.30), troy_v, size=11, color=ACCENT_RED, bold=hi, font="Consolas", align=PP_ALIGN.RIGHT)
+    add_text(s, _cx_peer, _ry, _cw, Inches(0.30), peer_v, size=11, color=TROY_BLUE, font="Consolas", align=PP_ALIGN.RIGHT)
+    add_text(s, _cx_gap,  _ry, _cw, Inches(0.30), gap_v,  size=11, color=color, bold=hi, font="Consolas", align=PP_ALIGN.RIGHT)
     _ry += Inches(0.36)
-# Sub-headline below the table
-add_text(s, Inches(9.1), Inches(3.10), Inches(3.85), Inches(0.75),
-         "G3 SWD fell 1.7× faster than non-SWD — at the foundational reading grade.",
+add_text(s, Inches(9.1), Inches(3.05), Inches(3.85), Inches(0.6),
+         "G3: Troy SWD fell 3× faster than peers.\nG5: Peers gained; Troy fell.",
          size=10, italic=True, color=ACCENT_RED)
 
-# Why this matters — same vertical extent as left chart
-add_rect(s, Inches(8.95), Inches(4.25), Inches(4.3), Inches(2.45), GRAY_LIGHT)
-add_text(s, Inches(9.1), Inches(4.32), Inches(3.85), Inches(0.32),
+# Why this matters
+add_rect(s, Inches(8.95), Inches(3.75), Inches(4.3), Inches(2.9), GRAY_LIGHT)
+add_text(s, Inches(9.1), Inches(3.82), Inches(3.85), Inches(0.32),
          "Why this matters", size=11, bold=True, color=TROY_BLUE)
-add_text(s, Inches(9.1), Inches(4.65), Inches(3.85), Inches(2.0),
-         ("•  Troy SWD G3: 37.1% pre-COVID → 25.4% today.\n\n"
-          "•  Pre-COVID, Troy SWD G3 sat 7.6pp BELOW state All.\n   Today it sits 14.4pp BELOW state All — gap nearly doubled.\n\n"
-          "•  SoR is engineered for struggling readers (explicit phonics, decodable text, knowledge-building).\n   The students who benefit MOST from SoR are falling FASTEST at Troy.\n\n"
-          "•  Refutes the \"regression-to-mean for high-achievers\" defense\n   — SWD students aren't high-achievers."),
+add_text(s, Inches(9.1), Inches(4.15), Inches(3.85), Inches(2.4),
+         ("•  Troy SWD G3: 37% pre-COVID → 25% today.\n"
+          "   Peer-7 SWD G3: 35% → 31% (held much better).\n\n"
+          "•  Pre-COVID Troy SWD ≈ Peer-7 SWD.\n"
+          "   Post-COVID Troy SWD sits 4–7pp BELOW peers.\n\n"
+          "•  SoR is engineered for struggling readers.\n"
+          "   The students who benefit MOST from SoR\n"
+          "   are falling FASTEST at Troy vs. same-state peers.\n\n"
+          "•  Refutes \"regression-to-mean\" — SWD students\n"
+          "   aren't high-achievers regressing."),
          size=9.5, color=GRAY_DARK)
 
 # Bottom callout — full-width, styled like other slide callouts (not a thin band)
