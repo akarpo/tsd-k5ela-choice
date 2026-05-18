@@ -1258,49 +1258,90 @@ footer(s, 23)
 # SLIDE 23c — SEDA ELA LEADERBOARD: ABSOLUTE LEVEL (APPENDIX)
 # =================================================================
 s = prs.slides.add_slide(BLANK)
-title_bar(s, "Appendix — Troy dropped from top-third to bottom 40% on the ELA leaderboard",
-          "Absolute performance level among 504 peers — not just change, but where Troy sits now")
+title_bar(s, "Appendix — Troy slid from top 3% to top 11% nationally in K-5 ELA",
+          "Year-by-year SEDA national ranking (all U.S. districts) + absolute level among 504 level-matched peers")
 
-# Left: scatter plot
-add_pic(s, f'{CHART_DIR}/chart_seda_scatter.png',
-        Inches(0.3), Inches(0.95), width=Inches(6.2))
+# ── LEFT PANEL: National ranking trajectory table ──
+add_rect(s, Inches(0.3), Inches(0.95), Inches(5.2), Inches(4.6), LIGHT_RED)
+add_text(s, Inches(0.5), Inches(1.05), Inches(4.8), Inches(0.35),
+         "National K-5 ELA ranking trajectory", size=14, bold=True, color=ACCENT_RED)
+add_text(s, Inches(0.5), Inches(1.38), Inches(4.8), Inches(0.25),
+         "SEDA 2025.1 cs scale — all U.S. districts with G3-G5 ELA data",
+         size=9.5, color=GRAY_MID, italic=True)
 
-# Right: rank shift chart
-add_pic(s, f'{CHART_DIR}/chart_seda_rank_shift.png',
-        Inches(6.7), Inches(0.95), width=Inches(6.3))
+# Table headers
+_nr_y = Inches(1.75)
+_nr_cols = [Inches(0.5), Inches(1.55), Inches(2.75), Inches(3.75)]
+_nr_hdrs = ["Year", "Score", "Rank", "Percentile"]
+_nr_ws   = [Inches(0.95), Inches(1.1), Inches(0.95), Inches(1.4)]
+add_rect(s, Inches(0.4), _nr_y, Inches(5.0), Inches(0.3), ACCENT_RED)
+for x, h, w in zip(_nr_cols, _nr_hdrs, _nr_ws):
+    add_text(s, x, _nr_y+Inches(0.04), w, Inches(0.25),
+             h, size=11, bold=True, color=WHITE)
 
-# Bottom panel: subgroup table spanning full width — compressed to clear footer
-add_rect(s, Inches(0.3), Inches(5.5), Inches(12.7), Inches(1.5), GRAY_LIGHT)
-add_text(s, Inches(0.5), Inches(5.55), Inches(12.0), Inches(0.25),
-         "Every subgroup: pre-COVID rank → post-COVID rank (among 504 level-matched peers, 1 = highest)",
-         size=10, bold=True, color=TROY_BLUE)
-
-# Table header
-hdr_y = Inches(5.82)
-col_x = [Inches(0.5), Inches(2.6), Inches(4.5), Inches(6.3), Inches(7.8), Inches(9.5), Inches(11.2)]
-headers = ["Subgroup", "Pre Rank", "Post Rank", "Shift", "Pre Level", "Post Level", "Δ"]
-for x, h in zip(col_x, headers):
-    add_text(s, x, hdr_y, Inches(1.6), Inches(0.2),
-             h, size=9, bold=True, color=TROY_BLUE)
-
-sub_table = [
-    ("All Students",   "171 / 504", "313 / 504", "▼ 142", "+0.729", "+0.476", "-0.252"),
-    ("Asian",          "106 / 284", "221 / 294", "▼ 115", "+1.089", "+0.753", "-0.336"),
-    ("White",          "373 / 503", "432 / 497", "▼ 59",  "+0.592", "+0.362", "-0.230"),
-    ("Black",          "124 / 175", "147 / 179", "▼ 23",  "-0.054", "-0.324", "-0.270"),
-    ("Hispanic",       "230 / 331", "197 / 376", "▲ 33",  "+0.160", "+0.127", "-0.033"),
-    ("Not Econ Disadv","155 / 503", "325 / 495", "▼ 170", "+0.846", "+0.595", "-0.251"),
-    ("Econ Disadv",    "313 / 449", "318 / 461", "▼ 5",   "+0.012", "-0.133", "-0.145"),
+# Data rows
+_nr_data = [
+    ("2019",  "+0.747", "380 / 12,241",  "Top 3.1%",  False),
+    ("2022",  "+0.605", "604 / 10,588",  "Top 5.7%",  False),
+    ("2023",  "+0.526", "740 / 10,632",  "Top 7.0%",  False),
+    ("2024",  "+0.390", "1,106 / 10,457", "Top 10.6%", True),
+    ("2025",  "+0.387", "969 / 8,921",   "Top 10.9%", True),
 ]
-for i, (sub, pre_r, post_r, shift, pre_l, post_l, delta) in enumerate(sub_table):
-    y = Inches(6.05) + i * Inches(0.125)
-    vals = [sub, pre_r, post_r, shift, pre_l, post_l, delta]
-    for x, v in zip(col_x, vals):
-        is_shift = v.startswith("▼") or v.startswith("▲")
-        color = ACCENT_RED if v.startswith("▼") and int(v.split()[1]) > 50 else ACCENT_GREEN if v.startswith("▲") else GRAY_DARK
-        bold = is_shift
-        add_text(s, x, y, Inches(1.6), Inches(0.17),
-                 v, size=8.5, color=color, bold=bold)
+for i, (yr, score, rank, pct, warn) in enumerate(_nr_data):
+    ry = _nr_y + Inches(0.38) + i * Inches(0.42)
+    if i == 0:
+        add_rect(s, Inches(0.4), ry - Inches(0.02), Inches(5.0), Inches(0.40), LIGHT_GREEN)
+    row_color = ACCENT_RED if warn else GRAY_DARK
+    add_text(s, _nr_cols[0], ry, _nr_ws[0], Inches(0.35),
+             yr, size=14, bold=True, color=row_color)
+    add_text(s, _nr_cols[1], ry, _nr_ws[1], Inches(0.35),
+             score, size=14, color=row_color, font="Consolas")
+    add_text(s, _nr_cols[2], ry, _nr_ws[2], Inches(0.35),
+             rank, size=12, color=row_color, font="Consolas")
+    add_text(s, _nr_cols[3], ry, _nr_ws[3], Inches(0.35),
+             pct, size=13, bold=True, color=ACCENT_GREEN if i == 0 else (ACCENT_RED if warn else GRAY_DARK))
+
+# Key callout below table
+add_rect(s, Inches(0.4), Inches(3.95), Inches(5.0), Inches(0.04), ACCENT_RED)
+add_text(s, Inches(0.5), Inches(4.1), Inches(4.8), Inches(0.35),
+         "Dropped ~600 places in 4 years", size=16, bold=True, color=ACCENT_RED)
+add_text(s, Inches(0.5), Inches(4.5), Inches(4.8), Inches(0.9),
+         "Troy went from top 3% nationally to the edge of the top decile.\n"
+         "Score declined −0.360 grade levels (nearly half a grade).\n"
+         "2025 rank ticks up slightly only because fewer districts reported.",
+         size=11, color=GRAY_DARK)
+
+# ── RIGHT TOP: Scatter plot (peer universe context) ──
+add_pic(s, f'{CHART_DIR}/chart_seda_scatter.png',
+        Inches(5.7), Inches(0.95), width=Inches(7.3))
+
+# ── BOTTOM: Peer + MI context strip ──
+add_rect(s, Inches(0.3), Inches(5.65), Inches(12.7), Inches(1.35), GRAY_LIGHT)
+add_text(s, Inches(0.5), Inches(5.7), Inches(5.0), Inches(0.25),
+         "Among 504 level-matched peers", size=11, bold=True, color=TROY_BLUE)
+add_text(s, Inches(0.5), Inches(5.95), Inches(5.0), Inches(0.9),
+         "Pre-COVID rank: 171 / 504  (top third)\n"
+         "Post-COVID rank: 313 / 504  (bottom 40%)\n"
+         "150 districts leapfrogged Troy",
+         size=11, color=GRAY_DARK, font="Consolas")
+add_text(s, Inches(5.7), Inches(5.7), Inches(7.0), Inches(0.25),
+         "Michigan affluent peers — all declined, Troy fell furthest", size=11, bold=True, color=TROY_BLUE)
+_mi_peers = [
+    ("Byron Center",    "▲ 41",  ACCENT_GREEN),
+    ("Spring Lake",     "▲ 21",  ACCENT_GREEN),
+    ("E. Grand Rapids", "▼ 12",  GRAY_DARK),
+    ("Birmingham",      "▼ 39",  ACCENT_RED),
+    ("Troy SD",         "▼ 142", ACCENT_RED),
+    ("Novi",            "▼ 60",  ACCENT_RED),
+    ("Rochester",       "▼ 80",  ACCENT_RED),
+]
+for i, (dist, shift, color) in enumerate(_mi_peers):
+    _mx = Inches(5.7) + (i % 4) * Inches(1.75)
+    _my = Inches(5.98) + (i // 4) * Inches(0.35)
+    add_text(s, _mx, _my, Inches(1.05), Inches(0.3),
+             dist, size=8.5, color=GRAY_DARK)
+    add_text(s, _mx + Inches(1.05), _my, Inches(0.65), Inches(0.3),
+             shift, size=9, bold=True, color=color)
 
 footer(s, 24)
 
