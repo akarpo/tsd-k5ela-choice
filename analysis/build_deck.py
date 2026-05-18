@@ -1421,14 +1421,14 @@ refs4 = [
 ]
 y = Inches(1.0)
 for n, title, body in refs4:
-    add_rect(s, Inches(0.4), y, Inches(0.55), Inches(0.42), TROY_BLUE)
-    add_text(s, Inches(0.4), y+Inches(0.06), Inches(0.55), Inches(0.3),
+    add_rect(s, Inches(0.4), y, Inches(0.55), Inches(0.40), TROY_BLUE)
+    add_text(s, Inches(0.4), y+Inches(0.05), Inches(0.55), Inches(0.3),
              n, size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-    add_text(s, Inches(1.1), y, Inches(11.7), Inches(0.22),
+    add_text(s, Inches(1.1), y, Inches(11.7), Inches(0.20),
              title, size=11, bold=True, color=TROY_BLUE)
-    add_text(s, Inches(1.1), y+Inches(0.22), Inches(11.7), Inches(0.22),
-             body, size=9.5, color=GRAY_DARK)
-    y += Inches(0.45)
+    add_text(s, Inches(1.1), y+Inches(0.20), Inches(11.7), Inches(0.20),
+             body, size=9, color=GRAY_DARK)
+    y += Inches(0.42)
 footer(s, 28)
 
 # =================================================================
@@ -1483,11 +1483,11 @@ def render_column(col_groups, x_left):
                  group, size=13, bold=True, color=ACCENT_GREEN)
         y += Inches(0.35)
         for fname, desc in files:
-            add_text(s, x_left+Inches(0.15), y, Inches(3.6), Inches(0.25),
-                     fname, size=9.5, color=GRAY_DARK, font="Consolas", bold=True)
-            add_text(s, x_left+Inches(3.8), y, Inches(2.5), Inches(0.25),
-                     desc, size=9.5, color=GRAY_MID)
-            y += Inches(0.29)
+            add_text(s, x_left+Inches(0.15), y, Inches(3.6), Inches(0.22),
+                     fname, size=8.5, color=GRAY_DARK, font="Consolas", bold=True)
+            add_text(s, x_left+Inches(3.8), y, Inches(2.2), Inches(0.22),
+                     desc, size=8.5, color=GRAY_MID)
+            y += Inches(0.26)
         y += Inches(0.15)
 
 add_rect(s, Inches(0.4), Inches(1.4), Inches(6.4), Inches(5.5), GRAY_LIGHT)
