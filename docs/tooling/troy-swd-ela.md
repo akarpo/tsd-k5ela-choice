@@ -1,8 +1,8 @@
-# `troy_swd_ela.py` (in `tools-mischooldata`)
+# `troy_swd_ela.py` (in `tools-schooldata`)
 
 **Path:** `examples/troy_swd_ela.py` in the
-[`tools-mischooldata`](https://github.com/akarpo/tools-mischooldata) repo
-(separate from this one).
+[`tools-schooldata`](https://github.com/akarpo/tools-schooldata) repo
+(separate from this one). The CSV output is bundled locally at `data/troy_swd_ela.csv`.
 **Stage:** 0 — produces the CSV that this repo's `analyze_troy_swd.py` and
 `build_chart_troy_swd.py` both consume.
 

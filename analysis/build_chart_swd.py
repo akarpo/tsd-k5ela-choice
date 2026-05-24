@@ -14,7 +14,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-TROY_SRC = "/Users/Alex/Downloads/tools-mischooldata/examples/troy_swd_ela.csv"
+TROY_SRC = os.path.join(os.path.dirname(__file__), "..", "data", "troy_swd_ela.csv")
 PEER_SRC = os.path.join(os.path.dirname(__file__), "..", "data", "peer_swd_ela.csv")
 OUT = os.path.join(os.path.dirname(__file__), "..", "charts", "chart_swd_deck.png")
 

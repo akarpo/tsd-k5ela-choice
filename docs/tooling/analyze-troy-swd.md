@@ -17,7 +17,7 @@ years; Post = 2021-22, 2022-23, 2023-24, 2024-25.
 
 ## Inputs
 
-- `tools-mischooldata/examples/troy_swd_ela.csv`.
+- `data/troy_swd_ela.csv` (originally from `tools-schooldata`).
 
 ## Outputs
 

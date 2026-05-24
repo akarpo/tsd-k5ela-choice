@@ -17,9 +17,9 @@ the artifacts.
 6. **`check_style_drift.py`** — static drift check; run after every edit to `build_deck.py`.
 
 The Troy SWD M-STEP data itself comes from a scraper in a separate repo:
-**`tools-mischooldata/examples/troy_swd_ela.py`** — that script writes
-`troy_swd_ela.csv` which `analyze_troy_swd.py` and `build_chart_troy_swd.py`
-both consume.
+**`tools-schooldata/examples/troy_swd_ela.py`** — that script writes
+`troy_swd_ela.csv` (bundled locally at `data/troy_swd_ela.csv`) which
+`analyze_troy_swd.py` and `build_chart_troy_swd.py` both consume.
 
 ## Per-script docs
 
@@ -31,4 +31,4 @@ both consume.
 | [build-chart-troy-swd.md](build-chart-troy-swd.md) | Builds slide 10's Troy SWD by-grade panel chart. |
 | [analyze-troy-swd.md](analyze-troy-swd.md) | Summary stats on Troy SWD M-STEP from the scraped CSV. |
 | [check-style-drift.md](check-style-drift.md) | Static drift check against the style guide. |
-| [troy-swd-ela.md](troy-swd-ela.md) | The `tools-mischooldata` scraper for Troy SWD M-STEP. |
+| [troy-swd-ela.md](troy-swd-ela.md) | The `tools-schooldata` scraper for Troy SWD M-STEP. |

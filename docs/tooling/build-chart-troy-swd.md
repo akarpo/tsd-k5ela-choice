@@ -18,8 +18,8 @@ series across school years 2014-15 → 2024-25:
 
 ## Inputs
 
-- `tools-mischooldata/examples/troy_swd_ela.csv` (from
-  [`troy_swd_ela.py`](troy-swd-ela.md) in the `tools-mischooldata` repo).
+- `data/troy_swd_ela.csv` (originally produced by
+  [`troy_swd_ela.py`](troy-swd-ela.md) in the `tools-schooldata` repo).
 
 ## Outputs
 

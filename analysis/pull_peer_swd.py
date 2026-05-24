@@ -4,7 +4,6 @@ Uses the mischooldata scraper. Outputs peer_swd_ela.csv with:
   school_year, district, grade, swd_pct, non_swd_pct, all_pct
 """
 import csv, os, sys, time
-sys.path.insert(0, "/Users/Alex/Downloads/tools-mischooldata")
 from mischooldata import MiSchoolDataReport
 
 URL = "https://www.mischooldata.org/grades-3-8-state-testing-includes-psat-data-proficiency/"

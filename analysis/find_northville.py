@@ -1,6 +1,5 @@
 """Find Northville's district code — likely Wayne RESA (ISD 133)."""
 import sys, time
-sys.path.insert(0, "/Users/Alex/Downloads/tools-mischooldata")
 from mischooldata import MiSchoolDataReport
 
 URL = "https://www.mischooldata.org/grades-3-8-state-testing-includes-psat-data-proficiency/"

@@ -31,7 +31,7 @@ decision exists.
 | 16 | [16-cherrypicking-callout.md](16-cherrypicking-callout.md) | Flag that "4 of 4 districts gained" implied N=4 not N=49; expand to honest comprehensive view |
 | 17 | [17-grade-level-hypothesis.md](17-grade-level-hypothesis.md) | Test the "BL helps for later grades" hypothesis |
 | 18 | [18-three-pass-numerical-audit.md](18-three-pass-numerical-audit.md) | Three-pass numerical consistency audit; require every cited number to match source data |
-| 19 | [19-tsd-swd-from-mischooldata.md](19-tsd-swd-from-mischooldata.md) | Pull Troy SWD M-STEP performance via the `tools-mischooldata` scraper |
+| 19 | [19-tsd-swd-from-mischooldata.md](19-tsd-swd-from-mischooldata.md) | Pull Troy SWD M-STEP performance via the `tools-schooldata` scraper |
 | 20 | [20-design-validation-feedback.md](20-design-validation-feedback.md) | Real design issues missed in earlier audit; introduce structured style/drift check |
 | 21 | [21-versioning-and-local-paths.md](21-versioning-and-local-paths.md) | Strip `v4` from filenames and `/Users/Alex/...` from the deck; reference GitHub instead |
 | 22 | [22-document-the-prompts.md](22-document-the-prompts.md) | Add `.md` files for prompts and tooling and push them to GitHub |
